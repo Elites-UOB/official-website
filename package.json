@@ -9,5 +9,8 @@
   "devDependencies": {
     "@nuxt/content": "^2.0.0",
     "nuxt": "^3.0.0-rc.4"
+  },
+  "dependencies": {
+    "@unocss/nuxt": "^0.45.7"
   }
 }
