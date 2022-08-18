@@ -1409,6 +1409,8 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtLink", { enumerable: true
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue ($id_nB337S5XXH)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue ($id_GCC9WtlMnV)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue ($id_f2J6Z5afm9)
+// - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
+// - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
 // - /components/Header.vue ($id_TihPwxfEDt)
 // - /components/Footer.vue ($id_89jzJWR97X)
@@ -1864,7 +1866,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue ($id_F7bxRxtL4y)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue ($id_FvWFAZGqVo)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue ($id_dyjIbQcUXz)
+// - /pages/CardDetails.vue?macro=true ($id_vwNDM53siQ)
 // - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
+// - /pages/CardDetails.vue ($id_r81jrzGIPE)
 // - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
@@ -5370,25 +5374,31 @@ __vite_ssr_exports__.default = [
 // Parents: 
 // - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs ($id_bFAuAlcWkM)
 // Dependencies: 
+// - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_ULQdqVwqJr = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_I3vcQ1f4s3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
 
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<div${__vite_ssr_import_0__.ssrRenderAttrs(_attrs)}><div class="pb-16"><div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6"><div class="mb-12 space-y-2 text-center"><h2 class="text-2xl text-cyan-900 font-bold md:text-4xl"> Blog Details </h2></div><div><div class="p-1 rounded-xl group sm:flex space-x-6 bg-gray-100 bg-opacity-50 shadow-md hover:rounded-2xl"><img src="https://tailus.io/sources/blocks/twocards/preview/images/woman.jpg" alt="art cover" loading="lazy" class="h-56 h-full w-1/2 object-cover object-top rounded-lg transition duration-500 group-hover:rounded-xl"><div class="sm:w-7/12 pl-0 p-5"><div class="space-y-2"><div class="space-y-4"><h4 class="text-2xl font-semibold text-cyan-900"> Provident de illo eveniet commodi fuga fugiat laboriosam expedita. </h4><p class="text-gray-600"> Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus... Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus... Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus... Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus... Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus... </p></div></div></div></div></div></div></div></div>`)
+}
 
-const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/CardDetails.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/CardDetails.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/CardDetails.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -5400,38 +5410,42 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs ($id_bFAuAlcWkM)
 // Dependencies: 
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
+// - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /components/content/Card.vue ($id_Z5fWObNQpy)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_iiwYyA1nkj = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_DAuQf92XxM = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/content/Card.vue");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/content/Card.vue");
 
 const _sfc_main = {}
-const __vite_ssr_import_2__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("vue/server-renderer");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("vue/server-renderer");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_ContentDoc = __vite_ssr_import_0__.default
-  const _component_Card = __vite_ssr_import_1__.default
+  const _component_nuxt_link = __vite_ssr_import_1__.default
+  const _component_Card = __vite_ssr_import_2__.default
 
-  _push(`<main${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
-  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_ContentDoc, { class: "prose prose-gray max-w-none" }, {
-    "not-found": __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+  _push(`<main${__vite_ssr_import_4__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_ContentDoc, { class: "prose prose-gray max-w-none" }, {
+    "not-found": __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<h1 class="text-2xl"${_scopeId}> Not Found </h1>`)
+        _push(`<h1 class="text-2xl"${_scopeId}>Not Found</h1>`)
       } else {
         return [
-          __vite_ssr_import_2__.createVNode("h1", { class: "text-2xl" }, " Not Found ")
+          __vite_ssr_import_3__.createVNode("h1", { class: "text-2xl" }, "Not Found")
         ]
       }
     }),
-    default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`<div class="min-h-screen"${
           _scopeId
@@ -5441,21 +5455,37 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
           _scopeId
         }><h1 class="lg:text-5xl text-4xl leading-normal font-semibold text-center"${
           _scopeId
-        }>Check Out Our Latest Blog Posts</h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600"${
+        }> Check Out Our Latest Blog Posts </h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600"${
           _scopeId
-        }>Learn, Share, Grow</h1></section></main>`)
-        _push(__vite_ssr_import_3__.ssrRenderComponent(_component_Card, null, null, _parent, _scopeId))
+        }> Learn, Share, Grow </h1></section></main>`)
+        _push(__vite_ssr_import_4__.ssrRenderComponent(_component_nuxt_link, { to: "/CardDetails" }, {
+          default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Card, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_3__.createVNode(_component_Card)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
         _push(`</div>`)
       } else {
         return [
-          __vite_ssr_import_2__.createVNode("div", { class: "min-h-screen" }, [
-            __vite_ssr_import_2__.createVNode("main", null, [
-              __vite_ssr_import_2__.createVNode("section", { class: "lg:px-[15%] px-[5%] pt-20" }, [
-                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-5xl text-4xl leading-normal font-semibold text-center" }, "Check Out Our Latest Blog Posts"),
-                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600" }, "Learn, Share, Grow")
+          __vite_ssr_import_3__.createVNode("div", { class: "min-h-screen" }, [
+            __vite_ssr_import_3__.createVNode("main", null, [
+              __vite_ssr_import_3__.createVNode("section", { class: "lg:px-[15%] px-[5%] pt-20" }, [
+                __vite_ssr_import_3__.createVNode("h1", { class: "lg:text-5xl text-4xl leading-normal font-semibold text-center" }, " Check Out Our Latest Blog Posts "),
+                __vite_ssr_import_3__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600" }, " Learn, Share, Grow ")
               ])
             ]),
-            __vite_ssr_import_2__.createVNode(_component_Card)
+            __vite_ssr_import_3__.createVNode(_component_nuxt_link, { to: "/CardDetails" }, {
+              default: __vite_ssr_import_3__.withCtx(() => [
+                __vite_ssr_import_3__.createVNode(_component_Card)
+              ]),
+              _: 1 /* STABLE */
+            })
           ])
         ]
       }
@@ -5466,17 +5496,17 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
 }
 
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/[...slug].vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/[...slug].vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/[...slug].vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -5487,25 +5517,31 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // Parents: 
 // - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs ($id_bFAuAlcWkM)
 // Dependencies: 
+// - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_8HbFVRhz2E = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_gLFSZJufE0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
 
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<div${__vite_ssr_import_0__.ssrRenderAttrs(_attrs)}><div class="pb-16"><div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6"><div class="mb-12 space-y-2 text-center"><h2 class="text-2xl text-cyan-900 font-bold md:text-4xl"> Blog Details </h2></div><div><div class="p-1 rounded-xl group sm:flex space-x-6 bg-gray-100 bg-opacity-50 shadow-md hover:rounded-2xl"><img src="https://tailus.io/sources/blocks/twocards/preview/images/woman.jpg" alt="art cover" loading="lazy" class="h-56 h-full w-1/2 object-cover object-top rounded-lg transition duration-500 group-hover:rounded-xl"><div class="sm:w-7/12 pl-0 p-5"><div class="space-y-2"><div class="space-y-4"><h4 class="text-2xl font-semibold text-cyan-900"> Provident de illo eveniet commodi fuga fugiat laboriosam expedita. </h4><p class="text-gray-600"> Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus... Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus... Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus... Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus... Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus... </p></div></div></div></div></div></div></div></div>`)
+}
 
-const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/CardDetails.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/CardDetails.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/CardDetails.vue"]]);
 }
 
 
@@ -5515,38 +5551,42 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_m
 // - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs ($id_bFAuAlcWkM)
 // Dependencies: 
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
+// - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /components/content/Card.vue ($id_Z5fWObNQpy)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_uID1qA5IcX = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_PgrZHDdIdb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/content/Card.vue");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/content/Card.vue");
 
 const _sfc_main = {}
-const __vite_ssr_import_2__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("vue/server-renderer");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("vue/server-renderer");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_ContentDoc = __vite_ssr_import_0__.default
-  const _component_Card = __vite_ssr_import_1__.default
+  const _component_nuxt_link = __vite_ssr_import_1__.default
+  const _component_Card = __vite_ssr_import_2__.default
 
-  _push(`<main${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
-  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_ContentDoc, { class: "prose prose-gray max-w-none" }, {
-    "not-found": __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+  _push(`<main${__vite_ssr_import_4__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_ContentDoc, { class: "prose prose-gray max-w-none" }, {
+    "not-found": __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<h1 class="text-2xl"${_scopeId}> Not Found </h1>`)
+        _push(`<h1 class="text-2xl"${_scopeId}>Not Found</h1>`)
       } else {
         return [
-          __vite_ssr_import_2__.createVNode("h1", { class: "text-2xl" }, " Not Found ")
+          __vite_ssr_import_3__.createVNode("h1", { class: "text-2xl" }, "Not Found")
         ]
       }
     }),
-    default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`<div class="min-h-screen"${
           _scopeId
@@ -5556,21 +5596,37 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
           _scopeId
         }><h1 class="lg:text-5xl text-4xl leading-normal font-semibold text-center"${
           _scopeId
-        }>Check Out Our Latest Blog Posts</h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600"${
+        }> Check Out Our Latest Blog Posts </h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600"${
           _scopeId
-        }>Learn, Share, Grow</h1></section></main>`)
-        _push(__vite_ssr_import_3__.ssrRenderComponent(_component_Card, null, null, _parent, _scopeId))
+        }> Learn, Share, Grow </h1></section></main>`)
+        _push(__vite_ssr_import_4__.ssrRenderComponent(_component_nuxt_link, { to: "/CardDetails" }, {
+          default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Card, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_3__.createVNode(_component_Card)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
         _push(`</div>`)
       } else {
         return [
-          __vite_ssr_import_2__.createVNode("div", { class: "min-h-screen" }, [
-            __vite_ssr_import_2__.createVNode("main", null, [
-              __vite_ssr_import_2__.createVNode("section", { class: "lg:px-[15%] px-[5%] pt-20" }, [
-                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-5xl text-4xl leading-normal font-semibold text-center" }, "Check Out Our Latest Blog Posts"),
-                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600" }, "Learn, Share, Grow")
+          __vite_ssr_import_3__.createVNode("div", { class: "min-h-screen" }, [
+            __vite_ssr_import_3__.createVNode("main", null, [
+              __vite_ssr_import_3__.createVNode("section", { class: "lg:px-[15%] px-[5%] pt-20" }, [
+                __vite_ssr_import_3__.createVNode("h1", { class: "lg:text-5xl text-4xl leading-normal font-semibold text-center" }, " Check Out Our Latest Blog Posts "),
+                __vite_ssr_import_3__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600" }, " Learn, Share, Grow ")
               ])
             ]),
-            __vite_ssr_import_2__.createVNode(_component_Card)
+            __vite_ssr_import_3__.createVNode(_component_nuxt_link, { to: "/CardDetails" }, {
+              default: __vite_ssr_import_3__.withCtx(() => [
+                __vite_ssr_import_3__.createVNode(_component_Card)
+              ]),
+              _: 1 /* STABLE */
+            })
           ])
         ]
       }
@@ -5581,17 +5637,17 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
 }
 
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/[...slug].vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/[...slug].vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/[...slug].vue"]]);
 }
 
 
@@ -5649,8 +5705,8 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin(() => {});
 // Dependencies: 
 
 // --------------------
-const $id_zAkWh42TyX = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*4e43ea*//* layer: preflights */*,::before,::after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::-webkit-backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}/* layer: shortcuts */.container{max-width:100%;}@media (min-width: 640px){\n.container{max-width:640px;}\n}@media (min-width: 768px){\n.container{max-width:768px;}\n}@media (min-width: 1024px){\n.container{max-width:1024px;}\n}@media (min-width: 1280px){\n.container{max-width:1280px;}\n}@media (min-width: 1536px){\n.container{max-width:1536px;}\n}/* layer: default */.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0;}.pointer-events-none{pointer-events:none;}.absolute{position:absolute;}.fixed{position:fixed;}.relative{position:relative;}.inset-y-0{top:0rem;bottom:0rem;}.-bottom-1\\/2{bottom:-50%;}.left-0{left:0rem;}.right-0{right:0rem;}.z-10{z-index:10;}.z-20{z-index:20;}.grid{display:grid;}.mx-auto{margin-left:auto;margin-right:auto;}.my-6{margin-top:1.5rem;margin-bottom:1.5rem;}.mb-16{margin-bottom:4rem;}.mb-4{margin-bottom:1rem;}.mb-6{margin-bottom:1.5rem;}.mb-8{margin-bottom:2rem;}.mr-1{margin-right:0.25rem;}.mr-2{margin-right:0.5rem;}.mr-3{margin-right:0.75rem;}.mr-4{margin-right:1rem;}.mt-3{margin-top:0.75rem;}.mt-4{margin-top:1rem;}.block{display:block;}.hidden{display:none;}.h-1\\/2{height:50%;}.h-10{height:2.5rem;}.h-44{height:11rem;}.h-5{height:1.25rem;}.h-6{height:1.5rem;}.h-8{height:2rem;}.h-9{height:2.25rem;}.h-auto{height:auto;}.max-w-520px{max-width:520px;}.max-w-none{max-width:none;}.min-h-screen{min-height:100vh;}.w-5{width:1.25rem;}.w-6{width:1.5rem;}.w-77{width:19.25rem;}.w-88{width:22rem;}.w-full{width:100%;}.flex{display:flex;}.inline-flex{display:inline-flex;}.flex-1{flex:1 1 0%;}.flex-col{flex-direction:column;}.flex-wrap{flex-wrap:wrap;}.cursor-pointer{cursor:pointer;}.place-content-center{place-content:center;}.items-center{align-items:center;}.self-center{align-self:center;}.justify-center{justify-content:center;}.justify-between{justify-content:space-between;}.overflow-hidden{overflow:hidden;}.overflow-y-auto{overflow-y:auto;}.whitespace-nowrap{white-space:nowrap;}.border{border-width:1px;border-style:solid;}.border-gray-100{--un-border-opacity:1;border-color:rgba(243,244,246,var(--un-border-opacity));}.border-gray-200{--un-border-opacity:1;border-color:rgba(229,231,235,var(--un-border-opacity));}.border-gray-300{--un-border-opacity:1;border-color:rgba(209,213,219,var(--un-border-opacity));}.dark .dark\\:border-gray-700{--un-border-opacity:1;border-color:rgba(55,65,81,var(--un-border-opacity));}.focus\\:border-blue-500:focus{--un-border-opacity:1;border-color:rgba(59,130,246,var(--un-border-opacity));}.border-t-\\[12px\\]{border-top-color:12px;}.rounded{border-radius:0.25rem;}.rounded-lg{border-radius:0.5rem;}.rounded-t-md{border-top-left-radius:0.375rem;border-top-right-radius:0.375rem;}.bg-black\\/5{background-color:rgba(0,0,0,0.05);}.bg-blue-700{--un-bg-opacity:1;background-color:rgba(29,78,216,var(--un-bg-opacity));}.bg-gray-100,\n.hover\\:bg-gray-100:hover{--un-bg-opacity:1;background-color:rgba(243,244,246,var(--un-bg-opacity));}.bg-gray-50{--un-bg-opacity:1;background-color:rgba(249,250,251,var(--un-bg-opacity));}.bg-slate-300{--un-bg-opacity:1;background-color:rgba(203,213,225,var(--un-bg-opacity));}.bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}.dark .dark\\:bg-black{--un-bg-opacity:1;background-color:rgba(0,0,0,var(--un-bg-opacity));}.dark .dark\\:bg-gray-700,\n.dark .dark\\:hover\\:bg-gray-700:hover{--un-bg-opacity:1;background-color:rgba(55,65,81,var(--un-bg-opacity));}.dark .dark\\:bg-gray-800{--un-bg-opacity:1;background-color:rgba(31,41,55,var(--un-bg-opacity));}.dark .dark\\:bg-white\\/10{background-color:rgba(255,255,255,0.1);}.from-purple-700{--un-gradient-from:rgba(126,34,206,var(--un-from-opacity, 1));--un-gradient-to:rgba(126,34,206,0);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}.to-pink-600{--un-gradient-to:rgba(219,39,119,var(--un-to-opacity, 1));}.bg-gradient-to-r{--un-gradient-shape:to right;--un-gradient:var(--un-gradient-shape), var(--un-gradient-stops);background-image:linear-gradient(var(--un-gradient));}.bg-clip-text{-webkit-background-clip:text;background-clip:text;}.p-2{padding:0.5rem;}.p-2\\.5{padding:0.625rem;}.p-4{padding:1rem;}.p-5{padding:1.25rem;}.p-8{padding:2rem;}.px-\\[5\\%\\]{padding-left:5%;padding-right:5%;}.px-10{padding-left:2.5rem;padding-right:2.5rem;}.px-2{padding-left:0.5rem;padding-right:0.5rem;}.px-4{padding-left:1rem;padding-right:1rem;}.px-8{padding-left:2rem;padding-right:2rem;}.py-2{padding-top:0.5rem;padding-bottom:0.5rem;}.py-2\\.5{padding-top:0.625rem;padding-bottom:0.625rem;}.pl-10{padding-left:2.5rem;}.pl-3{padding-left:0.75rem;}.pr-4{padding-right:1rem;}.pt-14{padding-top:3.5rem;}.pt-20{padding-top:5rem;}.text-center{text-align:center;}.font-sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";}.text-2xl{font-size:1.5rem;line-height:2rem;}.text-4xl{font-size:2.25rem;line-height:2.5rem;}.text-6xl{font-size:3.75rem;line-height:1;}.text-8xl{font-size:6rem;line-height:1;}.text-sm{font-size:0.875rem;line-height:1.25rem;}.text-xl{font-size:1.25rem;line-height:1.75rem;}.font-bold{font-weight:700;}.font-light{font-weight:300;}.font-medium{font-weight:500;}.font-semibold{font-weight:600;}.leading-normal{line-height:1.5;}.leading-tight{line-height:1.25;}.tracking-tight{letter-spacing:-0.025em;}.dark .dark\\:text-gray-400{--un-text-opacity:1;color:rgba(156,163,175,var(--un-text-opacity));}.dark .dark\\:text-white,\n.text-white{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity));}.text-black{--un-text-opacity:1;color:rgba(0,0,0,var(--un-text-opacity));}.text-gray-500{--un-text-opacity:1;color:rgba(107,114,128,var(--un-text-opacity));}.text-gray-600{--un-text-opacity:1;color:rgba(75,85,99,var(--un-text-opacity));}.text-gray-700{--un-text-opacity:1;color:rgba(55,65,81,var(--un-text-opacity));}.text-gray-900{--un-text-opacity:1;color:rgba(17,24,39,var(--un-text-opacity));}.text-transparent{color:transparent;}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline;}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:grayscale;}.hover\\:shadow-xl:hover{--un-shadow:var(--un-shadow-inset) 0 20px 25px -5px var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 8px 10px -6px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.shadow{--un-shadow:var(--un-shadow-inset) 0 1px 3px 0 var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 1px 2px -1px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px;}.focus\\:ring-2:focus{--un-ring-width:2px;--un-ring-offset-shadow:var(--un-ring-inset) 0 0 0 var(--un-ring-offset-width) var(--un-ring-offset-color);--un-ring-shadow:var(--un-ring-inset) 0 0 0 calc(var(--un-ring-width) + var(--un-ring-offset-width)) var(--un-ring-color);box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.focus\\:ring-4:focus{--un-ring-width:4px;--un-ring-offset-shadow:var(--un-ring-inset) 0 0 0 var(--un-ring-offset-width) var(--un-ring-offset-color);--un-ring-shadow:var(--un-ring-inset) 0 0 0 calc(var(--un-ring-width) + var(--un-ring-offset-width)) var(--un-ring-color);box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.dark .dark\\:focus\\:ring-gray-600:focus{--un-ring-opacity:1;--un-ring-color:rgba(75,85,99,var(--un-ring-opacity));}.focus\\:ring-blue-500:focus{--un-ring-opacity:1;--un-ring-color:rgba(59,130,246,var(--un-ring-opacity));}.focus\\:ring-gray-200:focus{--un-ring-opacity:1;--un-ring-color:rgba(229,231,235,var(--un-ring-opacity));}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}.duration-200{transition-duration:200ms;}.delay-100{transition-delay:100ms;}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);}@media (min-width: 640px){\n.sm\\:mx-auto{margin-left:auto;margin-right:auto;}\n.sm\\:mb-0{margin-bottom:0rem;}\n.sm\\:h-12{height:3rem;}\n.sm\\:h-9{height:2.25rem;}\n.sm\\:flex{display:flex;}\n.sm\\:items-center{align-items:center;}\n.sm\\:justify-between{justify-content:space-between;}\n.sm\\:px-0{padding-left:0rem;padding-right:0rem;}\n.sm\\:px-4{padding-left:1rem;padding-right:1rem;}\n.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n.sm\\:py-3{padding-top:0.75rem;padding-bottom:0.75rem;}\n.sm\\:text-center{text-align:center;}\n.sm\\:text-2xl{font-size:1.5rem;line-height:2rem;}\n.sm\\:text-4xl{font-size:2.25rem;line-height:2.5rem;}\n.sm\\:text-8xl{font-size:6rem;line-height:1;}\n.sm\\:text-sm{font-size:0.875rem;line-height:1.25rem;}\n.sm\\:text-xl{font-size:1.25rem;line-height:1.75rem;}\n}@media (min-width: 768px){\n.md\\:order-1{order:1;}\n.md\\:order-2{order:2;}\n.md\\:mr-6{margin-right:1.5rem;}\n.md\\:mt-0{margin-top:0rem;}\n.md\\:block{display:block;}\n.md\\:hidden{display:none;}\n.md\\:w-auto{width:auto;}\n.md\\:flex{display:flex;}\n.md\\:flex-row{flex-direction:row;}\n.md\\:space-x-8>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(2rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(2rem * var(--un-space-x-reverse));}\n.md\\:border-0{border-width:0px;border-style:solid;}\n.dark .md\\:dark\\:bg-gray-900{--un-bg-opacity:1;background-color:rgba(17,24,39,var(--un-bg-opacity));}\n.md\\:bg-transparent{background-color:transparent;}\n.md\\:bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}\n.md\\:p-0{padding:0rem;}\n.md\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n.md\\:py-8{padding-top:2rem;padding-bottom:2rem;}\n.md\\:text-sm{font-size:0.875rem;line-height:1.25rem;}\n.md\\:font-medium{font-weight:500;}\n.md\\:text-blue-700{--un-text-opacity:1;color:rgba(29,78,216,var(--un-text-opacity));}\n}@media (min-width: 1024px){\n.lg\\:px-\\[15\\%\\]{padding-left:15%;padding-right:15%;}\n.lg\\:text-5xl{font-size:3rem;line-height:1;}\n.lg\\:text-6xl{font-size:3.75rem;line-height:1;}\n}";
+const $id_edwzcuzaw5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/*c2b598*//* layer: preflights */*,::before,::after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::-webkit-backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}/* layer: shortcuts */.container{max-width:100%;}@media (min-width: 640px){\n.container{max-width:640px;}\n}@media (min-width: 768px){\n.container{max-width:768px;}\n}@media (min-width: 1024px){\n.container{max-width:1024px;}\n}@media (min-width: 1280px){\n.container{max-width:1280px;}\n}@media (min-width: 1536px){\n.container{max-width:1536px;}\n}/* layer: default */.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0;}.pointer-events-none{pointer-events:none;}.absolute{position:absolute;}.fixed{position:fixed;}.relative{position:relative;}.inset-y-0{top:0rem;bottom:0rem;}.-bottom-1\\/2{bottom:-50%;}.left-0{left:0rem;}.right-0{right:0rem;}.z-10{z-index:10;}.z-20{z-index:20;}.grid{display:grid;}.m-auto{margin:auto;}.mx-auto{margin-left:auto;margin-right:auto;}.my-6{margin-top:1.5rem;margin-bottom:1.5rem;}.mb-12{margin-bottom:3rem;}.mb-16{margin-bottom:4rem;}.mb-4{margin-bottom:1rem;}.mb-6{margin-bottom:1.5rem;}.mb-8{margin-bottom:2rem;}.mr-1{margin-right:0.25rem;}.mr-2{margin-right:0.5rem;}.mr-4{margin-right:1rem;}.mt-3{margin-top:0.75rem;}.mt-4{margin-top:1rem;}.block{display:block;}.hidden{display:none;}.h-1\\/2{height:50%;}.h-10{height:2.5rem;}.h-44{height:11rem;}.h-5{height:1.25rem;}.h-56{height:14rem;}.h-6{height:1.5rem;}.h-9{height:2.25rem;}.h-auto{height:auto;}.h-full{height:100%;}.max-w-520px{max-width:520px;}.max-w-none{max-width:none;}.min-h-screen{min-height:100vh;}.w-1\\/2{width:50%;}.w-1\\/3{width:33.3333333333%;}.w-1\\/4{width:25%;}.w-2\\/3{width:66.6666666667%;}.w-5{width:1.25rem;}.w-56{width:14rem;}.w-6{width:1.5rem;}.w-77{width:19.25rem;}.w-88{width:22rem;}.w-96{width:24rem;}.w-full{width:100%;}.w-max{width:-webkit-max-content;width:-moz-max-content;width:max-content;}.flex{display:flex;}.inline-flex{display:inline-flex;}.flex-1{flex:1 1 0%;}.flex-col{flex-direction:column;}.flex-wrap{flex-wrap:wrap;}.cursor-pointer{cursor:pointer;}.place-content-center{place-content:center;}.items-center{align-items:center;}.self-center{align-self:center;}.justify-center{justify-content:center;}.justify-between{justify-content:space-between;}.gap-12{grid-gap:3rem;gap:3rem;}.space-x-6>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(1.5rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(1.5rem * var(--un-space-x-reverse));}.space-y-2>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(0.5rem * var(--un-space-y-reverse));}.space-y-4>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(1rem * var(--un-space-y-reverse));}.overflow-hidden{overflow:hidden;}.overflow-y-auto{overflow-y:auto;}.whitespace-nowrap{white-space:nowrap;}.border{border-width:1px;border-style:solid;}.border-gray-100{--un-border-opacity:1;border-color:rgba(243,244,246,var(--un-border-opacity));}.border-gray-200{--un-border-opacity:1;border-color:rgba(229,231,235,var(--un-border-opacity));}.border-gray-300{--un-border-opacity:1;border-color:rgba(209,213,219,var(--un-border-opacity));}.border-green-200{--un-border-opacity:1;border-color:rgba(187,247,208,var(--un-border-opacity));}.dark .dark\\:border-gray-700{--un-border-opacity:1;border-color:rgba(55,65,81,var(--un-border-opacity));}.focus\\:border-blue-500:focus{--un-border-opacity:1;border-color:rgba(59,130,246,var(--un-border-opacity));}.border-t-\\[12px\\]{border-top-color:12px;}.group:hover .group-hover\\:rounded-xl,\n.rounded-xl{border-radius:0.75rem;}.hover\\:rounded-2xl:hover{border-radius:1rem;}.rounded{border-radius:0.25rem;}.rounded-full{border-radius:9999px;}.rounded-lg{border-radius:0.5rem;}.rounded-t-md{border-top-left-radius:0.375rem;border-top-right-radius:0.375rem;}.bg-black\\/5{background-color:rgba(0,0,0,0.05);}.bg-blue-700{--un-bg-opacity:1;background-color:rgba(29,78,216,var(--un-bg-opacity));}.bg-gray-100,\n.hover\\:bg-gray-100:hover{--un-bg-opacity:1;background-color:rgba(243,244,246,var(--un-bg-opacity));}.bg-gray-50{--un-bg-opacity:1;background-color:rgba(249,250,251,var(--un-bg-opacity));}.bg-green-100{--un-bg-opacity:1;background-color:rgba(220,252,231,var(--un-bg-opacity));}.bg-slate-300{--un-bg-opacity:1;background-color:rgba(203,213,225,var(--un-bg-opacity));}.bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}.dark .dark\\:bg-black{--un-bg-opacity:1;background-color:rgba(0,0,0,var(--un-bg-opacity));}.dark .dark\\:bg-gray-700,\n.dark .dark\\:hover\\:bg-gray-700:hover{--un-bg-opacity:1;background-color:rgba(55,65,81,var(--un-bg-opacity));}.dark .dark\\:bg-gray-800{--un-bg-opacity:1;background-color:rgba(31,41,55,var(--un-bg-opacity));}.dark .dark\\:bg-white\\/10{background-color:rgba(255,255,255,0.1);}.bg-opacity-50{--un-bg-opacity:0.5;}.from-green-50{--un-gradient-from:rgba(240,253,244,var(--un-from-opacity, 1));--un-gradient-to:rgba(240,253,244,0);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}.from-purple-50{--un-gradient-from:rgba(250,245,255,var(--un-from-opacity, 1));--un-gradient-to:rgba(250,245,255,0);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}.from-purple-700{--un-gradient-from:rgba(126,34,206,var(--un-from-opacity, 1));--un-gradient-to:rgba(126,34,206,0);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}.to-cyan-100{--un-gradient-to:rgba(207,250,254,var(--un-to-opacity, 1));}.to-pink-100{--un-gradient-to:rgba(252,231,243,var(--un-to-opacity, 1));}.to-pink-600{--un-gradient-to:rgba(219,39,119,var(--un-to-opacity, 1));}.bg-gradient-to-br{--un-gradient-shape:to bottom right;--un-gradient:var(--un-gradient-shape), var(--un-gradient-stops);background-image:linear-gradient(var(--un-gradient));}.bg-gradient-to-r{--un-gradient-shape:to right;--un-gradient:var(--un-gradient-shape), var(--un-gradient-stops);background-image:linear-gradient(var(--un-gradient));}.bg-clip-text{-webkit-background-clip:text;background-clip:text;}.object-cover{-o-object-fit:cover;object-fit:cover;}.object-top{-o-object-position:top;object-position:top;}.p-1{padding:0.25rem;}.p-16{padding:4rem;}.p-2{padding:0.5rem;}.p-2\\.5{padding:0.625rem;}.p-4{padding:1rem;}.p-5{padding:1.25rem;}.p-8{padding:2rem;}.px-\\[5\\%\\]{padding-left:5%;padding-right:5%;}.px-10{padding-left:2.5rem;padding-right:2.5rem;}.px-2{padding-left:0.5rem;padding-right:0.5rem;}.px-3{padding-left:0.75rem;padding-right:0.75rem;}.px-4{padding-left:1rem;padding-right:1rem;}.px-6{padding-left:1.5rem;padding-right:1.5rem;}.px-8{padding-left:2rem;padding-right:2rem;}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem;}.py-16{padding-top:4rem;padding-bottom:4rem;}.py-2{padding-top:0.5rem;padding-bottom:0.5rem;}.py-2\\.5{padding-top:0.625rem;padding-bottom:0.625rem;}.pb-16{padding-bottom:4rem;}.pl-0{padding-left:0rem;}.pl-10{padding-left:2.5rem;}.pl-3{padding-left:0.75rem;}.pr-4{padding-right:1rem;}.pt-14{padding-top:3.5rem;}.pt-20{padding-top:5rem;}.text-center{text-align:center;}.font-sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";}.text-2xl{font-size:1.5rem;line-height:2rem;}.text-4xl{font-size:2.25rem;line-height:2.5rem;}.text-6xl{font-size:3.75rem;line-height:1;}.text-8xl{font-size:6rem;line-height:1;}.text-sm{font-size:0.875rem;line-height:1.25rem;}.text-xl{font-size:1.25rem;line-height:1.75rem;}.font-bold{font-weight:700;}.font-light{font-weight:300;}.font-medium{font-weight:500;}.font-semibold{font-weight:600;}.leading-normal{line-height:1.5;}.leading-tight{line-height:1.25;}.tracking-tight{letter-spacing:-0.025em;}.dark .dark\\:text-gray-400{--un-text-opacity:1;color:rgba(156,163,175,var(--un-text-opacity));}.dark .dark\\:text-white,\n.text-white{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity));}.text-black{--un-text-opacity:1;color:rgba(0,0,0,var(--un-text-opacity));}.text-cyan-600{--un-text-opacity:1;color:rgba(8,145,178,var(--un-text-opacity));}.text-cyan-900{--un-text-opacity:1;color:rgba(22,78,99,var(--un-text-opacity));}.text-gray-500{--un-text-opacity:1;color:rgba(107,114,128,var(--un-text-opacity));}.text-gray-600{--un-text-opacity:1;color:rgba(75,85,99,var(--un-text-opacity));}.text-gray-700{--un-text-opacity:1;color:rgba(55,65,81,var(--un-text-opacity));}.text-gray-900{--un-text-opacity:1;color:rgba(17,24,39,var(--un-text-opacity));}.text-green-600{--un-text-opacity:1;color:rgba(22,163,74,var(--un-text-opacity));}.text-transparent{color:transparent;}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline;}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:grayscale;}.hover\\:shadow-xl:hover,\n.shadow-xl{--un-shadow:var(--un-shadow-inset) 0 20px 25px -5px var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 8px 10px -6px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.shadow{--un-shadow:var(--un-shadow-inset) 0 1px 3px 0 var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 1px 2px -1px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.shadow-md{--un-shadow:var(--un-shadow-inset) 0 4px 6px -1px var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 2px 4px -2px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px;}.focus\\:ring-2:focus{--un-ring-width:2px;--un-ring-offset-shadow:var(--un-ring-inset) 0 0 0 var(--un-ring-offset-width) var(--un-ring-offset-color);--un-ring-shadow:var(--un-ring-inset) 0 0 0 calc(var(--un-ring-width) + var(--un-ring-offset-width)) var(--un-ring-color);box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.focus\\:ring-4:focus{--un-ring-width:4px;--un-ring-offset-shadow:var(--un-ring-inset) 0 0 0 var(--un-ring-offset-width) var(--un-ring-offset-color);--un-ring-shadow:var(--un-ring-inset) 0 0 0 calc(var(--un-ring-width) + var(--un-ring-offset-width)) var(--un-ring-color);box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.dark .dark\\:focus\\:ring-gray-600:focus{--un-ring-opacity:1;--un-ring-color:rgba(75,85,99,var(--un-ring-opacity));}.focus\\:ring-blue-500:focus{--un-ring-opacity:1;--un-ring-color:rgba(59,130,246,var(--un-ring-opacity));}.focus\\:ring-gray-200:focus{--un-ring-opacity:1;--un-ring-color:rgba(229,231,235,var(--un-ring-opacity));}.transition{transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}.duration-200{transition-duration:200ms;}.duration-500{transition-duration:500ms;}.delay-100{transition-delay:100ms;}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);}@media (min-width: 640px){\n.sm\\:mx-auto{margin-left:auto;margin-right:auto;}\n.sm\\:mb-0{margin-bottom:0rem;}\n.sm\\:h-12{height:3rem;}\n.sm\\:h-full{height:100%;}\n.sm\\:w-5\\/12{width:41.6666666667%;}\n.sm\\:w-7\\/12{width:58.3333333333%;}\n.sm\\:flex{display:flex;}\n.sm\\:items-center{align-items:center;}\n.sm\\:justify-between{justify-content:space-between;}\n.sm\\:px-0{padding-left:0rem;padding-right:0rem;}\n.sm\\:px-4{padding-left:1rem;padding-right:1rem;}\n.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n.sm\\:py-3{padding-top:0.75rem;padding-bottom:0.75rem;}\n.sm\\:text-center{text-align:center;}\n.sm\\:text-2xl{font-size:1.5rem;line-height:2rem;}\n.sm\\:text-4xl{font-size:2.25rem;line-height:2.5rem;}\n.sm\\:text-8xl{font-size:6rem;line-height:1;}\n.sm\\:text-sm{font-size:0.875rem;line-height:1.25rem;}\n.sm\\:text-xl{font-size:1.25rem;line-height:1.75rem;}\n}@media (min-width: 768px){\n.md\\:order-1{order:1;}\n.md\\:order-2{order:2;}\n.md\\:mr-6{margin-right:1.5rem;}\n.md\\:mt-0{margin-top:0rem;}\n.md\\:block{display:block;}\n.md\\:hidden{display:none;}\n.md\\:w-auto{width:auto;}\n.md\\:flex{display:flex;}\n.md\\:flex-row{flex-direction:row;}\n.md\\:space-x-8>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(2rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(2rem * var(--un-space-x-reverse));}\n.md\\:border-0{border-width:0px;border-style:solid;}\n.dark .md\\:dark\\:bg-gray-900{--un-bg-opacity:1;background-color:rgba(17,24,39,var(--un-bg-opacity));}\n.md\\:bg-transparent{background-color:transparent;}\n.md\\:bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}\n.md\\:p-0{padding:0rem;}\n.md\\:px-12{padding-left:3rem;padding-right:3rem;}\n.md\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n.md\\:py-8{padding-top:2rem;padding-bottom:2rem;}\n.md\\:text-4xl{font-size:2.25rem;line-height:2.5rem;}\n.md\\:text-sm{font-size:0.875rem;line-height:1.25rem;}\n.md\\:font-medium{font-weight:500;}\n.md\\:text-blue-700{--un-text-opacity:1;color:rgba(29,78,216,var(--un-text-opacity));}\n}@media (min-width: 1024px){\n.lg\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr));}\n.lg\\:mx-auto{margin-left:auto;margin-right:auto;}\n.lg\\:w-6\\/12{width:50%;}\n.lg\\:px-\\[15\\%\\]{padding-left:15%;padding-right:15%;}\n.lg\\:text-5xl{font-size:3rem;line-height:1;}\n.lg\\:text-6xl{font-size:3.75rem;line-height:1;}\n}@media (min-width: 1280px){\n.xl\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n}";
 }
 
 
@@ -6801,14 +6857,14 @@ const __modules__ = {
   "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_ZR0LUqwyer,
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_NgApSiB2xA,
   "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs": $id_gvZ4MLRexo,
-  "/pages/CardDetails.vue?macro=true": $id_ULQdqVwqJr,
-  "/pages/[...slug].vue?macro=true": $id_iiwYyA1nkj,
-  "/pages/CardDetails.vue": $id_8HbFVRhz2E,
-  "/pages/[...slug].vue": $id_uID1qA5IcX,
+  "/pages/CardDetails.vue?macro=true": $id_I3vcQ1f4s3,
+  "/pages/[...slug].vue?macro=true": $id_DAuQf92XxM,
+  "/pages/CardDetails.vue": $id_gLFSZJufE0,
+  "/pages/[...slug].vue": $id_PgrZHDdIdb,
   "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/router.options.mjs": $id_lyitYY2eB2,
   "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/middleware.mjs": $id_GW1EmtiGCo,
   "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/unocss.mjs": $id_0Pv5gMfGZP,
-  "/__uno.css": $id_zAkWh42TyX,
+  "/__uno.css": $id_edwzcuzaw5,
   "/node_modules/@nuxt/content/dist/runtime/plugin.mjs": $id_zT36nO9yVz,
   "/node_modules/@nuxt/content/dist/runtime/composables/web-socket.mjs": $id_uKnmBzSyr1,
   "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/root-component.mjs": $id_FfTuBe57oB,
