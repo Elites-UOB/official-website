@@ -1,5 +1,8 @@
----
-title: The Blog
----
+# Hello Index
 
-# The BLog
+::Card2
+ i am Card
+::
+[Go To Test](/test)
+
+
