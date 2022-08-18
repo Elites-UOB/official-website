@@ -106,8 +106,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
 // - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
-// - /components/Card.vue ($id_JDqv8pOB1u)
-// - /components/content/Card2.vue ($id_uvdfQaBsul)
+// - /components/content/Card.vue ($id_Z5fWObNQpy)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.mjs ($id_jz0JU2b2Nx)
 // - /node_modules/@nuxt/content/dist/runtime/components/MarkdownRenderer.mjs ($id_THkzFqZCfT)
@@ -1704,7 +1703,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /components/content/Card2.vue ($id_uvdfQaBsul)
+// - /components/content/Card.vue ($id_Z5fWObNQpy)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs ($id_n6tau7C6iC)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.mjs ($id_0tpMzQV1gH)
@@ -1737,14 +1736,14 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue ($id_FvWFAZGqVo)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue ($id_dyjIbQcUXz)
 // --------------------
-const $id_ENpkbnlWMo = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_Shwn5ZlIgH = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 
 const components = {
-  Card2: __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/content/Card2.vue' /* webpackChunkName: "components/card2" */).then(c => c.default || c)),
+  Card: __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/content/Card.vue' /* webpackChunkName: "components/card" */).then(c => c.default || c)),
   ContentDoc: __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs' /* webpackChunkName: "components/content-doc" */).then(c => c.default || c)),
   ContentList: __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs' /* webpackChunkName: "components/content-list" */).then(c => c.default || c)),
   ContentNavigation: __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.mjs' /* webpackChunkName: "components/content-navigation" */).then(c => c.default || c)),
@@ -1789,66 +1788,15 @@ __vite_ssr_exports__.default = __vite_ssr_import_1__.defineNuxtPlugin(nuxtApp =>
 
 
 // --------------------
-// Request: /components/content/Card2.vue
+// Request: /components/content/Card.vue
 // Parents: 
 // - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
 // Dependencies: 
-// - /components/Card.vue ($id_JDqv8pOB1u)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_RUhLgHirkE = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/Card.vue");
-
-const _sfc_main = {}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("vue/server-renderer");
-
-
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_Card = __vite_ssr_import_0__.default
-
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_Card, _attrs, {
-    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
-      if (_push) {
-        __vite_ssr_import_2__.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent, _scopeId)
-      } else {
-        return [
-          __vite_ssr_import_1__.renderSlot(_ctx.$slots, "default")
-        ]
-      }
-    }),
-    _: 3 /* FORWARDED */
-  }, _parent))
-}
-
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/content/Card2.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/content/Card2.vue"]]);
-}
-
-
-// --------------------
-// Request: /components/Card.vue
-// Parents: 
-// - /components/content/Card2.vue ($id_uvdfQaBsul)
-// Dependencies: 
-// - vue ($id_VkOCJnUZrn)
-// - vue/server-renderer ($id_UyJffsox60)
-// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
-// --------------------
-const $id_NwP9sMbLNO = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_JIY0TXX8Zv = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
@@ -1857,6 +1805,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("vue/server-renderer");
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "bg-slate-300 p-4 rounded" }, _attrs))}>`)
+  __vite_ssr_import_1__.ssrRenderSlot(_ctx.$slots, "title", {}, null, _push, _parent)
   __vite_ssr_import_1__.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent)
   _push(`</div>`)
 }
@@ -1867,20 +1816,19 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("vue");
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = __vite_ssr_import_2__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card.vue")
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/content/Card.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/Card.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/content/Card.vue"]]);
 }
 
 
 // --------------------
 // Request: vue/server-renderer
 // Parents: 
-// - /components/Card.vue ($id_JDqv8pOB1u)
-// - /components/content/Card2.vue ($id_uvdfQaBsul)
+// - /components/content/Card.vue ($id_Z5fWObNQpy)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseA.vue ($id_VYv3n523Td)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseBlockquote.vue ($id_AeK0eboLLD)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue ($id_GUKbWKQI1n)
@@ -1936,8 +1884,7 @@ import("vue/server-renderer")
 // --------------------
 // Request: /@id/__x00__plugin-vue:export-helper
 // Parents: 
-// - /components/Card.vue ($id_JDqv8pOB1u)
-// - /components/content/Card2.vue ($id_uvdfQaBsul)
+// - /components/content/Card.vue ($id_Z5fWObNQpy)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseA.vue ($id_VYv3n523Td)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseBlockquote.vue ($id_AeK0eboLLD)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue ($id_GUKbWKQI1n)
@@ -6494,9 +6441,8 @@ const __modules__ = {
   "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/css.mjs": $id_x7EWryA7EQ,
   "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs": $id_KSq2VEJlOO,
   "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_csa3UNhMiS,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs": $id_ENpkbnlWMo,
-  "/components/content/Card2.vue": $id_RUhLgHirkE,
-  "/components/Card.vue": $id_NwP9sMbLNO,
+  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs": $id_Shwn5ZlIgH,
+  "/components/content/Card.vue": $id_JIY0TXX8Zv,
   "vue/server-renderer": $id_aRHphPzMpI,
   "/@id/__x00__plugin-vue:export-helper": $id_mHD6riC5ol,
   "/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs": $id_Ctt8YdbyMu,
