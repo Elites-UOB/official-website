@@ -5405,7 +5405,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_IOy00cihSq = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_iiwYyA1nkj = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/content/Card.vue");
@@ -5441,7 +5441,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
           _scopeId
         }><h1 class="lg:text-5xl text-4xl leading-normal font-semibold text-center"${
           _scopeId
-        }>Check Out Our Latest Blog Posts</h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600"${
+        }>Check Out Our Latest Blog Posts</h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600"${
           _scopeId
         }>Learn, Share, Grow</h1></section></main>`)
         _push(__vite_ssr_import_3__.ssrRenderComponent(_component_Card, null, null, _parent, _scopeId))
@@ -5452,7 +5452,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
             __vite_ssr_import_2__.createVNode("main", null, [
               __vite_ssr_import_2__.createVNode("section", { class: "lg:px-[15%] px-[5%] pt-20" }, [
                 __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-5xl text-4xl leading-normal font-semibold text-center" }, "Check Out Our Latest Blog Posts"),
-                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600" }, "Learn, Share, Grow")
+                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600" }, "Learn, Share, Grow")
               ])
             ]),
             __vite_ssr_import_2__.createVNode(_component_Card)
@@ -5520,7 +5520,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_m
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_IQ7tTOGRyt = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_uID1qA5IcX = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/content/Card.vue");
@@ -5556,7 +5556,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
           _scopeId
         }><h1 class="lg:text-5xl text-4xl leading-normal font-semibold text-center"${
           _scopeId
-        }>Check Out Our Latest Blog Posts</h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600"${
+        }>Check Out Our Latest Blog Posts</h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600"${
           _scopeId
         }>Learn, Share, Grow</h1></section></main>`)
         _push(__vite_ssr_import_3__.ssrRenderComponent(_component_Card, null, null, _parent, _scopeId))
@@ -5567,7 +5567,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
             __vite_ssr_import_2__.createVNode("main", null, [
               __vite_ssr_import_2__.createVNode("section", { class: "lg:px-[15%] px-[5%] pt-20" }, [
                 __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-5xl text-4xl leading-normal font-semibold text-center" }, "Check Out Our Latest Blog Posts"),
-                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600" }, "Learn, Share, Grow")
+                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600" }, "Learn, Share, Grow")
               ])
             ]),
             __vite_ssr_import_2__.createVNode(_component_Card)
@@ -6773,9 +6773,9 @@ const __modules__ = {
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_NgApSiB2xA,
   "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs": $id_gvZ4MLRexo,
   "/pages/CardDetails.vue?macro=true": $id_ULQdqVwqJr,
-  "/pages/[...slug].vue?macro=true": $id_IOy00cihSq,
+  "/pages/[...slug].vue?macro=true": $id_iiwYyA1nkj,
   "/pages/CardDetails.vue": $id_8HbFVRhz2E,
-  "/pages/[...slug].vue": $id_IQ7tTOGRyt,
+  "/pages/[...slug].vue": $id_uID1qA5IcX,
   "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/router.options.mjs": $id_lyitYY2eB2,
   "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/middleware.mjs": $id_GW1EmtiGCo,
   "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/unocss.mjs": $id_0Pv5gMfGZP,
