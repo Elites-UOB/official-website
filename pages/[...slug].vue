@@ -10,6 +10,7 @@
                 <h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Learn, Share, Grow</h1>
             </section>
         </main>
+        <Card/>
     </div>
     
 
