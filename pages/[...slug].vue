@@ -1,6 +1,6 @@
 <template>
   <main>
-<<<<<<< HEAD
+
     <ContentDoc class="prose prose-gray max-w-none ">
 
       <div class="min-h-screen">
@@ -21,7 +21,7 @@
         <h1 class="text-2xl">
           Not Found
         </h1>
-=======
+
     <ContentDoc class="prose prose-gray max-w-none">
       <div class="min-h-screen">
         <main>
@@ -46,7 +46,7 @@
 
       <template #not-found>
         <h1 class="text-2xl">Not Found</h1>
->>>>>>> origin/Fatma
+
       </template>
     </ContentDoc>
   </main>
