@@ -3,9 +3,9 @@
     <ContentDoc class="prose prose-gray max-w-none">
       <div class="min-h-screen">
         <main>
-          <section class="lg:px-[15%] px-[5%] pt-20">
+          <section class="lg:px-[15%] px-[5%] py-10">
             <h1
-              class="lg:text-5xl text-4xl leading-normal font-semibold text-center"
+              class="lg:text-5xl text-2xl leading-normal font-semibold text-center"
             >
               Check Out Our Latest Blog Posts
             </h1>
