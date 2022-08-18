@@ -1,7 +1,10 @@
 # Hello Index
 
-::Card2
+::Card
  i am Card
+
+#title
+HI
 ::
 [Go To Test](/test)
 
