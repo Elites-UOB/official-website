@@ -1,5 +1,5 @@
 <template>
-    <nav class="bg-gray-50 border-gray-200 px-2 sm:px-4 py-2.5 rounded  ">
+    <nav class="bg-gray-50 border-gray-200 px-2 sm:px-4 py-2.5 rounded w-full ">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a class="flex items-center">
                 <img src="~/assets/CoreTeamLogo.png" class="mr-2 h-9 sm:h-12" alt="Flowbite Logo">
