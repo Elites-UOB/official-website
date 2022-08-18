@@ -2,7 +2,7 @@
     <nav class="bg-gray-50 border-gray-200 px-2 sm:px-4 py-2.5 rounded  ">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a class="flex items-center">
-                <img src="~/assets/CoreTeamLogo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+                <img src="~/assets/CoreTeamLogo.png" class="mr-2 h-9 sm:h-12" alt="Flowbite Logo">
                 <span class="self-center text-xl font-semibold whitespace-nowrap ">CSIT</span>
             </a>
             <div class="flex md:order-2">
