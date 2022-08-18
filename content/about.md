@@ -1,5 +1,0 @@
-# Hello Content
-
-[Back home](/)
-
-
