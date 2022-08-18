@@ -37,9 +37,15 @@ export default {
     "file": "components/Header.vue?vue&type=style&index=0&scoped=a81738bd&lang.css",
     "resourceType": "style"
   },
+<<<<<<< HEAD
   "E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry": {
     "isEntry": true,
     "file": "E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry",
+=======
+  "D:/GitHub/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry": {
+    "isEntry": true,
+    "file": "D:/GitHub/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry",
+>>>>>>> origin/Manar2
     "module": true,
     "resourceType": "script"
   }
