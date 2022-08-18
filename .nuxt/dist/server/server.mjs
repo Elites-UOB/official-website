@@ -6369,93 +6369,123 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - /layouts/main.vue ($id_Iyy1A44MrL)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
+// - @iconify/vue ($id_Z8ayVe7qva)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /assets/CoreTeamLogo.png ($id_ZUm1S39uqs)
+// - /components/Header.vue?vue&type=style&index=0&scoped=a81738bd&lang.css ($id_B1pL7w8jIL)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_u2V2vNeYRk = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_BDOtluVHe7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
-const _sfc_main = {}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("vue/server-renderer");
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/assets/CoreTeamLogo.png");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("@iconify/vue");
 
 
+const _sfc_main = {
+  __name: 'Header',
+  setup(__props, { expose }) {
+  expose();
 
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_NuxtLink = __vite_ssr_import_0__.default
+const links = [
+    {
+        name: "Blog",
+        icon: "carbon:blog",
+        link: "/",
+    },
+    {
+        name: "About",
+        icon: "ion:shirt-outline",
+        link: "/about",
+    },
+];
 
-  _push(`<nav${
-    __vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "bg-gray-50 border-gray-200 px-2 sm:px-4 py-2.5 rounded w-full" }, _attrs))
-  }><div class="container flex flex-wrap justify-between items-center mx-auto"><a class="flex items-center"><img${
-    __vite_ssr_import_2__.ssrRenderAttr("src", __vite_ssr_import_3__.default)
-  } class="mr-2 h-9 sm:h-12" alt="Flowbite Logo"><span class="self-center text-xl font-semibold whitespace-nowrap">CSIT</span></a><div class="flex md:order-2"><button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-lg text-sm p-2.5 mr-1"><svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg><span class="sr-only">Search</span></button><div class="hidden relative md:block"><div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"><svg class="w-5 h-5 text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg><span class="sr-only">Search icon</span></div><input type="text" id="search-navbar" class="block p-2 pl-10 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700" placeholder="Search..."></div><button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false"><span class="sr-only">Open menu</span><svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button></div><div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-search"><div class="relative mt-3 md:hidden"><div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"><svg class="w-5 h-5 text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg></div><input type="text" id="search-navbar" class="block p-2 pl-10 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Search..."></div><ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"><li>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
-    to: "/home",
-    class: "block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
-  }, {
-    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
-      if (_push) {
-        _push(` Home `)
-      } else {
-        return [
-          __vite_ssr_import_1__.createTextVNode(" Home ")
-        ]
-      }
-    }),
-    _: 1 /* STABLE */
-  }, _parent))
-  _push(`</li><li>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
-    to: "/about",
-    class: "block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
-  }, {
-    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
-      if (_push) {
-        _push(` About `)
-      } else {
-        return [
-          __vite_ssr_import_1__.createTextVNode(" About ")
-        ]
-      }
-    }),
-    _: 1 /* STABLE */
-  }, _parent))
-  _push(`</li><li>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
-    to: "/services",
-    class: "block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
-  }, {
-    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
-      if (_push) {
-        _push(` Services `)
-      } else {
-        return [
-          __vite_ssr_import_1__.createTextVNode(" Services ")
-        ]
-      }
-    }),
-    _: 1 /* STABLE */
-  }, _parent))
-  _push(`</li></ul></div></div></nav>`)
+const __returned__ = { links, Icon: __vite_ssr_import_1__.Icon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
 }
 
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("vue");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue/server-renderer");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/assets/CoreTeamLogo.png");
+
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_NuxtLink = __vite_ssr_import_0__.default
+
+  _push(`<header${
+    __vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({ class: "flex items-center bg-gray-80 justify-between h-20 px-[5%] lg:px-[15%]" }, _attrs))
+  } data-v-a81738bd><a class="flex items-center" data-v-a81738bd><img${
+    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_4__.default)
+  } class="mr-2 h-9 sm:h-12" alt="CSIT Logo" data-v-a81738bd><span class="font-bold text-2xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600" data-v-a81738bd>CSIT</span></a><nav class="flex items-center space-x-7 text-gray-600" data-v-a81738bd><!--[-->`)
+  __vite_ssr_import_3__.ssrRenderList($setup.links, (n, i) => {
+    _push(__vite_ssr_import_3__.ssrRenderComponent(_component_NuxtLink, {
+      to: n.link,
+      class: "inline-block nav-link hover:text-primary group"
+    }, {
+      default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+        if (_push) {
+          _push(`<div class="flex items-center space-x-2" data-v-a81738bd${_scopeId}>`)
+          _push(__vite_ssr_import_3__.ssrRenderComponent($setup["Icon"], {
+            icon: n.icon,
+            class: "w-4 h-4"
+          }, null, _parent, _scopeId))
+          _push(`<span class="font-medium" data-v-a81738bd${
+            _scopeId
+          }>${
+            __vite_ssr_import_3__.ssrInterpolate(n.name)
+          }</span></div><div class="h-0.5 w-4/5 bg-primary mt-1 -translate-y-full scale-0 group-hover:scale-100 group-hover:translate-y-full transition-all" data-v-a81738bd${
+            _scopeId
+          }></div>`)
+        } else {
+          return [
+            __vite_ssr_import_2__.createVNode("div", { class: "flex items-center space-x-2" }, [
+              __vite_ssr_import_2__.createVNode($setup["Icon"], {
+                icon: n.icon,
+                class: "w-4 h-4"
+              }, null, 8 /* PROPS */, ["icon"]),
+              __vite_ssr_import_2__.createVNode("span", { class: "font-medium" }, __vite_ssr_import_2__.toDisplayString(n.name), 1 /* TEXT */)
+            ]),
+            __vite_ssr_import_2__.createVNode("div", { class: "h-0.5 w-4/5 bg-primary mt-1 -translate-y-full scale-0 group-hover:scale-100 group-hover:translate-y-full transition-all" })
+          ]
+        }
+      }),
+      _: 2 /* DYNAMIC */
+    }, _parent))
+  })
+  _push(`<!--]--></nav></header>`)
+}
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Header.vue?vue&type=style&index=0&scoped=a81738bd&lang.css");
+
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  const ssrContext = __vite_ssr_import_6__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Header.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/Header.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-a81738bd"],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/Header.vue"]]);
+}
+
+
+// --------------------
+// Request: @iconify/vue
+// Parents: 
+// - /components/Header.vue ($id_TihPwxfEDt)
+// Dependencies: 
+
+// --------------------
+const $id_HrnswdFqUT = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+/* empty */;
 }
 
 
@@ -6473,6 +6503,18 @@ __vite_ssr_exports__.default = "/_nuxt/assets/CoreTeamLogo.png";
 
 
 // --------------------
+// Request: /components/Header.vue?vue&type=style&index=0&scoped=a81738bd&lang.css
+// Parents: 
+// - /components/Header.vue ($id_TihPwxfEDt)
+// Dependencies: 
+
+// --------------------
+const $id_6vW6w3CULL = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "\n.nav-link.router-link-active.router-link-exact-active[data-v-a81738bd] {\n@apply text-primary;\n}\r\n";
+}
+
+
+// --------------------
 // Request: /components/Footer.vue
 // Parents: 
 // - /layouts/main.vue ($id_Iyy1A44MrL)
@@ -6483,7 +6525,7 @@ __vite_ssr_exports__.default = "/_nuxt/assets/CoreTeamLogo.png";
 // - /assets/CoreTeamLogo.png ($id_ZUm1S39uqs)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_oRH0wexyHP = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_XdbbGILvoK = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
 const _sfc_main = {}
@@ -6502,7 +6544,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
     __vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "p-4 bg-gray-100 rounded-lg shadow md:px-6 md:py-8" }, _attrs))
   }><div class="sm:flex sm:items-center sm:justify-between"><a class="flex items-center mb-4 sm:mb-0"><img${
     __vite_ssr_import_2__.ssrRenderAttr("src", __vite_ssr_import_3__.default)
-  } class="mr-2 h-10" alt="Flowbite Logo"><span class="self-center text-2xl font-semibold whitespace-nowrap">CSIT Elite</span></a><ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0"><li>`)
+  } class="mr-3 h-8" alt="Flowbite Logo"><span class="self-center text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600">CSIT Elite</span></a><ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0"><li>`)
   _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
     to: "/about",
     class: "mr-4 hover:underline md:mr-6"
@@ -6566,7 +6608,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
     }),
     _: 1 /* STABLE */
   }, _parent))
-  _push(`</li></ul></div><hr class="my-6 border-gray-200 sm:mx-auto"><span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 CSIT . All Rights Reserved. </span></footer>`)
+  _push(`</li></ul></div><hr class="my-6 border-gray-200 sm:mx-auto"><span class="block text-sm text-gray-500 sm:text-center">© 2022 CSIT . All Rights Reserved. </span></footer>`)
 }
 
 
@@ -6701,9 +6743,11 @@ const __modules__ = {
   "/node_modules/nuxt/dist/app/components/layout.mjs": $id_07KbvrREq3,
   "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/layouts.mjs": $id_BGaWMXcgFF,
   "/layouts/main.vue": $id_aqD0VdK3Y0,
-  "/components/Header.vue": $id_u2V2vNeYRk,
+  "/components/Header.vue": $id_BDOtluVHe7,
+  "@iconify/vue": $id_HrnswdFqUT,
   "/assets/CoreTeamLogo.png": $id_C8mrNashPK,
-  "/components/Footer.vue": $id_oRH0wexyHP
+  "/components/Header.vue?vue&type=style&index=0&scoped=a81738bd&lang.css": $id_6vW6w3CULL,
+  "/components/Footer.vue": $id_XdbbGILvoK
 }
 
 
