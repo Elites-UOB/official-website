@@ -1,4 +1,4 @@
-# Hello Content
+# index
 
 [Back home](/)
 
