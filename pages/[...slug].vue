@@ -14,7 +14,7 @@
               Learn, Share, Grow</h1>
           </section>
         </main>
-        <Card />
+        <Card/>
       </div>
 
       <template #not-found>
