@@ -1,6 +1,6 @@
 <template>
     <div class="grid grid-cols-3  grid-flow-row bg-slate-300 p-4 rounded  w-full h-full ">
-        <div v-for="index in 10" :key="index" class="m-9  cursor-pointer relative p-5 group bg-white border-t-[12px]
+        <div v-for="index in 9" :key="index" class="m-9  cursor-pointer relative p-5 group bg-white border-t-[12px]
             rounded-lg transition-all duration-200 delay-100 ease-in-out hover:shadow-xl hover:shadow-secondary-100 ">
             <div class=" flex flex-col ">
                 <div class=" flex  justify-center ">

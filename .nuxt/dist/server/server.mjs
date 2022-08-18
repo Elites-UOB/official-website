@@ -1802,7 +1802,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_1__.defineNuxtPlugin(nuxtApp =>
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_75rGZq9J6T = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_JPEkTPPvdG = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
@@ -1811,7 +1811,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("vue/server-renderer");
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "grid grid-cols-3 grid-flow-row bg-slate-300 p-4 rounded w-full h-full" }, _attrs))}><!--[-->`)
-  __vite_ssr_import_1__.ssrRenderList(10, (index) => {
+  __vite_ssr_import_1__.ssrRenderList(9, (index) => {
     _push(`<div class="m-9 cursor-pointer relative p-5 group bg-white border-t-[12px] rounded-lg transition-all duration-200 delay-100 ease-in-out hover:shadow-xl hover:shadow-secondary-100"><div class="flex flex-col"><div class="flex justify-center"><img src="https://img.freepik.com/premium-vector/programing-concept-program-code-white-isolated-background_197170-769.jpg?w=2000" alt="img" class="h-44 rounded-lg w-fit"></div><div class="text-xl font-bold flex justify-center text-gray-600 group">`)
     __vite_ssr_import_1__.ssrRenderSlot(_ctx.$slots, "title", {}, null, _push, _parent)
     _push(`</div><div class="text-xl tracking-tight text-gray-900">`)
@@ -6745,7 +6745,7 @@ const __modules__ = {
   "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs": $id_KSq2VEJlOO,
   "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_csa3UNhMiS,
   "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs": $id_Shwn5ZlIgH,
-  "/components/content/Card.vue": $id_75rGZq9J6T,
+  "/components/content/Card.vue": $id_JPEkTPPvdG,
   "vue/server-renderer": $id_aRHphPzMpI,
   "/@id/__x00__plugin-vue:export-helper": $id_mHD6riC5ol,
   "/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs": $id_Ctt8YdbyMu,
