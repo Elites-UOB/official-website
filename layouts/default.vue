@@ -1,5 +1,6 @@
 <template>
-    <div>
-        <slot />
-    </div>
+  <div>
+    <slot />
+    <Card />
+  </div>
 </template>

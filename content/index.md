@@ -1,2 +1,5 @@
-# Index test 
-hello
+---
+title: The Blog
+---
+
+# The BLog
