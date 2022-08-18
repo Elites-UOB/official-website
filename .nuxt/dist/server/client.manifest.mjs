@@ -32,9 +32,9 @@ export default {
     "file": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css",
     "resourceType": "style"
   },
-  "C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry": {
+  "D:/GitHub/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry": {
     "isEntry": true,
-    "file": "C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry",
+    "file": "D:/GitHub/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry",
     "module": true,
     "resourceType": "script"
   }
