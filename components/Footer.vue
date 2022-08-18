@@ -4,7 +4,7 @@
         <div class="sm:flex sm:items-center sm:justify-between">
             <a class="flex items-center mb-4 sm:mb-0">
                 <img src="~/assets/CoreTeamLogo.png" class="mr-3 h-8" alt="Flowbite Logo">
-                <span class="self-center text-2xl font-semibold whitespace-nowrap ">CSIT Elite</span>
+                <span class="self-center text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600 ">CSIT Elite</span>
             </a>
             <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 ">
                 <li>
@@ -34,7 +34,7 @@
             </ul>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto">
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 CSIT . All Rights Reserved.
+        <span class="block text-sm text-gray-500 sm:text-center">© 2022 CSIT . All Rights Reserved.
         </span>
     </footer>
 
