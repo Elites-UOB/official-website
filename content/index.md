@@ -1,8 +1,5 @@
 # Hello Index
-::Footer
-#title
-hh
-::
+
 
 ::Card
 
