@@ -147,7 +147,9 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/pages/runtime/utils.mjs ($id_gPQzqsnHwc)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_acUmhqj8VN)
 // - /pages/CardDetails.vue?macro=true ($id_vwNDM53siQ)
+// - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
 // - /pages/CardDetails.vue ($id_r81jrzGIPE)
+// - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
@@ -1407,6 +1409,8 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtLink", { enumerable: true
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue ($id_nB337S5XXH)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue ($id_GCC9WtlMnV)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue ($id_f2J6Z5afm9)
+// - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
+// - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
 // - /components/Header.vue ($id_TihPwxfEDt)
 // - /components/Footer.vue ($id_89jzJWR97X)
@@ -1793,24 +1797,47 @@ __vite_ssr_exports__.default = __vite_ssr_import_1__.defineNuxtPlugin(nuxtApp =>
 // Request: /components/content/Card.vue
 // Parents: 
 // - /@id/virtual:nuxt:D:/GitHub/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_mOOIegkyt0)
+// - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
+// - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_9TzaDPIyKs = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
+const $id_88FV4gSs7T = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {
+  __name: 'Card',
+  setup(__props, { expose }) {
+  expose();
+
+
+const cards =[
+    {
+        id:1,
+        title:'html',
+    },
+    {
+        id:2,
+        title:'css',
+    }
+]
+
+
+const __returned__ = { cards }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue/server-renderer");
 
 
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "grid grid-cols-3 grid-flow-row bg-slate-300 p-4 rounded w-full h-full" }, _attrs))}><!--[-->`)
-  __vite_ssr_import_1__.ssrRenderList(10, (index) => {
-    _push(`<div class="m-9 cursor-pointer relative p-5 group bg-white border-t-[12px] rounded-lg transition-all duration-200 delay-100 ease-in-out hover:shadow-xl hover:shadow-secondary-100"><div class="flex flex-col"><div class="flex justify-center"><img src="https://img.freepik.com/premium-vector/programing-concept-program-code-white-isolated-background_197170-769.jpg?w=2000" alt="img" class="h-44 rounded-lg w-fit"></div><div class="text-xl font-bold flex justify-center text-gray-600 group">`)
-    __vite_ssr_import_1__.ssrRenderSlot(_ctx.$slots, "title", {}, null, _push, _parent)
-    _push(`</div><div class="text-xl tracking-tight text-gray-900">`)
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "grid grid-cols-3 grid-flow-row p-4 rounded w-full h-full" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($setup.cards, (card) => {
+    _push(`<div class="m-9 cursor-pointer relative p-5 group bg-slate-300 border-t-[12px] rounded-lg transition-all duration-200 delay-100 ease-in-out hover:shadow-xl hover:shadow-secondary-100"><div class="flex flex-col"><div class="flex justify-center"><img src="https://img.freepik.com/premium-vector/programing-concept-program-code-white-isolated-background_197170-769.jpg?w=2000" alt="img" class="h-44 rounded-lg w-fit"></div><div class="text-xl font-bold flex justify-center text-gray-600 group"><!-- <slot name="title"/> -->${__vite_ssr_import_1__.ssrInterpolate(card.title)}</div><div class="text-xl tracking-tight text-gray-900">`)
     __vite_ssr_import_1__.ssrRenderSlot(_ctx.$slots, "description", {}, null, _push, _parent)
     _push(`</div></div></div>`)
   })
@@ -1861,7 +1888,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue ($id_FvWFAZGqVo)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue ($id_dyjIbQcUXz)
 // - /pages/CardDetails.vue?macro=true ($id_vwNDM53siQ)
+// - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
 // - /pages/CardDetails.vue ($id_r81jrzGIPE)
+// - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
@@ -1917,7 +1946,9 @@ import("vue/server-renderer")
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue ($id_FvWFAZGqVo)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue ($id_dyjIbQcUXz)
 // - /pages/CardDetails.vue?macro=true ($id_vwNDM53siQ)
+// - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
 // - /pages/CardDetails.vue ($id_r81jrzGIPE)
+// - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
@@ -1947,6 +1978,8 @@ __vite_ssr_exports__.default = (sfc, props) => {
 // Request: /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs
 // Parents: 
 // - /@id/virtual:nuxt:D:/GitHub/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_mOOIegkyt0)
+// - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
+// - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - /node_modules/nuxt/dist/head/runtime/index.mjs ($id_tzUUgT5kx6)
@@ -5397,10 +5430,97 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // Parents: 
 // - /@id/virtual:nuxt:D:/GitHub/CSIT-Elites-Res/.nuxt/routes.mjs ($id_hAfAiHPTBs)
 // Dependencies: 
-
+// - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
+// - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
+// - /components/content/Card.vue ($id_Z5fWObNQpy)
+// - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_mIJrPY9n5Z = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-/* empty */;
+const $id_NAzBnZv6GE = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/content/Card.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("vue/server-renderer");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_ContentDoc = __vite_ssr_import_0__.default
+  const _component_NuxtLink = __vite_ssr_import_1__.default
+  const _component_Card = __vite_ssr_import_2__.default
+
+  _push(`<main${__vite_ssr_import_4__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_ContentDoc, { class: "prose prose-gray max-w-none" }, {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="min-h-screen"${
+          _scopeId
+        }><main${
+          _scopeId
+        }><section class="lg:px-[15%] px-[5%] pt-20"${
+          _scopeId
+        }><h1 class="lg:text-5xl text-4xl leading-normal font-semibold text-center"${
+          _scopeId
+        }>Check Out Our Latest Blog Posts </h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600"${
+          _scopeId
+        }> Learn, Share, Grow</h1></section></main>`)
+        _push(__vite_ssr_import_4__.ssrRenderComponent(_component_NuxtLink, null, {
+          default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Card, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_3__.createVNode(_component_Card)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`</div>`)
+      } else {
+        return [
+          __vite_ssr_import_3__.createVNode("div", { class: "min-h-screen" }, [
+            __vite_ssr_import_3__.createVNode("main", null, [
+              __vite_ssr_import_3__.createVNode("section", { class: "lg:px-[15%] px-[5%] pt-20" }, [
+                __vite_ssr_import_3__.createVNode("h1", { class: "lg:text-5xl text-4xl leading-normal font-semibold text-center" }, "Check Out Our Latest Blog Posts "),
+                __vite_ssr_import_3__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600" }, " Learn, Share, Grow")
+              ])
+            ]),
+            __vite_ssr_import_3__.createVNode(_component_NuxtLink, null, {
+              default: __vite_ssr_import_3__.withCtx(() => [
+                __vite_ssr_import_3__.createVNode(_component_Card)
+              ]),
+              _: 1 /* STABLE */
+            })
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</main>`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/[...slug].vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/GitHub/CSIT-Elites-Res/pages/[...slug].vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
 
 
@@ -5442,10 +5562,95 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // Parents: 
 // - /@id/virtual:nuxt:D:/GitHub/CSIT-Elites-Res/.nuxt/routes.mjs ($id_hAfAiHPTBs)
 // Dependencies: 
-
+// - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
+// - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
+// - /components/content/Card.vue ($id_Z5fWObNQpy)
+// - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_msFkfPT6qg = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-/* empty */;
+const $id_X6zAH7MXU6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/content/Card.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("vue/server-renderer");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_ContentDoc = __vite_ssr_import_0__.default
+  const _component_NuxtLink = __vite_ssr_import_1__.default
+  const _component_Card = __vite_ssr_import_2__.default
+
+  _push(`<main${__vite_ssr_import_4__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_ContentDoc, { class: "prose prose-gray max-w-none" }, {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="min-h-screen"${
+          _scopeId
+        }><main${
+          _scopeId
+        }><section class="lg:px-[15%] px-[5%] pt-20"${
+          _scopeId
+        }><h1 class="lg:text-5xl text-4xl leading-normal font-semibold text-center"${
+          _scopeId
+        }>Check Out Our Latest Blog Posts </h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600"${
+          _scopeId
+        }> Learn, Share, Grow</h1></section></main>`)
+        _push(__vite_ssr_import_4__.ssrRenderComponent(_component_NuxtLink, null, {
+          default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Card, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_3__.createVNode(_component_Card)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`</div>`)
+      } else {
+        return [
+          __vite_ssr_import_3__.createVNode("div", { class: "min-h-screen" }, [
+            __vite_ssr_import_3__.createVNode("main", null, [
+              __vite_ssr_import_3__.createVNode("section", { class: "lg:px-[15%] px-[5%] pt-20" }, [
+                __vite_ssr_import_3__.createVNode("h1", { class: "lg:text-5xl text-4xl leading-normal font-semibold text-center" }, "Check Out Our Latest Blog Posts "),
+                __vite_ssr_import_3__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600" }, " Learn, Share, Grow")
+              ])
+            ]),
+            __vite_ssr_import_3__.createVNode(_component_NuxtLink, null, {
+              default: __vite_ssr_import_3__.withCtx(() => [
+                __vite_ssr_import_3__.createVNode(_component_Card)
+              ]),
+              _: 1 /* STABLE */
+            })
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</main>`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/[...slug].vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/GitHub/CSIT-Elites-Res/pages/[...slug].vue"]]);
 }
 
 
@@ -6641,7 +6846,7 @@ const __modules__ = {
   "/@id/virtual:nuxt:D:/GitHub/CSIT-Elites-Res/.nuxt/plugins/server.mjs": $id_wkjwBbdGh7,
   "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_csa3UNhMiS,
   "/@id/virtual:nuxt:D:/GitHub/CSIT-Elites-Res/.nuxt/components.plugin.mjs": $id_bbeibLICAf,
-  "/components/content/Card.vue": $id_9TzaDPIyKs,
+  "/components/content/Card.vue": $id_88FV4gSs7T,
   "vue/server-renderer": $id_aRHphPzMpI,
   "/@id/__x00__plugin-vue:export-helper": $id_mHD6riC5ol,
   "/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs": $id_Ctt8YdbyMu,
@@ -6698,9 +6903,9 @@ const __modules__ = {
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_AxaBi36skE,
   "/@id/virtual:nuxt:D:/GitHub/CSIT-Elites-Res/.nuxt/routes.mjs": $id_eHXLUCPEed,
   "/pages/CardDetails.vue?macro=true": $id_FMFiSGRaU0,
-  "/pages/[...slug].vue?macro=true": $id_mIJrPY9n5Z,
+  "/pages/[...slug].vue?macro=true": $id_NAzBnZv6GE,
   "/pages/CardDetails.vue": $id_51te4RkV21,
-  "/pages/[...slug].vue": $id_msFkfPT6qg,
+  "/pages/[...slug].vue": $id_X6zAH7MXU6,
   "/@id/virtual:nuxt:D:/GitHub/CSIT-Elites-Res/.nuxt/router.options.mjs": $id_GfLcEZbPJy,
   "/@id/virtual:nuxt:D:/GitHub/CSIT-Elites-Res/.nuxt/middleware.mjs": $id_KhwcY1h2rO,
   "/@id/virtual:nuxt:D:/GitHub/CSIT-Elites-Res/.nuxt/unocss.mjs": $id_92faKezD89,
