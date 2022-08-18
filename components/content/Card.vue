@@ -8,8 +8,8 @@
                         alt="img" class=" h-44 rounded-lg w-fit  ">
                 </div>
                 <div class="text-xl font-bold flex justify-center text-gray-600 group">
-                    <!-- <slot name="title"/> -->
-                    {{card.title}}
+                    <slot name="title"/>
+                    
 
                 </div>
                 <div class="text-xl  tracking-tight text-gray-900">

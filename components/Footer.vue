@@ -1,6 +1,7 @@
 <template>
-    <footer class="p-4 bg-gray-100 rounded-lg shadow md:px-6 md:py-8 ">
+    <footer class="p-4 bg-gray-500 md:px-6 md:py-8 ">
         <div class="sm:flex sm:items-center sm:justify-between">
+            
             <a class="flex items-center mb-4 sm:mb-0">
                 <img src="~/assets/CoreTeamLogo.png" class="mr-3 h-8" alt="Flowbite Logo">
                 <span class="self-center text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600 ">CSIT Elite</span>
