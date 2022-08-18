@@ -1,12 +1,9 @@
 # Hello Index
-<<<<<<< HEAD
 <!-- ::Footer
 #title
 hh
 :: -->
 =======
-
->>>>>>> origin/Manar2
 
 ::Card
 
