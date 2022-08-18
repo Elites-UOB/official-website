@@ -1,5 +1,4 @@
 <template>
-
     <footer class="p-4 bg-gray-100 rounded-lg shadow md:px-6 md:py-8 ">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a class="flex items-center mb-4 sm:mb-0">
