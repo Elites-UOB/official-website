@@ -1,34 +1,34 @@
 
 // --------------------
-// Request: E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry
+// Request: C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry
 // Parents: 
 // - <entry> ($id_x1frnpf8FZ)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - ohmyfetch ($id_4T3an2dV6G)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/paths.mjs ($id_3MNTlnvDFu)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/paths.mjs ($id_ECLU0V8IJC)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/css.mjs ($id_JJCudtMoRJ)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs ($id_OZ2pwqiBhy)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/root-component.mjs ($id_kAIQmmjRPS)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/app-component.mjs ($id_hPTU8opC6c)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/css.mjs ($id_6krI7AxzTO)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/plugins/server.mjs ($id_6SULwzY16K)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/root-component.mjs ($id_0ABbzzsqvq)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/app-component.mjs ($id_kmmt0hSw2o)
 // --------------------
-const $id_G3opydVdXa = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_iu8c7ixsfj = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("ohmyfetch");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/paths.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/paths.mjs");
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/css.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/css.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/root-component.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/app-component.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/app-component.mjs");
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = __vite_ssr_import_1__.$fetch.create({
@@ -93,7 +93,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // --------------------
 // Request: vue
 // Parents: 
-// - E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry ($id_u0nv9qacE0)
+// - C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry ($id_KcSYkUOwMo)
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_4GnUEZ7ifE)
 // - /node_modules/nuxt/dist/app/composables/component.mjs ($id_UzRZUO1GKq)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_1baiIWALJh)
@@ -105,7 +105,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/composables/router.mjs ($id_202QqPjMtu)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // - /components/content/Card.vue ($id_Z5fWObNQpy)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.mjs ($id_jz0JU2b2Nx)
@@ -156,7 +156,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_vC10oUHchO)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_FMi1dBhUQk)
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_OQA4gz7rLc)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/layouts.mjs ($id_TdcHphvB1U)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/layouts.mjs ($id_ImNbJ0HsgI)
 // - /components/Header.vue ($id_TihPwxfEDt)
 // - /components/Footer.vue ($id_89jzJWR97X)
 // - /layouts/main.vue ($id_Iyy1A44MrL)
@@ -164,7 +164,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // Dependencies: 
 // - @vue/runtime-dom ($id_xcKel6nH2q)
 // --------------------
-const $id_ibiMkafFyU = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_G33erDMZ5a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("@vue/runtime-dom");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("@vue/runtime-dom");
@@ -218,7 +218,7 @@ import("@vue/runtime-dom")
 // --------------------
 // Request: ohmyfetch
 // Parents: 
-// - E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry ($id_u0nv9qacE0)
+// - C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry ($id_KcSYkUOwMo)
 // Dependencies: 
 
 // --------------------
@@ -237,13 +237,13 @@ import("ohmyfetch")
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/paths.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/paths.mjs
 // Parents: 
-// - E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry ($id_u0nv9qacE0)
+// - C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry ($id_KcSYkUOwMo)
 // Dependencies: 
 // - ufo ($id_Idgm3MW7hZ)
 // --------------------
-const $id_dsnDVh0O0O = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_QZxhdoiEkr = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("ufo");
 
 const appConfig = {"baseURL":"/","buildAssetsDir":"/_nuxt/","assetsPath":{},"cdnURL":"","head":{"meta":[],"link":[],"style":[],"script":[],"noscript":[],"charset":"utf-8","viewport":"width=device-width, initial-scale=1"}}
@@ -266,7 +266,7 @@ globalThis.__publicAssetsURL = publicAssetsURL;
 // --------------------
 // Request: ufo
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/paths.mjs ($id_3MNTlnvDFu)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/paths.mjs ($id_ECLU0V8IJC)
 // - /node_modules/nuxt/dist/app/composables/router.mjs ($id_202QqPjMtu)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /node_modules/@nuxt/content/dist/runtime/composables/query.mjs ($id_R1NXY1pTE4)
@@ -292,7 +292,7 @@ import("ufo")
 // --------------------
 // Request: /node_modules/nuxt/dist/app/index.mjs
 // Parents: 
-// - E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry ($id_u0nv9qacE0)
+// - C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry ($id_KcSYkUOwMo)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_1baiIWALJh)
 // - /node_modules/nuxt/dist/app/composables/hydrate.mjs ($id_AGPfGxS2fu)
 // - /node_modules/nuxt/dist/app/composables/state.mjs ($id_fYchCJb7XZ)
@@ -303,7 +303,7 @@ import("ufo")
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_mHG7oNEQOP)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
 // - /node_modules/@nuxt/content/dist/runtime/components/MarkdownRenderer.mjs ($id_THkzFqZCfT)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentQuery.mjs ($id_P4AaOKfhe8)
@@ -315,7 +315,7 @@ import("ufo")
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_X8FM3AG1sA)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/unocss.mjs ($id_o3gZ6oz5XR)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/unocss.mjs ($id_PfWW4GTdpQ)
 // - /node_modules/@nuxt/content/dist/runtime/plugin.mjs ($id_pBMtBh4E5b)
 // - /node_modules/@nuxt/content/dist/runtime/composables/web-socket.mjs ($id_V1hUoqIiza)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
@@ -326,7 +326,7 @@ import("ufo")
 // - /node_modules/nuxt/dist/app/components/index.mjs ($id_Fhvn5egKy1)
 // - /node_modules/nuxt/dist/head/runtime/index.mjs ($id_tzUUgT5kx6)
 // --------------------
-const $id_mw79VawU57 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_fgrt3UeQEL = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/nuxt.mjs");
 __vite_ssr_exportAll__(__vite_ssr_import_0__);
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/composables/index.mjs");
@@ -355,7 +355,7 @@ Object.defineProperty(__vite_ssr_exports__, "isVue3", { enumerable: true, config
 // - hookable ($id_Jqn8E4F5w7)
 // - unctx ($id_95GsJqysu7)
 // --------------------
-const $id_xiv8m1sRN8 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_lfCjBrgcte = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("hookable");
@@ -572,7 +572,7 @@ import("unctx")
 // - /node_modules/nuxt/dist/app/composables/ssr.mjs ($id_xIZrp1mIW8)
 // - /node_modules/nuxt/dist/app/composables/router.mjs ($id_202QqPjMtu)
 // --------------------
-const $id_BFT1bTcXQ5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_YvAaozTraC = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/composables/component.mjs");
 
 Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.defineNuxtComponent }});
@@ -630,7 +630,7 @@ Object.defineProperty(__vite_ssr_exports__, "useRouter", { enumerable: true, con
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_4GnUEZ7ifE)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_1baiIWALJh)
 // --------------------
-const $id_EtFWBzuO0v = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_XTtQ30wmO3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue-router");
@@ -718,7 +718,7 @@ import("vue-router")
 // - /node_modules/nuxt/dist/app/composables/utils.mjs ($id_31ETNgPfBU)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_g3GsXll0fP = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_BHNdDlA1Pk = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/composables/utils.mjs");
@@ -870,7 +870,7 @@ function pick(obj, keys) {
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // --------------------
-const $id_RNNH86pNr9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_6bgT8vIFHQ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const wrapInRef = (value) => __vite_ssr_import_0__.isRef(value) ? value : __vite_ssr_import_0__.ref(value);
@@ -886,7 +886,7 @@ Object.defineProperty(__vite_ssr_exports__, "wrapInRef", { enumerable: true, con
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_NfFvn4ve2K = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_oMJXouc9nw = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 const useHydration = (key, get, set) => {
@@ -915,7 +915,7 @@ Object.defineProperty(__vite_ssr_exports__, "useHydration", { enumerable: true, 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_HfhV701xRw = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_kP3GBeDzaR = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
@@ -959,7 +959,7 @@ Object.defineProperty(__vite_ssr_exports__, "useState", { enumerable: true, conf
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_BaeUOd7hVx = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_0OCs51rfoK = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("h3");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
@@ -1037,7 +1037,7 @@ import("h3")
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_1baiIWALJh)
 // --------------------
-const $id_TxCgfxAG62 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_zYOrYjkwm9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/composables/asyncData.mjs");
@@ -1121,7 +1121,7 @@ Object.defineProperty(__vite_ssr_exports__, "useLazyFetch", { enumerable: true, 
 // - /node_modules/nuxt/dist/app/composables/utils.mjs ($id_31ETNgPfBU)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_7dlSsrcDeA = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_XUZhFBVStH = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("cookie-es");
@@ -1267,7 +1267,7 @@ import("ohash")
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_uq5bMPKLgs = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_BjnOCDcfIZ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 function useRequestHeaders(include) {
@@ -1309,7 +1309,7 @@ Object.defineProperty(__vite_ssr_exports__, "setResponseStatus", { enumerable: t
 // - ufo ($id_Idgm3MW7hZ)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_TLTHNV0FI0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_72OrpZA28S = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("h3");
@@ -1393,7 +1393,7 @@ Object.defineProperty(__vite_ssr_exports__, "abortNavigation", { enumerable: tru
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // --------------------
-const $id_evUypsRarf = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_HRAmKRepZ0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
 Object.defineProperty(__vite_ssr_exports__, "defineNuxtLink", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.defineNuxtLink }});
@@ -1417,7 +1417,7 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtLink", { enumerable: true
 // - ufo ($id_Idgm3MW7hZ)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_n2fCHxPABb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_aAoWaPsGgE = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("ufo");
@@ -1566,7 +1566,7 @@ __vite_ssr_exports__.default = defineNuxtLink({ componentName: "NuxtLink" });
 // Dependencies: 
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
 // --------------------
-const $id_FcNh1mbALw = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_DBzckdbLOm = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/composables.mjs");
 __vite_ssr_exportAll__(__vite_ssr_import_0__);
 ;
@@ -1584,7 +1584,7 @@ __vite_ssr_exportAll__(__vite_ssr_import_0__);
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_jAXljx8iS9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_TG3cDPMBp5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("@vue/shared");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
@@ -1626,34 +1626,34 @@ import("@vue/shared")
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/css.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/css.mjs
 // Parents: 
-// - E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry ($id_u0nv9qacE0)
+// - C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry ($id_KcSYkUOwMo)
 // Dependencies: 
 
 // --------------------
-const $id_x7EWryA7EQ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_13HUCS7aoX = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 /* empty */;
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/plugins/server.mjs
 // Parents: 
-// - E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry ($id_u0nv9qacE0)
+// - C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry ($id_KcSYkUOwMo)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_mHG7oNEQOP)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_5vEgA2Fgrh)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/unocss.mjs ($id_o3gZ6oz5XR)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/unocss.mjs ($id_PfWW4GTdpQ)
 // - /node_modules/@nuxt/content/dist/runtime/plugin.mjs ($id_pBMtBh4E5b)
 // --------------------
-const $id_KSq2VEJlOO = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_feH524qNhT = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/preload.server.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs");
 
@@ -1661,7 +1661,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/router.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/unocss.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/unocss.mjs");
 
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/plugin.mjs");
 
@@ -1680,11 +1680,11 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /node_modules/nuxt/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs ($id_OZ2pwqiBhy)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/plugins/server.mjs ($id_6SULwzY16K)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_csa3UNhMiS = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_1SAEi7QN5N = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) => {
@@ -1701,9 +1701,9 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs ($id_OZ2pwqiBhy)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/plugins/server.mjs ($id_6SULwzY16K)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
@@ -1740,7 +1740,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue ($id_FvWFAZGqVo)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue ($id_dyjIbQcUXz)
 // --------------------
-const $id_Shwn5ZlIgH = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_7M9T3cCK34 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
@@ -1794,7 +1794,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_1__.defineNuxtPlugin(nuxtApp =>
 // --------------------
 // Request: /components/content/Card.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
 // - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // Dependencies: 
@@ -1802,7 +1802,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_1__.defineNuxtPlugin(nuxtApp =>
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_CtmZWPy9Ia = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_lIu5uKFExK = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
@@ -1832,7 +1832,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/content/Card.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/components/content/Card.vue"]]);
 }
 
 
@@ -1952,7 +1952,7 @@ __vite_ssr_exports__.default = (sfc, props) => {
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
 // - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // Dependencies: 
@@ -1962,7 +1962,7 @@ __vite_ssr_exports__.default = (sfc, props) => {
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.mjs ($id_jz0JU2b2Nx)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentQuery.mjs ($id_P4AaOKfhe8)
 // --------------------
-const $id_Ctt8YdbyMu = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_nT6Inxvpqi = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
@@ -2047,12 +2047,12 @@ __vite_ssr_exports__.default = __vite_ssr_import_2__.defineComponent({
 // Request: /node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.mjs
 // Parents: 
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/@nuxt/content/dist/runtime/components/MarkdownRenderer.mjs ($id_THkzFqZCfT)
 // --------------------
-const $id_Pe764Nq2FZ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ANaNAYS9zv = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/MarkdownRenderer.mjs");
@@ -2112,7 +2112,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 // Request: /node_modules/@nuxt/content/dist/runtime/components/MarkdownRenderer.mjs
 // Parents: 
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.mjs ($id_jz0JU2b2Nx)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - destr ($id_12yP1cX3Wj)
@@ -2121,7 +2121,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 // - html-tags ($id_q7hevDM98C)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_mjkBStRiJu = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_PwPmFmFEXu = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("destr");
@@ -2390,14 +2390,14 @@ import("html-tags")
 // Parents: 
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs ($id_n6tau7C6iC)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - /node_modules/@nuxt/content/dist/runtime/composables/query.mjs ($id_R1NXY1pTE4)
 // - ohash ($id_yEY2As6gE7)
 // --------------------
-const $id_KrOCLJR5uA = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_YSQZ3uopzW = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
@@ -2578,7 +2578,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_4__.defineComponent({
 // - /node_modules/@nuxt/content/dist/runtime/utils/json.mjs ($id_RUVFJvD9mG)
 // - /node_modules/@nuxt/content/dist/runtime/composables/utils.mjs ($id_PbPgQeEqzK)
 // --------------------
-const $id_GP4uaaTRib = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_UwQeZxtacZ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("ufo");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("ohash");
@@ -2630,7 +2630,7 @@ Object.defineProperty(__vite_ssr_exports__, "queryContent", { enumerable: true, 
 // Dependencies: 
 // - /node_modules/@nuxt/content/dist/runtime/query/match/utils.mjs ($id_6UOs4IOTIJ)
 // --------------------
-const $id_5gYNZ7cPjl = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_QlwK2Pd5oQ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/query/match/utils.mjs");
 
 const arrayParams = ["sort", "where", "only", "without"];
@@ -2676,7 +2676,7 @@ Object.defineProperty(__vite_ssr_exports__, "createQuery", { enumerable: true, c
 // Dependencies: 
 
 // --------------------
-const $id_sibfGr6McC = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ssGfaWHnpH = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const get = (obj, path) => path.split(".").reduce((acc, part) => acc && acc[part], obj);
 Object.defineProperty(__vite_ssr_exports__, "get", { enumerable: true, configurable: true, get(){ return get }});
 const _pick = (obj, condition) => Object.keys(obj).filter(condition).reduce((newObj, key) => Object.assign(newObj, { [key]: obj[key] }), {});
@@ -2762,7 +2762,7 @@ Object.defineProperty(__vite_ssr_exports__, "ensureArray", { enumerable: true, c
 // Dependencies: 
 
 // --------------------
-const $id_R4xadHak4I = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_MMdR8JHWfE = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 function jsonStringify(value) {
   return JSON.stringify(value, regExpReplacer);
 }
@@ -2800,7 +2800,7 @@ function regExpReviver(_key, value) {
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - /node_modules/@nuxt/content/dist/runtime/markdown-parser/utils/node.mjs ($id_6surxezBfr)
 // --------------------
-const $id_Nu5GSnxNu0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_UTAnqhJATM = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("ufo");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
@@ -2825,7 +2825,7 @@ Object.defineProperty(__vite_ssr_exports__, "useUnwrap", { enumerable: true, con
 // Dependencies: 
 
 // --------------------
-const $id_XMuAqscMpN = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_sk32bdNNel = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const TEXT_TAGS = ["p", "h1", "h2", "h3", "h4", "h5", "h6", "li"];
 Object.defineProperty(__vite_ssr_exports__, "TEXT_TAGS", { enumerable: true, configurable: true, get(){ return TEXT_TAGS }});
 function isTag(vnode, tag) {
@@ -2901,12 +2901,12 @@ Object.defineProperty(__vite_ssr_exports__, "flatUnwrap", { enumerable: true, co
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentQuery.mjs ($id_P4AaOKfhe8)
 // --------------------
-const $id_FeCzQBbYBm = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_YPe0RrmvT7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.mjs");
@@ -2943,14 +2943,14 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.mjs
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - /node_modules/@nuxt/content/dist/runtime/composables/navigation.mjs ($id_4gnQAK1OIE)
 // - vue ($id_VkOCJnUZrn)
 // - ohash ($id_yEY2As6gE7)
 // --------------------
-const $id_EGa3bgLIks = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_icH2n3HfdA = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/composables/navigation.mjs");
@@ -3005,7 +3005,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_2__.defineComponent({
 // - /node_modules/@nuxt/content/dist/runtime/utils/json.mjs ($id_RUVFJvD9mG)
 // - /node_modules/@nuxt/content/dist/runtime/composables/utils.mjs ($id_PbPgQeEqzK)
 // --------------------
-const $id_3BNJKJSf61 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_pBxlKSmEUV = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("ohash");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
@@ -3041,12 +3041,12 @@ Object.defineProperty(__vite_ssr_exports__, "fetchContentNavigation", { enumerab
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Markdown.mjs
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/@nuxt/content/dist/runtime/composables/utils.mjs ($id_PbPgQeEqzK)
 // --------------------
-const $id_BqnYyTcUan = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_4xzeNQ7V9x = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/composables/utils.mjs");
@@ -3117,14 +3117,14 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseA.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_cpptnENWvi = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_bJGgp70oyJ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
@@ -3177,7 +3177,7 @@ _sfc_main.setup = (props, ctx) => {
 };
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseA.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseA.vue"]]);
 ;
 }
 
@@ -3185,13 +3185,13 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sf
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseBlockquote.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_N4m5hKkqbx = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_hzZGfuchXD = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3213,21 +3213,21 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseBlockquote.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseBlockquote.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue?vue&type=style&index=0&lang.css ($id_1fRCHExbkC)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_NfdLzsw9KR = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_3DkaTD1QZ7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 
@@ -3272,7 +3272,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue"]]);
 }
 
 
@@ -3283,21 +3283,21 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // Dependencies: 
 
 // --------------------
-const $id_HYjCvznOU9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "\npre code .line {\r\n  display: block;\r\n  min-height: 1rem;\n}\r\n";
+const $id_egeRZdg2Jz = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "\npre code .line {\n  display: block;\n  min-height: 1rem;\n}\n";
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_vTB4wotyfE = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_pv1sj5FHB3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3319,20 +3319,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseEm.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_UPm4Hc4HhY = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_Z1o1fP6sOA = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3354,20 +3354,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseEm.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseEm.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH1.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_Un8PfYn1HJ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_pXmJvYwfdA = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3389,21 +3389,21 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH1.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH1.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_v2EhhNpSKx = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_MJ1RaHeA6t = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
@@ -3453,7 +3453,7 @@ _sfc_main.setup = (props, ctx) => {
 };
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue"]]);
 ;
 }
 
@@ -3461,14 +3461,14 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sf
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_g2jQ3zb6Jv = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ot4mdUIoig = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
@@ -3518,7 +3518,7 @@ _sfc_main.setup = (props, ctx) => {
 };
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue"]]);
 ;
 }
 
@@ -3526,14 +3526,14 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sf
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_MG3glJhBCN = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_XYZhCTqXu1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
@@ -3583,7 +3583,7 @@ _sfc_main.setup = (props, ctx) => {
 };
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue"]]);
 ;
 }
 
@@ -3591,13 +3591,13 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sf
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH5.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_pOXp2VA6dF = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_T58wg1w5Q5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3619,20 +3619,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH5.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH5.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH6.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_IJ29hcntt6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_9EKUBJl8dt = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3654,20 +3654,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH6.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH6.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseHr.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_A9GrG4f6IE = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_wP848x6tty = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3687,20 +3687,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseHr.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseHr.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseImg.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_0t79OHt981 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_viw2MgNChh = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const _sfc_main = /* @__PURE__ */ __vite_ssr_import_0__.defineComponent({
@@ -3752,7 +3752,7 @@ _sfc_main.setup = (props, ctx) => {
 };
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_4__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseImg.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_4__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseImg.vue"]]);
 ;
 }
 
@@ -3760,13 +3760,13 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_4__.default(_sf
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseLi.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_IkZICvIU5y = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_TaTP0rM5SU = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3788,20 +3788,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseLi.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseLi.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseOl.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_cE8rcF05Ks = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_eD2I0ZLHRn = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3823,20 +3823,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseOl.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseOl.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseP.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_EfM1LP5hOn = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_HlH1eehhRS = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3858,20 +3858,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseP.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseP.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseStrong.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_RqlRHJIYzQ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ONhymfjMug = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3893,20 +3893,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseStrong.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseStrong.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTable.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_0TJsQp9CQj = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_e8YKM3hjzJ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3928,20 +3928,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTable.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTable.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTbody.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_ncADvdCo41 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_G5z6u1Xef9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3963,20 +3963,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTbody.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTbody.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTd.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_2ZZUzql2Pz = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_E6nmfp7gDi = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -3998,20 +3998,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTd.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTd.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTh.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_iTc4rtRNMA = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_cUXRrarorZ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -4033,20 +4033,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTh.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTh.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_hKt2ywVd7v = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_CwxC0PLoyL = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -4068,20 +4068,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_lJXAt8hGP3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_uKba9IdvtR = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -4103,20 +4103,20 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs ($id_TPhTJ9Tswq)
 // Dependencies: 
 // - vue/server-renderer ($id_UyJffsox60)
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_6Z4iL9nGcG = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_1mdcmlrJWy = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
 
@@ -4138,21 +4138,21 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs ($id_OZ2pwqiBhy)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/plugins/server.mjs ($id_6SULwzY16K)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_wDImTp8t2G)
 // - vue ($id_VkOCJnUZrn)
 // - defu ($id_q1WUEsFSUQ)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_Ygmq6jwkas = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_wRsEVKfW1P = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@vueuse/head/dist/index.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
@@ -4222,7 +4222,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) 
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // --------------------
-const $id_mpIvyMhvwE = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_19kbcSkZ7c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -4722,15 +4722,15 @@ import("defu")
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs ($id_OZ2pwqiBhy)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/plugins/server.mjs ($id_6SULwzY16K)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/head/runtime/components.mjs ($id_sqKdb79FW5)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/meta.config.mjs ($id_ZEgoLL2QiM)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/meta.config.mjs ($id_GGqw7xELYa)
 // --------------------
-const $id_lLYkQTDz88 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_H2XT9QW1LW = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/components.mjs");
@@ -4739,7 +4739,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/meta.config.mjs");
 
 const metaMixin = {
   created() {
@@ -4775,7 +4775,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
 // --------------------
-const $id_VtRtdRHZdJ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_PE2LM6mDyc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/composables.mjs");
@@ -5008,13 +5008,13 @@ Object.defineProperty(__vite_ssr_exports__, "Body", { enumerable: true, configur
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/meta.config.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
 // Dependencies: 
 
 // --------------------
-const $id_zZFXieRs72 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_oMd9KJkENA = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"meta":[],"link":[],"style":[],"script":[],"noscript":[],"charset":"utf-8","viewport":"width=device-width, initial-scale=1"}};
 }
 
@@ -5022,7 +5022,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[],"link":[],"style":[],"sc
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs ($id_OZ2pwqiBhy)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/plugins/server.mjs ($id_6SULwzY16K)
 // Dependencies: 
 // - unctx ($id_95GsJqysu7)
 // - vue ($id_VkOCJnUZrn)
@@ -5031,11 +5031,11 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[],"link":[],"style":[],"sc
 // - ufo ($id_Idgm3MW7hZ)
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_X8FM3AG1sA)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs ($id_JgciUr7v6W)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/router.options.mjs ($id_E96ea5vz0v)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/middleware.mjs ($id_TdBtRFQkXZ)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs ($id_bFAuAlcWkM)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/router.options.mjs ($id_6K60MGLnjS)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/middleware.mjs ($id_eTfvyfI318)
 // --------------------
-const $id_XxcDAytSog = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_pvA4ZTFMpa = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("unctx");
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
 
@@ -5049,11 +5049,11 @@ const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/router.options.mjs");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/router.options.mjs");
 
-const __vite_ssr_import_9__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/middleware.mjs");
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/middleware.mjs");
 
 function createCurrentLocation(base, location) {
   const { pathname, search, hash } = location;
@@ -5204,7 +5204,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_6__.defineNuxtPlugin(async (nux
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_acUmhqj8VN)
 // --------------------
-const $id_fFq7qeRP5k = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_L9I1eoE7dW = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue-router");
@@ -5283,7 +5283,7 @@ const Component = __vite_ssr_import_0__.defineComponent({
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // --------------------
-const $id_556mQZwqc2 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ZR0LUqwyer = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const interpolatePath = (route, match) => {
@@ -5311,7 +5311,7 @@ Object.defineProperty(__vite_ssr_exports__, "wrapInKeepAlive", { enumerable: tru
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // --------------------
-const $id_AxaBi36skE = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_NgApSiB2xA = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const Fragment = {
@@ -5328,7 +5328,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
 // Dependencies: 
@@ -5337,7 +5337,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/CardDetails.vue ($id_r81jrzGIPE)
 // - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // --------------------
-const $id_93e9EPyxQo = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_gvZ4MLRexo = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/CardDetails.vue?macro=true");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/[...slug].vue?macro=true");
@@ -5346,7 +5346,7 @@ __vite_ssr_exports__.default = [
   {
     name: "CardDetails",
     path: "/CardDetails",
-    file: "E:/github/CSIT-Elites-Dev-Res2/pages/CardDetails.vue",
+    file: "C:/Users/so/Desktop/CSIT-Elites-Res/pages/CardDetails.vue",
     children: [],
     meta: __vite_ssr_import_0__.meta,
     alias: __vite_ssr_import_0__.meta?.alias || [],
@@ -5355,7 +5355,7 @@ __vite_ssr_exports__.default = [
   {
     name: "slug",
     path: "/:slug(.*)*",
-    file: "E:/github/CSIT-Elites-Dev-Res2/pages/[...slug].vue",
+    file: "C:/Users/so/Desktop/CSIT-Elites-Res/pages/[...slug].vue",
     children: [],
     meta: __vite_ssr_import_1__.meta,
     alias: __vite_ssr_import_1__.meta?.alias || [],
@@ -5368,12 +5368,12 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /pages/CardDetails.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs ($id_JgciUr7v6W)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs ($id_bFAuAlcWkM)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_oyXGJgNGBN = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ULQdqVwqJr = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 
 
@@ -5388,7 +5388,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"E:/github/CSIT-Elites-Dev-Res2/pages/CardDetails.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/CardDetails.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -5397,7 +5397,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/[...slug].vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs ($id_JgciUr7v6W)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs ($id_bFAuAlcWkM)
 // Dependencies: 
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
 // - /components/content/Card.vue ($id_Z5fWObNQpy)
@@ -5405,7 +5405,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_bCLytV8WKK = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_IOy00cihSq = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/content/Card.vue");
@@ -5476,7 +5476,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/pages/[...slug].vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/[...slug].vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -5485,12 +5485,12 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/CardDetails.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs ($id_JgciUr7v6W)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs ($id_bFAuAlcWkM)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_mrsdbsTprI = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_8HbFVRhz2E = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const _sfc_main = {}
 
 
@@ -5505,14 +5505,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"E:/github/CSIT-Elites-Dev-Res2/pages/CardDetails.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/CardDetails.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/[...slug].vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs ($id_JgciUr7v6W)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs ($id_bFAuAlcWkM)
 // Dependencies: 
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
 // - /components/content/Card.vue ($id_Z5fWObNQpy)
@@ -5520,7 +5520,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_m
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_fl8M4RMRfo = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_IQ7tTOGRyt = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/content/Card.vue");
@@ -5591,18 +5591,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/pages/[...slug].vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/pages/[...slug].vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/router.options.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/router.options.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
 // Dependencies: 
 
 // --------------------
-const $id_tFSgz8RiXS = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_lyitYY2eB2 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const configRouterOptions = {}
 __vite_ssr_exports__.default = {
 ...configRouterOptions,
@@ -5611,13 +5611,13 @@ __vite_ssr_exports__.default = {
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/middleware.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/middleware.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
 // Dependencies: 
 
 // --------------------
-const $id_1ShPjGyenB = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_GW1EmtiGCo = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const globalMiddleware = []
 Object.defineProperty(__vite_ssr_exports__, "globalMiddleware", { enumerable: true, configurable: true, get(){ return globalMiddleware }});
 const namedMiddleware = {}
@@ -5626,14 +5626,14 @@ Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: tru
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/unocss.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/unocss.mjs
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs ($id_OZ2pwqiBhy)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/plugins/server.mjs ($id_6SULwzY16K)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - /__uno.css ($id_cXTy3s1wTW)
 // --------------------
-const $id_gWN5GWayl9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_0Pv5gMfGZP = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/__uno.css");
@@ -5645,24 +5645,24 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin(() => {});
 // --------------------
 // Request: /__uno.css
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/unocss.mjs ($id_o3gZ6oz5XR)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/unocss.mjs ($id_PfWW4GTdpQ)
 // Dependencies: 
 
 // --------------------
-const $id_HMiROhhJXa = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*eeb668*//* layer: preflights */*,::before,::after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::-webkit-backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}/* layer: shortcuts */.container{max-width:100%;}@media (min-width: 640px){\n.container{max-width:640px;}\n}@media (min-width: 768px){\n.container{max-width:768px;}\n}@media (min-width: 1024px){\n.container{max-width:1024px;}\n}@media (min-width: 1280px){\n.container{max-width:1280px;}\n}@media (min-width: 1536px){\n.container{max-width:1536px;}\n}/* layer: default */.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0;}.pointer-events-none{pointer-events:none;}.absolute{position:absolute;}.fixed{position:fixed;}.relative{position:relative;}.inset-y-0{top:0rem;bottom:0rem;}.-bottom-1\\/2{bottom:-50%;}.left-0{left:0rem;}.right-0{right:0rem;}.z-10{z-index:10;}.z-20{z-index:20;}.grid{display:grid;}.mx-auto{margin-left:auto;margin-right:auto;}.my-6{margin-top:1.5rem;margin-bottom:1.5rem;}.mb-16{margin-bottom:4rem;}.mb-4{margin-bottom:1rem;}.mb-6{margin-bottom:1.5rem;}.mb-8{margin-bottom:2rem;}.mr-1{margin-right:0.25rem;}.mr-3{margin-right:0.75rem;}.mr-4{margin-right:1rem;}.mt-3{margin-top:0.75rem;}.mt-4{margin-top:1rem;}.block{display:block;}.hidden{display:none;}.h-1\\/2{height:50%;}.h-44{height:11rem;}.h-5{height:1.25rem;}.h-6{height:1.5rem;}.h-8{height:2rem;}.h-auto{height:auto;}.max-w-520px{max-width:520px;}.max-w-none{max-width:none;}.min-h-screen{min-height:100vh;}.w-5{width:1.25rem;}.w-6{width:1.5rem;}.w-77{width:19.25rem;}.w-88{width:22rem;}.w-full{width:100%;}.flex{display:flex;}.inline-flex{display:inline-flex;}.flex-1{flex:1 1 0%;}.flex-col{flex-direction:column;}.flex-wrap{flex-wrap:wrap;}.cursor-pointer{cursor:pointer;}.place-content-center{place-content:center;}.items-center{align-items:center;}.self-center{align-self:center;}.justify-center{justify-content:center;}.justify-between{justify-content:space-between;}.overflow-hidden{overflow:hidden;}.overflow-y-auto{overflow-y:auto;}.whitespace-nowrap{white-space:nowrap;}.border{border-width:1px;border-style:solid;}.border-gray-100{--un-border-opacity:1;border-color:rgba(243,244,246,var(--un-border-opacity));}.border-gray-200{--un-border-opacity:1;border-color:rgba(229,231,235,var(--un-border-opacity));}.border-gray-300{--un-border-opacity:1;border-color:rgba(209,213,219,var(--un-border-opacity));}.dark .dark\\:border-gray-700{--un-border-opacity:1;border-color:rgba(55,65,81,var(--un-border-opacity));}.focus\\:border-blue-500:focus{--un-border-opacity:1;border-color:rgba(59,130,246,var(--un-border-opacity));}.border-t-\\[12px\\]{border-top-color:12px;}.rounded{border-radius:0.25rem;}.rounded-lg{border-radius:0.5rem;}.rounded-t-md{border-top-left-radius:0.375rem;border-top-right-radius:0.375rem;}.bg-black\\/5{background-color:rgba(0,0,0,0.05);}.bg-blue-700{--un-bg-opacity:1;background-color:rgba(29,78,216,var(--un-bg-opacity));}.bg-gray-100,\n.hover\\:bg-gray-100:hover{--un-bg-opacity:1;background-color:rgba(243,244,246,var(--un-bg-opacity));}.bg-gray-50{--un-bg-opacity:1;background-color:rgba(249,250,251,var(--un-bg-opacity));}.bg-slate-300{--un-bg-opacity:1;background-color:rgba(203,213,225,var(--un-bg-opacity));}.bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}.dark .dark\\:bg-black{--un-bg-opacity:1;background-color:rgba(0,0,0,var(--un-bg-opacity));}.dark .dark\\:bg-gray-700,\n.dark .dark\\:hover\\:bg-gray-700:hover{--un-bg-opacity:1;background-color:rgba(55,65,81,var(--un-bg-opacity));}.dark .dark\\:bg-gray-800{--un-bg-opacity:1;background-color:rgba(31,41,55,var(--un-bg-opacity));}.dark .dark\\:bg-white\\/10{background-color:rgba(255,255,255,0.1);}.from-purple-600{--un-gradient-from:rgba(147,51,234,var(--un-from-opacity, 1));--un-gradient-to:rgba(147,51,234,0);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}.from-violet-700{--un-gradient-from:rgba(109,40,217,var(--un-from-opacity, 1));--un-gradient-to:rgba(109,40,217,0);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}.to-pink-600{--un-gradient-to:rgba(219,39,119,var(--un-to-opacity, 1));}.bg-gradient-to-r{--un-gradient-shape:to right;--un-gradient:var(--un-gradient-shape), var(--un-gradient-stops);background-image:linear-gradient(var(--un-gradient));}.bg-clip-text{-webkit-background-clip:text;background-clip:text;}.p-2{padding:0.5rem;}.p-2\\.5{padding:0.625rem;}.p-4{padding:1rem;}.p-5{padding:1.25rem;}.p-8{padding:2rem;}.px-\\[5\\%\\]{padding-left:5%;padding-right:5%;}.px-10{padding-left:2.5rem;padding-right:2.5rem;}.px-2{padding-left:0.5rem;padding-right:0.5rem;}.px-4{padding-left:1rem;padding-right:1rem;}.px-8{padding-left:2rem;padding-right:2rem;}.py-2{padding-top:0.5rem;padding-bottom:0.5rem;}.py-2\\.5{padding-top:0.625rem;padding-bottom:0.625rem;}.pl-10{padding-left:2.5rem;}.pl-3{padding-left:0.75rem;}.pr-4{padding-right:1rem;}.pt-14{padding-top:3.5rem;}.pt-20{padding-top:5rem;}.text-center{text-align:center;}.font-sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";}.text-2xl{font-size:1.5rem;line-height:2rem;}.text-4xl{font-size:2.25rem;line-height:2.5rem;}.text-6xl{font-size:3.75rem;line-height:1;}.text-8xl{font-size:6rem;line-height:1;}.text-sm{font-size:0.875rem;line-height:1.25rem;}.text-xl{font-size:1.25rem;line-height:1.75rem;}.font-bold{font-weight:700;}.font-light{font-weight:300;}.font-medium{font-weight:500;}.font-semibold{font-weight:600;}.leading-normal{line-height:1.5;}.leading-tight{line-height:1.25;}.tracking-tight{letter-spacing:-0.025em;}.dark .dark\\:text-gray-400{--un-text-opacity:1;color:rgba(156,163,175,var(--un-text-opacity));}.dark .dark\\:text-white,\n.text-white{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity));}.text-black{--un-text-opacity:1;color:rgba(0,0,0,var(--un-text-opacity));}.text-gray-500{--un-text-opacity:1;color:rgba(107,114,128,var(--un-text-opacity));}.text-gray-600{--un-text-opacity:1;color:rgba(75,85,99,var(--un-text-opacity));}.text-gray-700{--un-text-opacity:1;color:rgba(55,65,81,var(--un-text-opacity));}.text-gray-900{--un-text-opacity:1;color:rgba(17,24,39,var(--un-text-opacity));}.text-transparent{color:transparent;}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline;}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:grayscale;}.hover\\:shadow-xl:hover{--un-shadow:var(--un-shadow-inset) 0 20px 25px -5px var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 8px 10px -6px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.shadow{--un-shadow:var(--un-shadow-inset) 0 1px 3px 0 var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 1px 2px -1px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px;}.focus\\:ring-2:focus{--un-ring-width:2px;--un-ring-offset-shadow:var(--un-ring-inset) 0 0 0 var(--un-ring-offset-width) var(--un-ring-offset-color);--un-ring-shadow:var(--un-ring-inset) 0 0 0 calc(var(--un-ring-width) + var(--un-ring-offset-width)) var(--un-ring-color);box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.focus\\:ring-4:focus{--un-ring-width:4px;--un-ring-offset-shadow:var(--un-ring-inset) 0 0 0 var(--un-ring-offset-width) var(--un-ring-offset-color);--un-ring-shadow:var(--un-ring-inset) 0 0 0 calc(var(--un-ring-width) + var(--un-ring-offset-width)) var(--un-ring-color);box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.dark .dark\\:focus\\:ring-gray-600:focus{--un-ring-opacity:1;--un-ring-color:rgba(75,85,99,var(--un-ring-opacity));}.focus\\:ring-blue-500:focus{--un-ring-opacity:1;--un-ring-color:rgba(59,130,246,var(--un-ring-opacity));}.focus\\:ring-gray-200:focus{--un-ring-opacity:1;--un-ring-color:rgba(229,231,235,var(--un-ring-opacity));}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}.duration-200{transition-duration:200ms;}.delay-100{transition-delay:100ms;}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);}@media (min-width: 640px){\n.sm\\:mx-auto{margin-left:auto;margin-right:auto;}\n.sm\\:mb-0{margin-bottom:0rem;}\n.sm\\:h-9{height:2.25rem;}\n.sm\\:flex{display:flex;}\n.sm\\:items-center{align-items:center;}\n.sm\\:justify-between{justify-content:space-between;}\n.sm\\:px-0{padding-left:0rem;padding-right:0rem;}\n.sm\\:px-4{padding-left:1rem;padding-right:1rem;}\n.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n.sm\\:py-3{padding-top:0.75rem;padding-bottom:0.75rem;}\n.sm\\:text-center{text-align:center;}\n.sm\\:text-2xl{font-size:1.5rem;line-height:2rem;}\n.sm\\:text-4xl{font-size:2.25rem;line-height:2.5rem;}\n.sm\\:text-8xl{font-size:6rem;line-height:1;}\n.sm\\:text-sm{font-size:0.875rem;line-height:1.25rem;}\n.sm\\:text-xl{font-size:1.25rem;line-height:1.75rem;}\n}@media (min-width: 768px){\n.md\\:order-1{order:1;}\n.md\\:order-2{order:2;}\n.md\\:mr-6{margin-right:1.5rem;}\n.md\\:mt-0{margin-top:0rem;}\n.md\\:block{display:block;}\n.md\\:hidden{display:none;}\n.md\\:w-auto{width:auto;}\n.md\\:flex{display:flex;}\n.md\\:flex-row{flex-direction:row;}\n.md\\:space-x-8>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(2rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(2rem * var(--un-space-x-reverse));}\n.md\\:border-0{border-width:0px;border-style:solid;}\n.dark .md\\:dark\\:bg-gray-900{--un-bg-opacity:1;background-color:rgba(17,24,39,var(--un-bg-opacity));}\n.md\\:bg-transparent{background-color:transparent;}\n.md\\:bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}\n.md\\:p-0{padding:0rem;}\n.md\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n.md\\:py-8{padding-top:2rem;padding-bottom:2rem;}\n.md\\:text-sm{font-size:0.875rem;line-height:1.25rem;}\n.md\\:font-medium{font-weight:500;}\n.md\\:text-blue-700{--un-text-opacity:1;color:rgba(29,78,216,var(--un-text-opacity));}\n}@media (min-width: 1024px){\n.lg\\:px-\\[15\\%\\]{padding-left:15%;padding-right:15%;}\n.lg\\:text-5xl{font-size:3rem;line-height:1;}\n.lg\\:text-6xl{font-size:3.75rem;line-height:1;}\n}";
+const $id_gCEO5FXeaG = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/*fd8c81*//* layer: preflights */*,::before,::after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::-webkit-backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}/* layer: shortcuts */.container{max-width:100%;}@media (min-width: 640px){\n.container{max-width:640px;}\n}@media (min-width: 768px){\n.container{max-width:768px;}\n}@media (min-width: 1024px){\n.container{max-width:1024px;}\n}@media (min-width: 1280px){\n.container{max-width:1280px;}\n}@media (min-width: 1536px){\n.container{max-width:1536px;}\n}/* layer: default */.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0;}.pointer-events-none{pointer-events:none;}.absolute{position:absolute;}.fixed{position:fixed;}.relative{position:relative;}.inset-y-0{top:0rem;bottom:0rem;}.-bottom-1\\/2{bottom:-50%;}.left-0{left:0rem;}.right-0{right:0rem;}.z-10{z-index:10;}.z-20{z-index:20;}.grid{display:grid;}.mx-auto{margin-left:auto;margin-right:auto;}.my-6{margin-top:1.5rem;margin-bottom:1.5rem;}.mb-16{margin-bottom:4rem;}.mb-4{margin-bottom:1rem;}.mb-6{margin-bottom:1.5rem;}.mb-8{margin-bottom:2rem;}.mr-1{margin-right:0.25rem;}.mr-3{margin-right:0.75rem;}.mr-4{margin-right:1rem;}.mt-3{margin-top:0.75rem;}.mt-4{margin-top:1rem;}.block{display:block;}.hidden{display:none;}.h-1\\/2{height:50%;}.h-44{height:11rem;}.h-5{height:1.25rem;}.h-6{height:1.5rem;}.h-8{height:2rem;}.h-auto{height:auto;}.max-w-520px{max-width:520px;}.max-w-none{max-width:none;}.min-h-screen{min-height:100vh;}.w-5{width:1.25rem;}.w-6{width:1.5rem;}.w-77{width:19.25rem;}.w-88{width:22rem;}.w-full{width:100%;}.flex{display:flex;}.inline-flex{display:inline-flex;}.flex-1{flex:1 1 0%;}.flex-col{flex-direction:column;}.flex-wrap{flex-wrap:wrap;}.cursor-pointer{cursor:pointer;}.place-content-center{place-content:center;}.items-center{align-items:center;}.self-center{align-self:center;}.justify-center{justify-content:center;}.justify-between{justify-content:space-between;}.overflow-hidden{overflow:hidden;}.overflow-y-auto{overflow-y:auto;}.whitespace-nowrap{white-space:nowrap;}.border{border-width:1px;border-style:solid;}.border-gray-100{--un-border-opacity:1;border-color:rgba(243,244,246,var(--un-border-opacity));}.border-gray-200{--un-border-opacity:1;border-color:rgba(229,231,235,var(--un-border-opacity));}.border-gray-300{--un-border-opacity:1;border-color:rgba(209,213,219,var(--un-border-opacity));}.dark .dark\\:border-gray-700{--un-border-opacity:1;border-color:rgba(55,65,81,var(--un-border-opacity));}.focus\\:border-blue-500:focus{--un-border-opacity:1;border-color:rgba(59,130,246,var(--un-border-opacity));}.border-t-\\[12px\\]{border-top-color:12px;}.rounded{border-radius:0.25rem;}.rounded-lg{border-radius:0.5rem;}.rounded-t-md{border-top-left-radius:0.375rem;border-top-right-radius:0.375rem;}.bg-black\\/5{background-color:rgba(0,0,0,0.05);}.bg-blue-700{--un-bg-opacity:1;background-color:rgba(29,78,216,var(--un-bg-opacity));}.bg-gray-100,\n.hover\\:bg-gray-100:hover{--un-bg-opacity:1;background-color:rgba(243,244,246,var(--un-bg-opacity));}.bg-gray-50{--un-bg-opacity:1;background-color:rgba(249,250,251,var(--un-bg-opacity));}.bg-slate-300{--un-bg-opacity:1;background-color:rgba(203,213,225,var(--un-bg-opacity));}.bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}.dark .dark\\:bg-black{--un-bg-opacity:1;background-color:rgba(0,0,0,var(--un-bg-opacity));}.dark .dark\\:bg-gray-700,\n.dark .dark\\:hover\\:bg-gray-700:hover{--un-bg-opacity:1;background-color:rgba(55,65,81,var(--un-bg-opacity));}.dark .dark\\:bg-gray-800{--un-bg-opacity:1;background-color:rgba(31,41,55,var(--un-bg-opacity));}.dark .dark\\:bg-white\\/10{background-color:rgba(255,255,255,0.1);}.from-purple-200{--un-gradient-from:rgba(233,213,255,var(--un-from-opacity, 1));--un-gradient-to:rgba(233,213,255,0);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}.from-purple-600{--un-gradient-from:rgba(147,51,234,var(--un-from-opacity, 1));--un-gradient-to:rgba(147,51,234,0);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}.from-purple-700{--un-gradient-from:rgba(126,34,206,var(--un-from-opacity, 1));--un-gradient-to:rgba(126,34,206,0);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}.from-violet-700{--un-gradient-from:rgba(109,40,217,var(--un-from-opacity, 1));--un-gradient-to:rgba(109,40,217,0);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}.to-pink-400{--un-gradient-to:rgba(244,114,182,var(--un-to-opacity, 1));}.to-pink-500{--un-gradient-to:rgba(236,72,153,var(--un-to-opacity, 1));}.to-pink-600{--un-gradient-to:rgba(219,39,119,var(--un-to-opacity, 1));}.bg-gradient-to-r{--un-gradient-shape:to right;--un-gradient:var(--un-gradient-shape), var(--un-gradient-stops);background-image:linear-gradient(var(--un-gradient));}.bg-clip-text{-webkit-background-clip:text;background-clip:text;}.p-2{padding:0.5rem;}.p-2\\.5{padding:0.625rem;}.p-4{padding:1rem;}.p-5{padding:1.25rem;}.p-8{padding:2rem;}.px-\\[5\\%\\]{padding-left:5%;padding-right:5%;}.px-10{padding-left:2.5rem;padding-right:2.5rem;}.px-2{padding-left:0.5rem;padding-right:0.5rem;}.px-4{padding-left:1rem;padding-right:1rem;}.px-8{padding-left:2rem;padding-right:2rem;}.py-2{padding-top:0.5rem;padding-bottom:0.5rem;}.py-2\\.5{padding-top:0.625rem;padding-bottom:0.625rem;}.pl-10{padding-left:2.5rem;}.pl-3{padding-left:0.75rem;}.pr-4{padding-right:1rem;}.pt-14{padding-top:3.5rem;}.pt-20{padding-top:5rem;}.text-center{text-align:center;}.font-sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";}.text-2xl{font-size:1.5rem;line-height:2rem;}.text-4xl{font-size:2.25rem;line-height:2.5rem;}.text-6xl{font-size:3.75rem;line-height:1;}.text-8xl{font-size:6rem;line-height:1;}.text-sm{font-size:0.875rem;line-height:1.25rem;}.text-xl{font-size:1.25rem;line-height:1.75rem;}.font-bold{font-weight:700;}.font-light{font-weight:300;}.font-medium{font-weight:500;}.font-semibold{font-weight:600;}.leading-normal{line-height:1.5;}.leading-tight{line-height:1.25;}.tracking-tight{letter-spacing:-0.025em;}.dark .dark\\:text-gray-400{--un-text-opacity:1;color:rgba(156,163,175,var(--un-text-opacity));}.dark .dark\\:text-white,\n.text-white{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity));}.text-black{--un-text-opacity:1;color:rgba(0,0,0,var(--un-text-opacity));}.text-gray-500{--un-text-opacity:1;color:rgba(107,114,128,var(--un-text-opacity));}.text-gray-600{--un-text-opacity:1;color:rgba(75,85,99,var(--un-text-opacity));}.text-gray-700{--un-text-opacity:1;color:rgba(55,65,81,var(--un-text-opacity));}.text-gray-900{--un-text-opacity:1;color:rgba(17,24,39,var(--un-text-opacity));}.text-transparent{color:transparent;}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline;}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:grayscale;}.hover\\:shadow-xl:hover{--un-shadow:var(--un-shadow-inset) 0 20px 25px -5px var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 8px 10px -6px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.shadow{--un-shadow:var(--un-shadow-inset) 0 1px 3px 0 var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 1px 2px -1px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px;}.focus\\:ring-2:focus{--un-ring-width:2px;--un-ring-offset-shadow:var(--un-ring-inset) 0 0 0 var(--un-ring-offset-width) var(--un-ring-offset-color);--un-ring-shadow:var(--un-ring-inset) 0 0 0 calc(var(--un-ring-width) + var(--un-ring-offset-width)) var(--un-ring-color);box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.focus\\:ring-4:focus{--un-ring-width:4px;--un-ring-offset-shadow:var(--un-ring-inset) 0 0 0 var(--un-ring-offset-width) var(--un-ring-offset-color);--un-ring-shadow:var(--un-ring-inset) 0 0 0 calc(var(--un-ring-width) + var(--un-ring-offset-width)) var(--un-ring-color);box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.dark .dark\\:focus\\:ring-gray-600:focus{--un-ring-opacity:1;--un-ring-color:rgba(75,85,99,var(--un-ring-opacity));}.focus\\:ring-blue-500:focus{--un-ring-opacity:1;--un-ring-color:rgba(59,130,246,var(--un-ring-opacity));}.focus\\:ring-gray-200:focus{--un-ring-opacity:1;--un-ring-color:rgba(229,231,235,var(--un-ring-opacity));}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}.duration-200{transition-duration:200ms;}.delay-100{transition-delay:100ms;}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);}@media (min-width: 640px){\n.sm\\:mx-auto{margin-left:auto;margin-right:auto;}\n.sm\\:mb-0{margin-bottom:0rem;}\n.sm\\:h-9{height:2.25rem;}\n.sm\\:flex{display:flex;}\n.sm\\:items-center{align-items:center;}\n.sm\\:justify-between{justify-content:space-between;}\n.sm\\:px-0{padding-left:0rem;padding-right:0rem;}\n.sm\\:px-4{padding-left:1rem;padding-right:1rem;}\n.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n.sm\\:py-3{padding-top:0.75rem;padding-bottom:0.75rem;}\n.sm\\:text-center{text-align:center;}\n.sm\\:text-2xl{font-size:1.5rem;line-height:2rem;}\n.sm\\:text-4xl{font-size:2.25rem;line-height:2.5rem;}\n.sm\\:text-8xl{font-size:6rem;line-height:1;}\n.sm\\:text-sm{font-size:0.875rem;line-height:1.25rem;}\n.sm\\:text-xl{font-size:1.25rem;line-height:1.75rem;}\n}@media (min-width: 768px){\n.md\\:order-1{order:1;}\n.md\\:order-2{order:2;}\n.md\\:mr-6{margin-right:1.5rem;}\n.md\\:mt-0{margin-top:0rem;}\n.md\\:block{display:block;}\n.md\\:hidden{display:none;}\n.md\\:w-auto{width:auto;}\n.md\\:flex{display:flex;}\n.md\\:flex-row{flex-direction:row;}\n.md\\:space-x-8>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(2rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(2rem * var(--un-space-x-reverse));}\n.md\\:border-0{border-width:0px;border-style:solid;}\n.dark .md\\:dark\\:bg-gray-900{--un-bg-opacity:1;background-color:rgba(17,24,39,var(--un-bg-opacity));}\n.md\\:bg-transparent{background-color:transparent;}\n.md\\:bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}\n.md\\:p-0{padding:0rem;}\n.md\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n.md\\:py-8{padding-top:2rem;padding-bottom:2rem;}\n.md\\:text-sm{font-size:0.875rem;line-height:1.25rem;}\n.md\\:font-medium{font-weight:500;}\n.md\\:text-blue-700{--un-text-opacity:1;color:rgba(29,78,216,var(--un-text-opacity));}\n}@media (min-width: 1024px){\n.lg\\:px-\\[15\\%\\]{padding-left:15%;padding-right:15%;}\n.lg\\:text-5xl{font-size:3rem;line-height:1;}\n.lg\\:text-6xl{font-size:3.75rem;line-height:1;}\n}";
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/content/dist/runtime/plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs ($id_OZ2pwqiBhy)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/plugins/server.mjs ($id_6SULwzY16K)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - /node_modules/@nuxt/content/dist/runtime/composables/web-socket.mjs ($id_V1hUoqIiza)
 // --------------------
-const $id_nKi2ivSk2C = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_zT36nO9yVz = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin(() => {
@@ -5682,7 +5682,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin(() => {
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_sDnuTWGyut = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_uKnmBzSyr1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
@@ -5757,13 +5757,13 @@ Object.defineProperty(__vite_ssr_exports__, "useContentWebSocket", { enumerable:
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/root-component.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/root-component.mjs
 // Parents: 
-// - E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry ($id_u0nv9qacE0)
+// - C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry ($id_KcSYkUOwMo)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // --------------------
-const $id_bs5zZqGrcd = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_FfTuBe57oB = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -5773,15 +5773,15 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/root-component.mjs ($id_kAIQmmjRPS)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/root-component.mjs ($id_0ABbzzsqvq)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/error-component.mjs ($id_ETUNu7c4x8)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/error-component.mjs ($id_ykJVJitqSy)
 // --------------------
-const $id_EOifq27IRy = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_4ZsVaBduZ9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
@@ -5793,7 +5793,7 @@ const _sfc_main = {
   setup(__props, { expose }) {
   expose();
 
-const ErrorComponent = __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/error-component.mjs'))
+const ErrorComponent = __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/error-component.mjs'))
 
 const nuxtApp = __vite_ssr_import_1__.useNuxtApp()
 const onResolve = () => nuxtApp.callHook('app:suspense:resolve')
@@ -5853,18 +5853,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/error-component.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/error-component.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // --------------------
-const $id_xBzvrGNIy3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_fv6v6zcbNY = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -5874,7 +5874,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-error-page.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/error-component.mjs ($id_ETUNu7c4x8)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/error-component.mjs ($id_ykJVJitqSy)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
@@ -5883,7 +5883,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_vC10oUHchO)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_FMi1dBhUQk)
 // --------------------
-const $id_3VpvZvWv38 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_Pk6jEidiBp = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 
@@ -5961,7 +5961,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
 }
 
 
@@ -5977,7 +5977,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=bc8852ab&lang.css ($id_UH106zs9IT)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_ukoaEkj6jj = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_dM8TRdSyyb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
@@ -6078,7 +6078,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-bc8852ab"],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-bc8852ab"],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
 }
 
 
@@ -6089,8 +6089,8 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // Dependencies: 
 
 // --------------------
-const $id_1hIaVfwxmQ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "\n.spotlight[data-v-bc8852ab]{background:linear-gradient(45deg, #00DC82 0%, #36E4DA 50%, #0047E1 100%);filter:blur(20vh);height:40vh;bottom:-30vh}.gradient-border[data-v-bc8852ab]{position:relative;border-radius:0.5rem;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}@media (prefers-color-scheme: light){.gradient-border[data-v-bc8852ab]{background-color:rgba(255, 255, 255, 0.3)}.gradient-border[data-v-bc8852ab]::before{background:linear-gradient(90deg, #e2e2e2 0%, #e2e2e2 25%, #00DC82 50%, #36E4DA 75%, #0047E1 100%)}}@media (prefers-color-scheme: dark){.gradient-border[data-v-bc8852ab]{background-color:rgba(20, 20, 20, 0.3)}.gradient-border[data-v-bc8852ab]::before{background:linear-gradient(90deg, #303030 0%, #303030 25%, #00DC82 50%, #36E4DA 75%, #0047E1 100%)}}.gradient-border[data-v-bc8852ab]::before{content:\"\";position:absolute;top:0;left:0;right:0;bottom:0;border-radius:0.5rem;padding:2px;width:100%;background-size:400% auto;opacity:0.5;transition:background-position 0.3s ease-in-out, opacity 0.2s ease-in-out;-webkit-mask:linear-gradient(#fff 0 0) content-box,\r\n            linear-gradient(#fff 0 0);mask:linear-gradient(#fff 0 0) content-box,\r\n                    linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude}.gradient-border[data-v-bc8852ab]:hover::before{background-position:-50% 0;opacity:1}.bg-white[data-v-bc8852ab]{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.cursor-pointer[data-v-bc8852ab]{cursor:pointer}.flex[data-v-bc8852ab]{display:flex}.grid[data-v-bc8852ab]{display:grid}.place-content-center[data-v-bc8852ab]{place-content:center}.items-center[data-v-bc8852ab]{align-items:center}.justify-center[data-v-bc8852ab]{justify-content:center}.font-sans[data-v-bc8852ab]{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",Segoe UI Symbol,\"Noto Color Emoji\"}.font-medium[data-v-bc8852ab]{font-weight:500}.font-light[data-v-bc8852ab]{font-weight:300}.text-8xl[data-v-bc8852ab]{font-size:6rem;line-height:1}.text-xl[data-v-bc8852ab]{font-size:1.25rem;line-height:1.75rem}.leading-tight[data-v-bc8852ab]{line-height:1.25}.mb-8[data-v-bc8852ab]{margin-bottom:2rem}.mb-16[data-v-bc8852ab]{margin-bottom:4rem}.max-w-520px[data-v-bc8852ab]{max-width:520px}.min-h-screen[data-v-bc8852ab]{min-height:100vh}.overflow-hidden[data-v-bc8852ab]{overflow:hidden}.px-8[data-v-bc8852ab]{padding-left:2rem;padding-right:2rem}.py-2[data-v-bc8852ab]{padding-top:.5rem;padding-bottom:.5rem}.px-4[data-v-bc8852ab]{padding-left:1rem;padding-right:1rem}.fixed[data-v-bc8852ab]{position:fixed}.left-0[data-v-bc8852ab]{left:0px}.right-0[data-v-bc8852ab]{right:0px}.text-center[data-v-bc8852ab]{text-align:center}.text-black[data-v-bc8852ab]{--tw-text-opacity:1;color:rgba(0,0,0,var(--tw-text-opacity))}.antialiased[data-v-bc8852ab]{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-full[data-v-bc8852ab]{width:100%}.z-10[data-v-bc8852ab]{z-index:10}.z-20[data-v-bc8852ab]{z-index:20}@media (min-width: 640px){.sm\\:text-4xl[data-v-bc8852ab]{font-size:2.25rem;line-height:2.5rem}.sm\\:text-xl[data-v-bc8852ab]{font-size:1.25rem;line-height:1.75rem}.sm\\:text-10xl[data-v-bc8852ab]{font-size:10rem;line-height:1}.sm\\:px-0[data-v-bc8852ab]{padding-left:0;padding-right:0}.sm\\:py-3[data-v-bc8852ab]{padding-top:.75rem;padding-bottom:.75rem}.sm\\:px-6[data-v-bc8852ab]{padding-left:1.5rem;padding-right:1.5rem}}@media (prefers-color-scheme: dark){.dark\\:bg-black[data-v-bc8852ab]{--tw-bg-opacity:1;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.dark\\:text-white[data-v-bc8852ab]{--tw-text-opacity:1;color:rgba(255,255,255,var(--tw-text-opacity))}}\r\n";
+const $id_jIbUn0IkCP = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "\n.spotlight[data-v-bc8852ab]{background:linear-gradient(45deg, #00DC82 0%, #36E4DA 50%, #0047E1 100%);filter:blur(20vh);height:40vh;bottom:-30vh}.gradient-border[data-v-bc8852ab]{position:relative;border-radius:0.5rem;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}@media (prefers-color-scheme: light){.gradient-border[data-v-bc8852ab]{background-color:rgba(255, 255, 255, 0.3)}.gradient-border[data-v-bc8852ab]::before{background:linear-gradient(90deg, #e2e2e2 0%, #e2e2e2 25%, #00DC82 50%, #36E4DA 75%, #0047E1 100%)}}@media (prefers-color-scheme: dark){.gradient-border[data-v-bc8852ab]{background-color:rgba(20, 20, 20, 0.3)}.gradient-border[data-v-bc8852ab]::before{background:linear-gradient(90deg, #303030 0%, #303030 25%, #00DC82 50%, #36E4DA 75%, #0047E1 100%)}}.gradient-border[data-v-bc8852ab]::before{content:\"\";position:absolute;top:0;left:0;right:0;bottom:0;border-radius:0.5rem;padding:2px;width:100%;background-size:400% auto;opacity:0.5;transition:background-position 0.3s ease-in-out, opacity 0.2s ease-in-out;-webkit-mask:linear-gradient(#fff 0 0) content-box,\n            linear-gradient(#fff 0 0);mask:linear-gradient(#fff 0 0) content-box,\n                    linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude}.gradient-border[data-v-bc8852ab]:hover::before{background-position:-50% 0;opacity:1}.bg-white[data-v-bc8852ab]{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.cursor-pointer[data-v-bc8852ab]{cursor:pointer}.flex[data-v-bc8852ab]{display:flex}.grid[data-v-bc8852ab]{display:grid}.place-content-center[data-v-bc8852ab]{place-content:center}.items-center[data-v-bc8852ab]{align-items:center}.justify-center[data-v-bc8852ab]{justify-content:center}.font-sans[data-v-bc8852ab]{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",Segoe UI Symbol,\"Noto Color Emoji\"}.font-medium[data-v-bc8852ab]{font-weight:500}.font-light[data-v-bc8852ab]{font-weight:300}.text-8xl[data-v-bc8852ab]{font-size:6rem;line-height:1}.text-xl[data-v-bc8852ab]{font-size:1.25rem;line-height:1.75rem}.leading-tight[data-v-bc8852ab]{line-height:1.25}.mb-8[data-v-bc8852ab]{margin-bottom:2rem}.mb-16[data-v-bc8852ab]{margin-bottom:4rem}.max-w-520px[data-v-bc8852ab]{max-width:520px}.min-h-screen[data-v-bc8852ab]{min-height:100vh}.overflow-hidden[data-v-bc8852ab]{overflow:hidden}.px-8[data-v-bc8852ab]{padding-left:2rem;padding-right:2rem}.py-2[data-v-bc8852ab]{padding-top:.5rem;padding-bottom:.5rem}.px-4[data-v-bc8852ab]{padding-left:1rem;padding-right:1rem}.fixed[data-v-bc8852ab]{position:fixed}.left-0[data-v-bc8852ab]{left:0px}.right-0[data-v-bc8852ab]{right:0px}.text-center[data-v-bc8852ab]{text-align:center}.text-black[data-v-bc8852ab]{--tw-text-opacity:1;color:rgba(0,0,0,var(--tw-text-opacity))}.antialiased[data-v-bc8852ab]{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-full[data-v-bc8852ab]{width:100%}.z-10[data-v-bc8852ab]{z-index:10}.z-20[data-v-bc8852ab]{z-index:20}@media (min-width: 640px){.sm\\:text-4xl[data-v-bc8852ab]{font-size:2.25rem;line-height:2.5rem}.sm\\:text-xl[data-v-bc8852ab]{font-size:1.25rem;line-height:1.75rem}.sm\\:text-10xl[data-v-bc8852ab]{font-size:10rem;line-height:1}.sm\\:px-0[data-v-bc8852ab]{padding-left:0;padding-right:0}.sm\\:py-3[data-v-bc8852ab]{padding-top:.75rem;padding-bottom:.75rem}.sm\\:px-6[data-v-bc8852ab]{padding-left:1.5rem;padding-right:1.5rem}}@media (prefers-color-scheme: dark){.dark\\:bg-black[data-v-bc8852ab]{--tw-bg-opacity:1;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.dark\\:text-white[data-v-bc8852ab]{--tw-text-opacity:1;color:rgba(255,255,255,var(--tw-text-opacity))}}\n";
 }
 
 
@@ -6105,7 +6105,7 @@ __vite_ssr_exports__.default = "\n.spotlight[data-v-bc8852ab]{background:linear-
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=6b2d7187&lang.css ($id_qcoFgmhGJ5)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_BjtwVdH6wy = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_5DSemgg5wF = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
 
 const _sfc_main = {
@@ -6188,7 +6188,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-6b2d7187"],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-6b2d7187"],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
 }
 
 
@@ -6199,8 +6199,8 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // Dependencies: 
 
 // --------------------
-const $id_szn0T8Pfog = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "\n.spotlight[data-v-6b2d7187]{background:linear-gradient(45deg, #00DC82 0%, #36E4DA 50%, #0047E1 100%);opacity:0.8;filter:blur(30vh);height:60vh;bottom:-40vh}.bg-white[data-v-6b2d7187]{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.bg-black\\/5[data-v-6b2d7187]{--tw-bg-opacity:.05;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.rounded-t-md[data-v-6b2d7187]{border-top-left-radius:.375rem;border-top-right-radius:.375rem}.flex[data-v-6b2d7187]{display:flex}.flex-col[data-v-6b2d7187]{flex-direction:column}.flex-1[data-v-6b2d7187]{flex:1 1 0%}.font-sans[data-v-6b2d7187]{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",Segoe UI Symbol,\"Noto Color Emoji\"}.font-medium[data-v-6b2d7187]{font-weight:500}.font-light[data-v-6b2d7187]{font-weight:300}.h-auto[data-v-6b2d7187]{height:auto}.text-xl[data-v-6b2d7187]{font-size:1.25rem;line-height:1.75rem}.text-6xl[data-v-6b2d7187]{font-size:3.75rem;line-height:1}.leading-tight[data-v-6b2d7187]{line-height:1.25}.mb-8[data-v-6b2d7187]{margin-bottom:2rem}.mb-6[data-v-6b2d7187]{margin-bottom:1.5rem}.min-h-screen[data-v-6b2d7187]{min-height:100vh}.overflow-y-auto[data-v-6b2d7187]{overflow-y:auto}.p-8[data-v-6b2d7187]{padding:2rem}.px-10[data-v-6b2d7187]{padding-left:2.5rem;padding-right:2.5rem}.pt-14[data-v-6b2d7187]{padding-top:3.5rem}.fixed[data-v-6b2d7187]{position:fixed}.left-0[data-v-6b2d7187]{left:0px}.right-0[data-v-6b2d7187]{right:0px}.text-black[data-v-6b2d7187]{--tw-text-opacity:1;color:rgba(0,0,0,var(--tw-text-opacity))}.antialiased[data-v-6b2d7187]{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.z-10[data-v-6b2d7187]{z-index:10}@media (min-width: 640px){.sm\\:text-8xl[data-v-6b2d7187]{font-size:6rem;line-height:1}.sm\\:text-2xl[data-v-6b2d7187]{font-size:1.5rem;line-height:2rem}}@media (prefers-color-scheme: dark){.dark\\:bg-black[data-v-6b2d7187]{--tw-bg-opacity:1;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.dark\\:bg-white\\/10[data-v-6b2d7187]{--tw-bg-opacity:.1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.dark\\:text-white[data-v-6b2d7187]{--tw-text-opacity:1;color:rgba(255,255,255,var(--tw-text-opacity))}}\r\n";
+const $id_zU3KktJDTV = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "\n.spotlight[data-v-6b2d7187]{background:linear-gradient(45deg, #00DC82 0%, #36E4DA 50%, #0047E1 100%);opacity:0.8;filter:blur(30vh);height:60vh;bottom:-40vh}.bg-white[data-v-6b2d7187]{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.bg-black\\/5[data-v-6b2d7187]{--tw-bg-opacity:.05;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.rounded-t-md[data-v-6b2d7187]{border-top-left-radius:.375rem;border-top-right-radius:.375rem}.flex[data-v-6b2d7187]{display:flex}.flex-col[data-v-6b2d7187]{flex-direction:column}.flex-1[data-v-6b2d7187]{flex:1 1 0%}.font-sans[data-v-6b2d7187]{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",Segoe UI Symbol,\"Noto Color Emoji\"}.font-medium[data-v-6b2d7187]{font-weight:500}.font-light[data-v-6b2d7187]{font-weight:300}.h-auto[data-v-6b2d7187]{height:auto}.text-xl[data-v-6b2d7187]{font-size:1.25rem;line-height:1.75rem}.text-6xl[data-v-6b2d7187]{font-size:3.75rem;line-height:1}.leading-tight[data-v-6b2d7187]{line-height:1.25}.mb-8[data-v-6b2d7187]{margin-bottom:2rem}.mb-6[data-v-6b2d7187]{margin-bottom:1.5rem}.min-h-screen[data-v-6b2d7187]{min-height:100vh}.overflow-y-auto[data-v-6b2d7187]{overflow-y:auto}.p-8[data-v-6b2d7187]{padding:2rem}.px-10[data-v-6b2d7187]{padding-left:2.5rem;padding-right:2.5rem}.pt-14[data-v-6b2d7187]{padding-top:3.5rem}.fixed[data-v-6b2d7187]{position:fixed}.left-0[data-v-6b2d7187]{left:0px}.right-0[data-v-6b2d7187]{right:0px}.text-black[data-v-6b2d7187]{--tw-text-opacity:1;color:rgba(0,0,0,var(--tw-text-opacity))}.antialiased[data-v-6b2d7187]{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.z-10[data-v-6b2d7187]{z-index:10}@media (min-width: 640px){.sm\\:text-8xl[data-v-6b2d7187]{font-size:6rem;line-height:1}.sm\\:text-2xl[data-v-6b2d7187]{font-size:1.5rem;line-height:2rem}}@media (prefers-color-scheme: dark){.dark\\:bg-black[data-v-6b2d7187]{--tw-bg-opacity:1;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.dark\\:bg-white\\/10[data-v-6b2d7187]{--tw-bg-opacity:.1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.dark\\:text-white[data-v-6b2d7187]{--tw-text-opacity:1;color:rgba(255,255,255,var(--tw-text-opacity))}}\n";
 }
 
 
@@ -6215,7 +6215,7 @@ __vite_ssr_exports__.default = "\n.spotlight[data-v-6b2d7187]{background:linear-
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css ($id_anXr5LNAH3)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_lHmEOX9HCX = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_kkILmks1BE = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
 
 const _sfc_main = {
@@ -6292,7 +6292,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-f37408fc"],['__file',"E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-f37408fc"],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
 }
 
 
@@ -6303,19 +6303,19 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // Dependencies: 
 
 // --------------------
-const $id_b9rbZHNEn4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "\n.spotlight[data-v-f37408fc]{background:linear-gradient(45deg, #00DC82 0%, #36E4DA 50%, #0047E1 100%);filter:blur(20vh)}.bg-white[data-v-f37408fc]{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.grid[data-v-f37408fc]{display:grid}.place-content-center[data-v-f37408fc]{place-content:center}.font-sans[data-v-f37408fc]{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",Segoe UI Symbol,\"Noto Color Emoji\"}.font-medium[data-v-f37408fc]{font-weight:500}.font-light[data-v-f37408fc]{font-weight:300}.h-1\\/2[data-v-f37408fc]{height:50%}.text-8xl[data-v-f37408fc]{font-size:6rem;line-height:1}.text-xl[data-v-f37408fc]{font-size:1.25rem;line-height:1.75rem}.leading-tight[data-v-f37408fc]{line-height:1.25}.mb-8[data-v-f37408fc]{margin-bottom:2rem}.mb-16[data-v-f37408fc]{margin-bottom:4rem}.max-w-520px[data-v-f37408fc]{max-width:520px}.min-h-screen[data-v-f37408fc]{min-height:100vh}.overflow-hidden[data-v-f37408fc]{overflow:hidden}.px-8[data-v-f37408fc]{padding-left:2rem;padding-right:2rem}.fixed[data-v-f37408fc]{position:fixed}.left-0[data-v-f37408fc]{left:0px}.right-0[data-v-f37408fc]{right:0px}.-bottom-1\\/2[data-v-f37408fc]{bottom:-50%}.text-center[data-v-f37408fc]{text-align:center}.text-black[data-v-f37408fc]{--tw-text-opacity:1;color:rgba(0,0,0,var(--tw-text-opacity))}.antialiased[data-v-f37408fc]{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media (min-width: 640px){.sm\\:text-4xl[data-v-f37408fc]{font-size:2.25rem;line-height:2.5rem}.sm\\:text-10xl[data-v-f37408fc]{font-size:10rem;line-height:1}.sm\\:px-0[data-v-f37408fc]{padding-left:0;padding-right:0}}@media (prefers-color-scheme: dark){.dark\\:bg-black[data-v-f37408fc]{--tw-bg-opacity:1;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.dark\\:text-white[data-v-f37408fc]{--tw-text-opacity:1;color:rgba(255,255,255,var(--tw-text-opacity))}}\r\n";
+const $id_aNL2Q0cdkg = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "\n.spotlight[data-v-f37408fc]{background:linear-gradient(45deg, #00DC82 0%, #36E4DA 50%, #0047E1 100%);filter:blur(20vh)}.bg-white[data-v-f37408fc]{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.grid[data-v-f37408fc]{display:grid}.place-content-center[data-v-f37408fc]{place-content:center}.font-sans[data-v-f37408fc]{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",Segoe UI Symbol,\"Noto Color Emoji\"}.font-medium[data-v-f37408fc]{font-weight:500}.font-light[data-v-f37408fc]{font-weight:300}.h-1\\/2[data-v-f37408fc]{height:50%}.text-8xl[data-v-f37408fc]{font-size:6rem;line-height:1}.text-xl[data-v-f37408fc]{font-size:1.25rem;line-height:1.75rem}.leading-tight[data-v-f37408fc]{line-height:1.25}.mb-8[data-v-f37408fc]{margin-bottom:2rem}.mb-16[data-v-f37408fc]{margin-bottom:4rem}.max-w-520px[data-v-f37408fc]{max-width:520px}.min-h-screen[data-v-f37408fc]{min-height:100vh}.overflow-hidden[data-v-f37408fc]{overflow:hidden}.px-8[data-v-f37408fc]{padding-left:2rem;padding-right:2rem}.fixed[data-v-f37408fc]{position:fixed}.left-0[data-v-f37408fc]{left:0px}.right-0[data-v-f37408fc]{right:0px}.-bottom-1\\/2[data-v-f37408fc]{bottom:-50%}.text-center[data-v-f37408fc]{text-align:center}.text-black[data-v-f37408fc]{--tw-text-opacity:1;color:rgba(0,0,0,var(--tw-text-opacity))}.antialiased[data-v-f37408fc]{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media (min-width: 640px){.sm\\:text-4xl[data-v-f37408fc]{font-size:2.25rem;line-height:2.5rem}.sm\\:text-10xl[data-v-f37408fc]{font-size:10rem;line-height:1}.sm\\:px-0[data-v-f37408fc]{padding-left:0;padding-right:0}}@media (prefers-color-scheme: dark){.dark\\:bg-black[data-v-f37408fc]{--tw-bg-opacity:1;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.dark\\:text-white[data-v-f37408fc]{--tw-text-opacity:1;color:rgba(255,255,255,var(--tw-text-opacity))}}\n";
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/app-component.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/app-component.mjs
 // Parents: 
-// - E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry ($id_u0nv9qacE0)
+// - C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry ($id_KcSYkUOwMo)
 // Dependencies: 
 // - /app.vue ($id_K0boQqLzfo)
 // --------------------
-const $id_beBa8tMv1c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_kkI5MEuP4R = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -6325,14 +6325,14 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /app.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/app-component.mjs ($id_hPTU8opC6c)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/app-component.mjs ($id_kmmt0hSw2o)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_OQA4gz7rLc)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_hf8MLVic1h = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_Wap3nJxvie = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/layout.mjs");
 
 const _sfc_main = {}
@@ -6372,7 +6372,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/app.vue"]]);
 }
 
 
@@ -6384,16 +6384,16 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_acUmhqj8VN)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/layouts.mjs ($id_TdcHphvB1U)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/layouts.mjs ($id_ImNbJ0HsgI)
 // --------------------
-const $id_07KbvrREq3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_6blmtYI8bT = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/utils.mjs");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/layouts.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/layouts.mjs");
 
 const defaultLayoutTransition = { name: "layout", mode: "out-in" };
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
@@ -6424,14 +6424,14 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/layouts.mjs
+// Request: /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/layouts.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_OQA4gz7rLc)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /layouts/main.vue ($id_Iyy1A44MrL)
 // --------------------
-const $id_BGaWMXcgFF = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_gyPR8g6oLU = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 __vite_ssr_exports__.default = {
@@ -6443,7 +6443,7 @@ __vite_ssr_exports__.default = {
 // --------------------
 // Request: /layouts/main.vue
 // Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/layouts.mjs ($id_TdcHphvB1U)
+// - /@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/layouts.mjs ($id_ImNbJ0HsgI)
 // Dependencies: 
 // - /components/Header.vue ($id_TihPwxfEDt)
 // - /components/Footer.vue ($id_89jzJWR97X)
@@ -6451,7 +6451,7 @@ __vite_ssr_exports__.default = {
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_aqD0VdK3Y0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_baFKcJ0aNj = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/Header.vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Footer.vue");
@@ -6484,7 +6484,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/layouts/main.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/layouts/main.vue"]]);
 }
 
 
@@ -6498,7 +6498,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_xVjx8iXC1B = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_bcVfp2FiWR = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
 const _sfc_main = {}
@@ -6572,7 +6572,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/Header.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/components/Header.vue"]]);
 }
 
 
@@ -6586,7 +6586,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_6hS09aLR4D = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_WUYcIjLQ7z = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
 const _sfc_main = {}
@@ -6676,129 +6676,129 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/Footer.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/so/Desktop/CSIT-Elites-Res/components/Footer.vue"]]);
 }
 
 
 const __modules__ = {
-  "E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry": $id_G3opydVdXa,
-  vue: $id_ibiMkafFyU,
+  "C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry": $id_iu8c7ixsfj,
+  vue: $id_G33erDMZ5a,
   "@vue/runtime-dom": $id_9sriful2d8,
   ohmyfetch: $id_kLE5W6MKaY,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/paths.mjs": $id_dsnDVh0O0O,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/paths.mjs": $id_QZxhdoiEkr,
   ufo: $id_KJr7LehhrL,
-  "/node_modules/nuxt/dist/app/index.mjs": $id_mw79VawU57,
-  "/node_modules/nuxt/dist/app/nuxt.mjs": $id_xiv8m1sRN8,
+  "/node_modules/nuxt/dist/app/index.mjs": $id_fgrt3UeQEL,
+  "/node_modules/nuxt/dist/app/nuxt.mjs": $id_lfCjBrgcte,
   hookable: $id_p6x8naIYgL,
   unctx: $id_Zn9H5zfDIh,
-  "/node_modules/nuxt/dist/app/composables/index.mjs": $id_BFT1bTcXQ5,
-  "/node_modules/nuxt/dist/app/composables/component.mjs": $id_EtFWBzuO0v,
+  "/node_modules/nuxt/dist/app/composables/index.mjs": $id_YvAaozTraC,
+  "/node_modules/nuxt/dist/app/composables/component.mjs": $id_XTtQ30wmO3,
   "vue-router": $id_7dT9jx0uwT,
-  "/node_modules/nuxt/dist/app/composables/asyncData.mjs": $id_g3GsXll0fP,
-  "/node_modules/nuxt/dist/app/composables/utils.mjs": $id_RNNH86pNr9,
-  "/node_modules/nuxt/dist/app/composables/hydrate.mjs": $id_NfFvn4ve2K,
-  "/node_modules/nuxt/dist/app/composables/state.mjs": $id_HfhV701xRw,
-  "/node_modules/nuxt/dist/app/composables/error.mjs": $id_BaeUOd7hVx,
+  "/node_modules/nuxt/dist/app/composables/asyncData.mjs": $id_BHNdDlA1Pk,
+  "/node_modules/nuxt/dist/app/composables/utils.mjs": $id_6bgT8vIFHQ,
+  "/node_modules/nuxt/dist/app/composables/hydrate.mjs": $id_oMJXouc9nw,
+  "/node_modules/nuxt/dist/app/composables/state.mjs": $id_kP3GBeDzaR,
+  "/node_modules/nuxt/dist/app/composables/error.mjs": $id_0OCs51rfoK,
   h3: $id_K2PnHEPz0m,
-  "/node_modules/nuxt/dist/app/composables/fetch.mjs": $id_TxCgfxAG62,
-  "/node_modules/nuxt/dist/app/composables/cookie.mjs": $id_7dlSsrcDeA,
+  "/node_modules/nuxt/dist/app/composables/fetch.mjs": $id_zYOrYjkwm9,
+  "/node_modules/nuxt/dist/app/composables/cookie.mjs": $id_XUZhFBVStH,
   "cookie-es": $id_t3HHRMhh7L,
   destr: $id_ZK3lg3ye5b,
   ohash: $id_ApQSwD9AXx,
-  "/node_modules/nuxt/dist/app/composables/ssr.mjs": $id_uq5bMPKLgs,
-  "/node_modules/nuxt/dist/app/composables/router.mjs": $id_TLTHNV0FI0,
-  "/node_modules/nuxt/dist/app/components/index.mjs": $id_evUypsRarf,
-  "/node_modules/nuxt/dist/app/components/nuxt-link.mjs": $id_n2fCHxPABb,
-  "/node_modules/nuxt/dist/head/runtime/index.mjs": $id_FcNh1mbALw,
-  "/node_modules/nuxt/dist/head/runtime/composables.mjs": $id_jAXljx8iS9,
+  "/node_modules/nuxt/dist/app/composables/ssr.mjs": $id_BjnOCDcfIZ,
+  "/node_modules/nuxt/dist/app/composables/router.mjs": $id_72OrpZA28S,
+  "/node_modules/nuxt/dist/app/components/index.mjs": $id_HRAmKRepZ0,
+  "/node_modules/nuxt/dist/app/components/nuxt-link.mjs": $id_aAoWaPsGgE,
+  "/node_modules/nuxt/dist/head/runtime/index.mjs": $id_DBzckdbLOm,
+  "/node_modules/nuxt/dist/head/runtime/composables.mjs": $id_TG3cDPMBp5,
   "@vue/shared": $id_NOAOzpHkPB,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/css.mjs": $id_x7EWryA7EQ,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/plugins/server.mjs": $id_KSq2VEJlOO,
-  "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_csa3UNhMiS,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs": $id_Shwn5ZlIgH,
-  "/components/content/Card.vue": $id_CtmZWPy9Ia,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/css.mjs": $id_13HUCS7aoX,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/plugins/server.mjs": $id_feH524qNhT,
+  "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_1SAEi7QN5N,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/components.plugin.mjs": $id_7M9T3cCK34,
+  "/components/content/Card.vue": $id_lIu5uKFExK,
   "vue/server-renderer": $id_aRHphPzMpI,
   "/@id/__x00__plugin-vue:export-helper": $id_mHD6riC5ol,
-  "/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs": $id_Ctt8YdbyMu,
-  "/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.mjs": $id_Pe764Nq2FZ,
-  "/node_modules/@nuxt/content/dist/runtime/components/MarkdownRenderer.mjs": $id_mjkBStRiJu,
+  "/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs": $id_nT6Inxvpqi,
+  "/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.mjs": $id_ANaNAYS9zv,
+  "/node_modules/@nuxt/content/dist/runtime/components/MarkdownRenderer.mjs": $id_PwPmFmFEXu,
   scule: $id_nceR4N0Wse,
   "property-information": $id_wOcR8czerj,
   "html-tags": $id_SVkyhmLJbc,
-  "/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.mjs": $id_KrOCLJR5uA,
-  "/node_modules/@nuxt/content/dist/runtime/composables/query.mjs": $id_GP4uaaTRib,
-  "/node_modules/@nuxt/content/dist/runtime/query/query.mjs": $id_5gYNZ7cPjl,
-  "/node_modules/@nuxt/content/dist/runtime/query/match/utils.mjs": $id_sibfGr6McC,
-  "/node_modules/@nuxt/content/dist/runtime/utils/json.mjs": $id_R4xadHak4I,
-  "/node_modules/@nuxt/content/dist/runtime/composables/utils.mjs": $id_Nu5GSnxNu0,
-  "/node_modules/@nuxt/content/dist/runtime/markdown-parser/utils/node.mjs": $id_XMuAqscMpN,
-  "/node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs": $id_FeCzQBbYBm,
-  "/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.mjs": $id_EGa3bgLIks,
-  "/node_modules/@nuxt/content/dist/runtime/composables/navigation.mjs": $id_3BNJKJSf61,
-  "/node_modules/@nuxt/content/dist/runtime/components/Markdown.mjs": $id_BqnYyTcUan,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseA.vue": $id_cpptnENWvi,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseBlockquote.vue": $id_N4m5hKkqbx,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue": $id_NfdLzsw9KR,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue?vue&type=style&index=0&lang.css": $id_HYjCvznOU9,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue": $id_vTB4wotyfE,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseEm.vue": $id_UPm4Hc4HhY,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH1.vue": $id_Un8PfYn1HJ,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue": $id_v2EhhNpSKx,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue": $id_g2jQ3zb6Jv,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue": $id_MG3glJhBCN,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH5.vue": $id_pOXp2VA6dF,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH6.vue": $id_IJ29hcntt6,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseHr.vue": $id_A9GrG4f6IE,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseImg.vue": $id_0t79OHt981,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseLi.vue": $id_IkZICvIU5y,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseOl.vue": $id_cE8rcF05Ks,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseP.vue": $id_EfM1LP5hOn,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseStrong.vue": $id_RqlRHJIYzQ,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTable.vue": $id_0TJsQp9CQj,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTbody.vue": $id_ncADvdCo41,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTd.vue": $id_2ZZUzql2Pz,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTh.vue": $id_iTc4rtRNMA,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue": $id_hKt2ywVd7v,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue": $id_lJXAt8hGP3,
-  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue": $id_6Z4iL9nGcG,
-  "/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs": $id_Ygmq6jwkas,
-  "/node_modules/@vueuse/head/dist/index.mjs": $id_mpIvyMhvwE,
+  "/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.mjs": $id_YSQZ3uopzW,
+  "/node_modules/@nuxt/content/dist/runtime/composables/query.mjs": $id_UwQeZxtacZ,
+  "/node_modules/@nuxt/content/dist/runtime/query/query.mjs": $id_QlwK2Pd5oQ,
+  "/node_modules/@nuxt/content/dist/runtime/query/match/utils.mjs": $id_ssGfaWHnpH,
+  "/node_modules/@nuxt/content/dist/runtime/utils/json.mjs": $id_MMdR8JHWfE,
+  "/node_modules/@nuxt/content/dist/runtime/composables/utils.mjs": $id_UTAnqhJATM,
+  "/node_modules/@nuxt/content/dist/runtime/markdown-parser/utils/node.mjs": $id_sk32bdNNel,
+  "/node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs": $id_YPe0RrmvT7,
+  "/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.mjs": $id_icH2n3HfdA,
+  "/node_modules/@nuxt/content/dist/runtime/composables/navigation.mjs": $id_pBxlKSmEUV,
+  "/node_modules/@nuxt/content/dist/runtime/components/Markdown.mjs": $id_4xzeNQ7V9x,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseA.vue": $id_bJGgp70oyJ,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseBlockquote.vue": $id_hzZGfuchXD,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue": $id_3DkaTD1QZ7,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue?vue&type=style&index=0&lang.css": $id_egeRZdg2Jz,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue": $id_pv1sj5FHB3,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseEm.vue": $id_Z1o1fP6sOA,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH1.vue": $id_pXmJvYwfdA,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue": $id_MJ1RaHeA6t,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue": $id_ot4mdUIoig,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue": $id_XYZhCTqXu1,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH5.vue": $id_T58wg1w5Q5,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH6.vue": $id_9EKUBJl8dt,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseHr.vue": $id_wP848x6tty,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseImg.vue": $id_viw2MgNChh,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseLi.vue": $id_TaTP0rM5SU,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseOl.vue": $id_eD2I0ZLHRn,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseP.vue": $id_HlH1eehhRS,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseStrong.vue": $id_ONhymfjMug,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTable.vue": $id_e8YKM3hjzJ,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTbody.vue": $id_G5z6u1Xef9,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTd.vue": $id_E6nmfp7gDi,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTh.vue": $id_cUXRrarorZ,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue": $id_CwxC0PLoyL,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue": $id_uKba9IdvtR,
+  "/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue": $id_1mdcmlrJWy,
+  "/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs": $id_wRsEVKfW1P,
+  "/node_modules/@vueuse/head/dist/index.mjs": $id_19kbcSkZ7c,
   defu: $id_q6X4BWspBy,
-  "/node_modules/nuxt/dist/head/runtime/plugin.mjs": $id_lLYkQTDz88,
-  "/node_modules/nuxt/dist/head/runtime/components.mjs": $id_VtRtdRHZdJ,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/meta.config.mjs": $id_zZFXieRs72,
-  "/node_modules/nuxt/dist/pages/runtime/router.mjs": $id_XxcDAytSog,
-  "/node_modules/nuxt/dist/pages/runtime/page.mjs": $id_fFq7qeRP5k,
-  "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_556mQZwqc2,
-  "/node_modules/nuxt/dist/app/components/utils.mjs": $id_AxaBi36skE,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs": $id_93e9EPyxQo,
-  "/pages/CardDetails.vue?macro=true": $id_oyXGJgNGBN,
-  "/pages/[...slug].vue?macro=true": $id_bCLytV8WKK,
-  "/pages/CardDetails.vue": $id_mrsdbsTprI,
-  "/pages/[...slug].vue": $id_fl8M4RMRfo,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/router.options.mjs": $id_tFSgz8RiXS,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/middleware.mjs": $id_1ShPjGyenB,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/unocss.mjs": $id_gWN5GWayl9,
-  "/__uno.css": $id_HMiROhhJXa,
-  "/node_modules/@nuxt/content/dist/runtime/plugin.mjs": $id_nKi2ivSk2C,
-  "/node_modules/@nuxt/content/dist/runtime/composables/web-socket.mjs": $id_sDnuTWGyut,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/root-component.mjs": $id_bs5zZqGrcd,
-  "/node_modules/nuxt/dist/app/components/nuxt-root.vue": $id_EOifq27IRy,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/error-component.mjs": $id_xBzvrGNIy3,
-  "/node_modules/nuxt/dist/app/components/nuxt-error-page.vue": $id_3VpvZvWv38,
-  "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": $id_ukoaEkj6jj,
-  "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=bc8852ab&lang.css": $id_1hIaVfwxmQ,
-  "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue": $id_BjtwVdH6wy,
-  "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=6b2d7187&lang.css": $id_szn0T8Pfog,
-  "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": $id_lHmEOX9HCX,
-  "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css": $id_b9rbZHNEn4,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/app-component.mjs": $id_beBa8tMv1c,
-  "/app.vue": $id_hf8MLVic1h,
-  "/node_modules/nuxt/dist/app/components/layout.mjs": $id_07KbvrREq3,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/layouts.mjs": $id_BGaWMXcgFF,
-  "/layouts/main.vue": $id_aqD0VdK3Y0,
-  "/components/Header.vue": $id_xVjx8iXC1B,
-  "/components/Footer.vue": $id_6hS09aLR4D
+  "/node_modules/nuxt/dist/head/runtime/plugin.mjs": $id_H2XT9QW1LW,
+  "/node_modules/nuxt/dist/head/runtime/components.mjs": $id_PE2LM6mDyc,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/meta.config.mjs": $id_oMd9KJkENA,
+  "/node_modules/nuxt/dist/pages/runtime/router.mjs": $id_pvA4ZTFMpa,
+  "/node_modules/nuxt/dist/pages/runtime/page.mjs": $id_L9I1eoE7dW,
+  "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_ZR0LUqwyer,
+  "/node_modules/nuxt/dist/app/components/utils.mjs": $id_NgApSiB2xA,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/routes.mjs": $id_gvZ4MLRexo,
+  "/pages/CardDetails.vue?macro=true": $id_ULQdqVwqJr,
+  "/pages/[...slug].vue?macro=true": $id_IOy00cihSq,
+  "/pages/CardDetails.vue": $id_8HbFVRhz2E,
+  "/pages/[...slug].vue": $id_IQ7tTOGRyt,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/router.options.mjs": $id_lyitYY2eB2,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/middleware.mjs": $id_GW1EmtiGCo,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/unocss.mjs": $id_0Pv5gMfGZP,
+  "/__uno.css": $id_gCEO5FXeaG,
+  "/node_modules/@nuxt/content/dist/runtime/plugin.mjs": $id_zT36nO9yVz,
+  "/node_modules/@nuxt/content/dist/runtime/composables/web-socket.mjs": $id_uKnmBzSyr1,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/root-component.mjs": $id_FfTuBe57oB,
+  "/node_modules/nuxt/dist/app/components/nuxt-root.vue": $id_4ZsVaBduZ9,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/error-component.mjs": $id_fv6v6zcbNY,
+  "/node_modules/nuxt/dist/app/components/nuxt-error-page.vue": $id_Pk6jEidiBp,
+  "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": $id_dM8TRdSyyb,
+  "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=bc8852ab&lang.css": $id_jIbUn0IkCP,
+  "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue": $id_5DSemgg5wF,
+  "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=6b2d7187&lang.css": $id_zU3KktJDTV,
+  "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": $id_kkILmks1BE,
+  "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css": $id_aNL2Q0cdkg,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/app-component.mjs": $id_kkI5MEuP4R,
+  "/app.vue": $id_Wap3nJxvie,
+  "/node_modules/nuxt/dist/app/components/layout.mjs": $id_6blmtYI8bT,
+  "/@id/virtual:nuxt:C:/Users/so/Desktop/CSIT-Elites-Res/.nuxt/layouts.mjs": $id_gyPR8g6oLU,
+  "/layouts/main.vue": $id_baFKcJ0aNj,
+  "/components/Header.vue": $id_bcVfp2FiWR,
+  "/components/Footer.vue": $id_WUYcIjLQ7z
 }
 
 
@@ -6886,4 +6886,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__("E:/github/CSIT-Elites-Dev-Res2/node_modules/nuxt/dist/app/entry")
+export default await __ssrLoadModule__("C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry")
