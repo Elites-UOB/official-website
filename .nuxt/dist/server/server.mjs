@@ -146,7 +146,9 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_X8FM3AG1sA)
 // - /node_modules/nuxt/dist/pages/runtime/utils.mjs ($id_gPQzqsnHwc)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_acUmhqj8VN)
+// - /pages/CardDetails.vue?macro=true ($id_vwNDM53siQ)
 // - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
+// - /pages/CardDetails.vue ($id_r81jrzGIPE)
 // - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
@@ -1408,6 +1410,8 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtLink", { enumerable: true
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue ($id_GCC9WtlMnV)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue ($id_f2J6Z5afm9)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
+// - /components/Header.vue ($id_TihPwxfEDt)
+// - /components/Footer.vue ($id_89jzJWR97X)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - ufo ($id_Idgm3MW7hZ)
@@ -1791,6 +1795,8 @@ __vite_ssr_exports__.default = __vite_ssr_import_1__.defineNuxtPlugin(nuxtApp =>
 // Request: /components/content/Card.vue
 // Parents: 
 // - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/components.plugin.mjs ($id_gS8mLpIDuC)
+// - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
+// - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
@@ -1914,7 +1920,9 @@ import("vue/server-renderer")
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue ($id_F7bxRxtL4y)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue ($id_FvWFAZGqVo)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue ($id_dyjIbQcUXz)
+// - /pages/CardDetails.vue?macro=true ($id_vwNDM53siQ)
 // - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
+// - /pages/CardDetails.vue ($id_r81jrzGIPE)
 // - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
@@ -5324,23 +5332,65 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
 // Dependencies: 
+// - /pages/CardDetails.vue?macro=true ($id_vwNDM53siQ)
 // - /pages/[...slug].vue?macro=true ($id_6rgSTrbVi4)
+// - /pages/CardDetails.vue ($id_r81jrzGIPE)
 // - /pages/[...slug].vue ($id_ArgNSXkUC7)
 // --------------------
-const $id_fdy1yXcBsH = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/[...slug].vue?macro=true");
+const $id_93e9EPyxQo = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/CardDetails.vue?macro=true");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/[...slug].vue?macro=true");
 
 __vite_ssr_exports__.default = [
+  {
+    name: "CardDetails",
+    path: "/CardDetails",
+    file: "E:/github/CSIT-Elites-Dev-Res2/pages/CardDetails.vue",
+    children: [],
+    meta: __vite_ssr_import_0__.meta,
+    alias: __vite_ssr_import_0__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/CardDetails.vue').then(m => m.default || m)
+  },
   {
     name: "slug",
     path: "/:slug(.*)*",
     file: "E:/github/CSIT-Elites-Dev-Res2/pages/[...slug].vue",
     children: [],
-    meta: __vite_ssr_import_0__.meta,
-    alias: __vite_ssr_import_0__.meta?.alias || [],
+    meta: __vite_ssr_import_1__.meta,
+    alias: __vite_ssr_import_1__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/[...slug].vue').then(m => m.default || m)
   }
 ];
+}
+
+
+// --------------------
+// Request: /pages/CardDetails.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs ($id_JgciUr7v6W)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_oyXGJgNGBN = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/CardDetails.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"E:/github/CSIT-Elites-Dev-Res2/pages/CardDetails.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
 
 
@@ -5350,30 +5400,63 @@ __vite_ssr_exports__.default = [
 // - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs ($id_JgciUr7v6W)
 // Dependencies: 
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
+// - /components/content/Card.vue ($id_Z5fWObNQpy)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_bTC5vvVyAW = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_TN4ReduQT5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
 
-const _sfc_main = {}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/content/Card.vue");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("vue/server-renderer");
+const _sfc_main = {}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue/server-renderer");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_ContentDoc = __vite_ssr_import_0__.default
+  const _component_Card = __vite_ssr_import_1__.default
 
-  _push(`<main${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ContentDoc, { class: "prose prose-gray max-w-none" }, {
-    "not-found": __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+  _push(`<main${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_ContentDoc, { class: "prose prose-gray max-w-none" }, {
+    "not-found": __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`<h1 class="text-2xl"${_scopeId}> Not Found </h1>`)
       } else {
         return [
-          __vite_ssr_import_1__.createVNode("h1", { class: "text-2xl" }, " Not Found ")
+          __vite_ssr_import_2__.createVNode("h1", { class: "text-2xl" }, " Not Found ")
+        ]
+      }
+    }),
+    default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="min-h-screen"${
+          _scopeId
+        }><main${
+          _scopeId
+        }><section class="lg:px-[15%] px-[5%] pt-20"${
+          _scopeId
+        }><h1 class="lg:text-5xl text-4xl leading-normal font-semibold text-center"${
+          _scopeId
+        }>Check Out Our Latest Blog Posts</h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-violet-700 to-pink-600"${
+          _scopeId
+        }>Learn, Share, Grow</h1></section>`)
+        _push(__vite_ssr_import_3__.ssrRenderComponent(_component_Card, null, null, _parent, _scopeId))
+        _push(`</main></div>`)
+      } else {
+        return [
+          __vite_ssr_import_2__.createVNode("div", { class: "min-h-screen" }, [
+            __vite_ssr_import_2__.createVNode("main", null, [
+              __vite_ssr_import_2__.createVNode("section", { class: "lg:px-[15%] px-[5%] pt-20" }, [
+                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-5xl text-4xl leading-normal font-semibold text-center" }, "Check Out Our Latest Blog Posts"),
+                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-violet-700 to-pink-600" }, "Learn, Share, Grow")
+              ]),
+              __vite_ssr_import_2__.createVNode(_component_Card)
+            ])
+          ])
         ]
       }
     }),
@@ -5381,64 +5464,6 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   }, _parent))
   _push(`</main>`)
 }
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/[...slug].vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/pages/[...slug].vue"]])
-const meta = undefined
-Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
-}
-
-
-// --------------------
-// Request: /pages/[...slug].vue
-// Parents: 
-// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs ($id_JgciUr7v6W)
-// Dependencies: 
-// - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
-// - vue ($id_VkOCJnUZrn)
-// - vue/server-renderer ($id_UyJffsox60)
-// - /pages/[...slug].vue?vue&type=style&index=0&lang.css ($id_26hPAx4DHh)
-// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
-// --------------------
-const $id_kCxM37on23 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
-
-const _sfc_main = {}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("vue/server-renderer");
-
-
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_ContentDoc = __vite_ssr_import_0__.default
-
-  _push(`<main${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ContentDoc, { class: "prose prose-gray max-w-none" }, {
-    "not-found": __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
-      if (_push) {
-        _push(`<h1 class="text-2xl"${_scopeId}> Not Found </h1>`)
-      } else {
-        return [
-          __vite_ssr_import_1__.createVNode("h1", { class: "text-2xl" }, " Not Found ")
-        ]
-      }
-    }),
-    _: 1 /* STABLE */
-  }, _parent))
-  _push(`</main>`)
-}
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/pages/[...slug].vue?vue&type=style&index=0&lang.css");
-
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("vue");
 
@@ -5450,7 +5475,125 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/pages/[...slug].vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/pages/[...slug].vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /pages/CardDetails.vue
+// Parents: 
+// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs ($id_JgciUr7v6W)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_mrsdbsTprI = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/CardDetails.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"E:/github/CSIT-Elites-Dev-Res2/pages/CardDetails.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/[...slug].vue
+// Parents: 
+// - /@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs ($id_JgciUr7v6W)
+// Dependencies: 
+// - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_Es5S87MAZt)
+// - /components/content/Card.vue ($id_Z5fWObNQpy)
+// - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /pages/[...slug].vue?vue&type=style&index=0&lang.css ($id_26hPAx4DHh)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_tYJr5XS6mh = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/content/Card.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue/server-renderer");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_ContentDoc = __vite_ssr_import_0__.default
+  const _component_Card = __vite_ssr_import_1__.default
+
+  _push(`<main${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_ContentDoc, { class: "prose prose-gray max-w-none" }, {
+    "not-found": __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<h1 class="text-2xl"${_scopeId}> Not Found </h1>`)
+      } else {
+        return [
+          __vite_ssr_import_2__.createVNode("h1", { class: "text-2xl" }, " Not Found ")
+        ]
+      }
+    }),
+    default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="min-h-screen"${
+          _scopeId
+        }><main${
+          _scopeId
+        }><section class="lg:px-[15%] px-[5%] pt-20"${
+          _scopeId
+        }><h1 class="lg:text-5xl text-4xl leading-normal font-semibold text-center"${
+          _scopeId
+        }>Check Out Our Latest Blog Posts</h1><h1 class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-violet-700 to-pink-600"${
+          _scopeId
+        }>Learn, Share, Grow</h1></section>`)
+        _push(__vite_ssr_import_3__.ssrRenderComponent(_component_Card, null, null, _parent, _scopeId))
+        _push(`</main></div>`)
+      } else {
+        return [
+          __vite_ssr_import_2__.createVNode("div", { class: "min-h-screen" }, [
+            __vite_ssr_import_2__.createVNode("main", null, [
+              __vite_ssr_import_2__.createVNode("section", { class: "lg:px-[15%] px-[5%] pt-20" }, [
+                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-5xl text-4xl leading-normal font-semibold text-center" }, "Check Out Our Latest Blog Posts"),
+                __vite_ssr_import_2__.createVNode("h1", { class: "lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-violet-700 to-pink-600" }, "Learn, Share, Grow")
+              ]),
+              __vite_ssr_import_2__.createVNode(_component_Card)
+            ])
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</main>`)
+}
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/pages/[...slug].vue?vue&type=style&index=0&lang.css");
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/[...slug].vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/pages/[...slug].vue"]]);
 }
 
 
@@ -5520,8 +5663,8 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin(() => {});
 // Dependencies: 
 
 // --------------------
-const $id_1eWlTK3n1a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*591c11*//* layer: preflights */*,::before,::after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::-webkit-backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}/* layer: default */.absolute{position:absolute;}.fixed{position:fixed;}.relative{position:relative;}.-bottom-1\\/2{bottom:-50%;}.-top-2{top:-0.5rem;}.left-0{left:0rem;}.left-5{left:1.25rem;}.right-0{right:0rem;}.z-10{z-index:10;}.z-20{z-index:20;}.grid{display:grid;}.ma{margin:auto;}.my-4{margin-top:1rem;margin-bottom:1rem;}.mb-1{margin-bottom:0.25rem;}.mb-16{margin-bottom:4rem;}.mb-3{margin-bottom:0.75rem;}.mb-6{margin-bottom:1.5rem;}.mb-8{margin-bottom:2rem;}.mr-3{margin-right:0.75rem;}.mt-3{margin-top:0.75rem;}.mt-4{margin-top:1rem;}.block{display:block;}.h-1\\.5{height:0.375rem;}.h-1\\/2{height:50%;}.h-10{height:2.5rem;}.h-33{height:8.25rem;}.h-4{height:1rem;}.h-44{height:11rem;}.h-77{height:19.25rem;}.h-auto{height:auto;}.h-full{height:100%;}.max-w-520px{max-width:520px;}.max-w-none{max-width:none;}.max-w-xs{max-width:20rem;}.min-h-screen{min-height:100vh;}.w-10{width:2.5rem;}.w-4{width:1rem;}.w-44{width:11rem;}.w-77{width:19.25rem;}.w-88{width:22rem;}.w-full{width:100%;}.flex{display:flex;}.flex-1{flex:1 1 0%;}.basis-1\\/3{flex-basis:33.3333333333%;}.flex-col{flex-direction:column;}.cursor-pointer{cursor:pointer;}.list-none{list-style-type:none;}.place-content-center{place-content:center;}.items-center{align-items:center;}.justify-center{justify-content:center;}.justify-between{justify-content:space-between;}.gap-0{grid-gap:0rem;gap:0rem;}.gap-1{grid-gap:0.25rem;gap:0.25rem;}.gap-2{grid-gap:0.5rem;gap:0.5rem;}.gap-4{grid-gap:1rem;gap:1rem;}.-space-x-4>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(-1rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(-1rem * var(--un-space-x-reverse));}[dir=\"rtl\"] .rtl\\:space-x-reverse>:not([hidden])~:not([hidden]){--un-space-x-reverse:1;}.divide-y>:not([hidden])~:not([hidden]){--un-divide-y-reverse:0;border-top-width:calc(1px * calc(1 - var(--un-divide-y-reverse)));border-bottom-width:calc(1px * var(--un-divide-y-reverse));border-top-style:solid;border-bottom-style:solid;}.divide-gray-100>:not([hidden])~:not([hidden]){--un-divide-opacity:1;border-color:rgba(243,244,246,var(--un-divide-opacity));}.overflow-hidden{overflow:hidden;}.overflow-y-auto{overflow-y:auto;}.border,\n.hover\\:border-1:hover{border-width:1px;border-style:solid;}.border-2,\n.hover\\:border-2:hover{border-width:2px;border-style:solid;}.group:hover .group-hover\\:border--500{border-width:-500px;border-style:solid;}.border-x{border-left-width:1px;border-right-width:1px;border-left-style:solid;border-right-style:solid;}.border-b{border-bottom-width:1px;border-bottom-style:solid;}.border-l{border-left-width:1px;border-left-style:solid;}.border-r{border-right-width:1px;border-right-style:solid;}.border-\\[12px\\]{border-color:12px;}.border-gray-300{--un-border-opacity:1;border-color:rgba(209,213,219,var(--un-border-opacity));}.border-transparent{border-color:transparent;}.border-white{--un-border-opacity:1;border-color:rgba(255,255,255,var(--un-border-opacity));}.dark .dark\\:border-gray-800{--un-border-opacity:1;border-color:rgba(31,41,55,var(--un-border-opacity));}.focus\\:border-blue-500:focus{--un-border-opacity:1;border-color:rgba(59,130,246,var(--un-border-opacity));}.group:hover .group-hover\\:border-gray-500{--un-border-opacity:1;border-color:rgba(107,114,128,var(--un-border-opacity));}.border-x-transparent{border-left-color:transparent;border-right-color:transparent;}.border-b-\\[12px\\]{border-bottom-color:12px;}.border-b-transparent{border-bottom-color:transparent;}.border-t-\\[12px\\]{border-top-color:12px;}.rounded{border-radius:0.25rem;}.rounded-full{border-radius:9999px;}.rounded-lg{border-radius:0.5rem;}.rounded-t-md{border-top-left-radius:0.375rem;border-top-right-radius:0.375rem;}.bg-black\\/5{background-color:rgba(0,0,0,0.05);}.bg-gray-200,\n.dark .dark\\:hover\\:bg-gray-200:hover,\n.hover\\:bg-gray-200:hover{--un-bg-opacity:1;background-color:rgba(229,231,235,var(--un-bg-opacity));}.bg-gray-50{--un-bg-opacity:1;background-color:rgba(249,250,251,var(--un-bg-opacity));}.bg-gray-600,\n.dark .dark\\:hover\\:bg-gray-600:hover,\n.hover\\:bg-gray-600:hover{--un-bg-opacity:1;background-color:rgba(75,85,99,var(--un-bg-opacity));}.bg-gray-700,\n.dark .dark\\:bg-gray-700{--un-bg-opacity:1;background-color:rgba(55,65,81,var(--un-bg-opacity));}.bg-slate-300{--un-bg-opacity:1;background-color:rgba(203,213,225,var(--un-bg-opacity));}.bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}.dark .dark\\:bg-black{--un-bg-opacity:1;background-color:rgba(0,0,0,var(--un-bg-opacity));}.dark .dark\\:bg-white\\/10{background-color:rgba(255,255,255,0.1);}.group:hover .group-hover\\:bg-gray-500{--un-bg-opacity:1;background-color:rgba(107,114,128,var(--un-bg-opacity));}.hover\\:bg-gray-100:hover{--un-bg-opacity:1;background-color:rgba(243,244,246,var(--un-bg-opacity));}.p-1\\.5{padding:0.375rem;}.p-2{padding:0.5rem;}.p-4{padding:1rem;}.p-5{padding:1.25rem;}.p-8{padding:2rem;}.px-10{padding-left:2.5rem;padding-right:2.5rem;}.px-2{padding-left:0.5rem;padding-right:0.5rem;}.px-4{padding-left:1rem;padding-right:1rem;}.px-8{padding-left:2rem;padding-right:2rem;}.py-1{padding-top:0.25rem;padding-bottom:0.25rem;}.py-2{padding-top:0.5rem;padding-bottom:0.5rem;}.pt-14{padding-top:3.5rem;}.text-center{text-align:center;}.font-sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";}.text-2xl{font-size:1.5rem;line-height:2rem;}.text-6xl{font-size:3.75rem;line-height:1;}.text-8xl{font-size:6rem;line-height:1;}.text-base{font-size:1rem;line-height:1.5rem;}.text-sm{font-size:0.875rem;line-height:1.25rem;}.text-xl{font-size:1.25rem;line-height:1.75rem;}.text-xs{font-size:0.75rem;line-height:1rem;}.font-bold{font-weight:700;}.font-light{font-weight:300;}.font-medium{font-weight:500;}.leading-tight{line-height:1.25;}.tracking-tight{letter-spacing:-0.025em;}.tracking-tighter{letter-spacing:-0.05em;}.tracking-wider{letter-spacing:0.05em;}.uppercase{text-transform:uppercase;}.dark .dark\\:hover\\:text-black:hover,\n.text-black{--un-text-opacity:1;color:rgba(0,0,0,var(--un-text-opacity));}.dark .dark\\:text-gray-200{--un-text-opacity:1;color:rgba(229,231,235,var(--un-text-opacity));}.dark .dark\\:text-gray-400,\n.text-gray-400{--un-text-opacity:1;color:rgba(156,163,175,var(--un-text-opacity));}.dark .dark\\:text-white,\n.text-white{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity));}.group:hover .group-hover\\:text-gray-100{--un-text-opacity:1;color:rgba(243,244,246,var(--un-text-opacity));}.text-gray-500{--un-text-opacity:1;color:rgba(107,114,128,var(--un-text-opacity));}.text-gray-600{--un-text-opacity:1;color:rgba(75,85,99,var(--un-text-opacity));}.text-gray-700{--un-text-opacity:1;color:rgba(55,65,81,var(--un-text-opacity));}.text-gray-900{--un-text-opacity:1;color:rgba(17,24,39,var(--un-text-opacity));}.text-red-600{--un-text-opacity:1;color:rgba(220,38,38,var(--un-text-opacity));}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:grayscale;}.group:hover .group-hover\\:opacity-100{opacity:1;}.opacity-0{opacity:0;}.opacity-50{opacity:0.5;}.hover\\:shadow-xl:hover{--un-shadow:var(--un-shadow-inset) 0 20px 25px -5px var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 8px 10px -6px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.shadow{--un-shadow:var(--un-shadow-inset) 0 1px 3px 0 var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 1px 2px -1px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px;}.focus\\:ring-4:focus{--un-ring-width:4px;--un-ring-offset-shadow:var(--un-ring-inset) 0 0 0 var(--un-ring-offset-width) var(--un-ring-offset-color);--un-ring-shadow:var(--un-ring-inset) 0 0 0 calc(var(--un-ring-width) + var(--un-ring-offset-width)) var(--un-ring-color);box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.dark .dark\\:focus\\:ring-gray-700:focus{--un-ring-opacity:1;--un-ring-color:rgba(55,65,81,var(--un-ring-opacity));}.focus\\:ring-blue-500:focus{--un-ring-opacity:1;--un-ring-color:rgba(59,130,246,var(--un-ring-opacity));}.focus\\:ring-gray-200:focus{--un-ring-opacity:1;--un-ring-color:rgba(229,231,235,var(--un-ring-opacity));}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}.duration-200{transition-duration:200ms;}.delay-100{transition-delay:100ms;}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);}@media (min-width: 640px){\n.sm\\:inline-block{display:inline-block;}\n.sm\\:px-0{padding-left:0rem;padding-right:0rem;}\n.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n.sm\\:py-3{padding-top:0.75rem;padding-bottom:0.75rem;}\n.sm\\:text-2xl{font-size:1.5rem;line-height:2rem;}\n.sm\\:text-4xl{font-size:2.25rem;line-height:2.5rem;}\n.sm\\:text-8xl{font-size:6rem;line-height:1;}\n.sm\\:text-xl{font-size:1.25rem;line-height:1.75rem;}\n}";
+const $id_oXUY4mPaUq = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/*01a78f*//* layer: preflights */*,::before,::after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::-webkit-backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgba(0,0,0,0);--un-ring-shadow:0 0 rgba(0,0,0,0);--un-shadow-inset: ;--un-shadow:0 0 rgba(0,0,0,0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgba(147,197,253,0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}/* layer: shortcuts */.container{max-width:100%;}@media (min-width: 640px){\n.container{max-width:640px;}\n}@media (min-width: 768px){\n.container{max-width:768px;}\n}@media (min-width: 1024px){\n.container{max-width:1024px;}\n}@media (min-width: 1280px){\n.container{max-width:1280px;}\n}@media (min-width: 1536px){\n.container{max-width:1536px;}\n}/* layer: default */.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0;}.pointer-events-none{pointer-events:none;}.absolute{position:absolute;}.fixed{position:fixed;}.relative{position:relative;}.inset-y-0{top:0rem;bottom:0rem;}.-bottom-1\\/2{bottom:-50%;}.-top-2{top:-0.5rem;}.left-0{left:0rem;}.left-5{left:1.25rem;}.right-0{right:0rem;}.z-10{z-index:10;}.z-20{z-index:20;}.grid{display:grid;}.ma{margin:auto;}.mx-auto{margin-left:auto;margin-right:auto;}.my-4{margin-top:1rem;margin-bottom:1rem;}.my-6{margin-top:1.5rem;margin-bottom:1.5rem;}.mb-1{margin-bottom:0.25rem;}.mb-16{margin-bottom:4rem;}.mb-3{margin-bottom:0.75rem;}.mb-4{margin-bottom:1rem;}.mb-6{margin-bottom:1.5rem;}.mb-8{margin-bottom:2rem;}.mr-1{margin-right:0.25rem;}.mr-3{margin-right:0.75rem;}.mr-4{margin-right:1rem;}.mt-3{margin-top:0.75rem;}.mt-4{margin-top:1rem;}.block{display:block;}.hidden{display:none;}.h-1\\.5{height:0.375rem;}.h-1\\/2{height:50%;}.h-10{height:2.5rem;}.h-33{height:8.25rem;}.h-4{height:1rem;}.h-44{height:11rem;}.h-5{height:1.25rem;}.h-6{height:1.5rem;}.h-77{height:19.25rem;}.h-8{height:2rem;}.h-auto{height:auto;}.h-full{height:100%;}.max-w-520px{max-width:520px;}.max-w-none{max-width:none;}.max-w-xs{max-width:20rem;}.min-h-screen{min-height:100vh;}.w-10{width:2.5rem;}.w-4{width:1rem;}.w-44{width:11rem;}.w-5{width:1.25rem;}.w-6{width:1.5rem;}.w-77{width:19.25rem;}.w-88{width:22rem;}.w-full{width:100%;}.flex{display:flex;}.inline-flex{display:inline-flex;}.flex-1{flex:1 1 0%;}.basis-1\\/3{flex-basis:33.3333333333%;}.flex-col{flex-direction:column;}.flex-wrap{flex-wrap:wrap;}.cursor-pointer{cursor:pointer;}.list-none{list-style-type:none;}.place-content-center{place-content:center;}.items-center{align-items:center;}.self-center{align-self:center;}.justify-center{justify-content:center;}.justify-between{justify-content:space-between;}.gap-0{grid-gap:0rem;gap:0rem;}.gap-1{grid-gap:0.25rem;gap:0.25rem;}.gap-2{grid-gap:0.5rem;gap:0.5rem;}.gap-4{grid-gap:1rem;gap:1rem;}.-space-x-4>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(-1rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(-1rem * var(--un-space-x-reverse));}[dir=\"rtl\"] .rtl\\:space-x-reverse>:not([hidden])~:not([hidden]){--un-space-x-reverse:1;}.divide-y>:not([hidden])~:not([hidden]){--un-divide-y-reverse:0;border-top-width:calc(1px * calc(1 - var(--un-divide-y-reverse)));border-bottom-width:calc(1px * var(--un-divide-y-reverse));border-top-style:solid;border-bottom-style:solid;}.divide-gray-100>:not([hidden])~:not([hidden]){--un-divide-opacity:1;border-color:rgba(243,244,246,var(--un-divide-opacity));}.overflow-hidden{overflow:hidden;}.overflow-y-auto{overflow-y:auto;}.whitespace-nowrap{white-space:nowrap;}.border,\n.hover\\:border-1:hover{border-width:1px;border-style:solid;}.border-2,\n.hover\\:border-2:hover{border-width:2px;border-style:solid;}.group:hover .group-hover\\:border--500{border-width:-500px;border-style:solid;}.border-x{border-left-width:1px;border-right-width:1px;border-left-style:solid;border-right-style:solid;}.border-b{border-bottom-width:1px;border-bottom-style:solid;}.border-l{border-left-width:1px;border-left-style:solid;}.border-r{border-right-width:1px;border-right-style:solid;}.border-\\[12px\\]{border-color:12px;}.border-gray-100{--un-border-opacity:1;border-color:rgba(243,244,246,var(--un-border-opacity));}.border-gray-200{--un-border-opacity:1;border-color:rgba(229,231,235,var(--un-border-opacity));}.border-gray-300{--un-border-opacity:1;border-color:rgba(209,213,219,var(--un-border-opacity));}.border-transparent{border-color:transparent;}.border-white{--un-border-opacity:1;border-color:rgba(255,255,255,var(--un-border-opacity));}.dark .dark\\:border-gray-700{--un-border-opacity:1;border-color:rgba(55,65,81,var(--un-border-opacity));}.dark .dark\\:border-gray-800{--un-border-opacity:1;border-color:rgba(31,41,55,var(--un-border-opacity));}.focus\\:border-blue-500:focus{--un-border-opacity:1;border-color:rgba(59,130,246,var(--un-border-opacity));}.group:hover .group-hover\\:border-gray-500{--un-border-opacity:1;border-color:rgba(107,114,128,var(--un-border-opacity));}.border-x-transparent{border-left-color:transparent;border-right-color:transparent;}.border-b-\\[12px\\]{border-bottom-color:12px;}.border-b-transparent{border-bottom-color:transparent;}.border-t-\\[12px\\]{border-top-color:12px;}.rounded{border-radius:0.25rem;}.rounded-full{border-radius:9999px;}.rounded-lg{border-radius:0.5rem;}.rounded-t-md{border-top-left-radius:0.375rem;border-top-right-radius:0.375rem;}.bg-black\\/5{background-color:rgba(0,0,0,0.05);}.bg-blue-700{--un-bg-opacity:1;background-color:rgba(29,78,216,var(--un-bg-opacity));}.bg-gray-100,\n.hover\\:bg-gray-100:hover{--un-bg-opacity:1;background-color:rgba(243,244,246,var(--un-bg-opacity));}.bg-gray-200,\n.dark .dark\\:hover\\:bg-gray-200:hover,\n.hover\\:bg-gray-200:hover{--un-bg-opacity:1;background-color:rgba(229,231,235,var(--un-bg-opacity));}.bg-gray-50{--un-bg-opacity:1;background-color:rgba(249,250,251,var(--un-bg-opacity));}.bg-gray-600,\n.dark .dark\\:hover\\:bg-gray-600:hover,\n.hover\\:bg-gray-600:hover{--un-bg-opacity:1;background-color:rgba(75,85,99,var(--un-bg-opacity));}.bg-gray-700,\n.dark .dark\\:bg-gray-700,\n.dark .dark\\:hover\\:bg-gray-700:hover{--un-bg-opacity:1;background-color:rgba(55,65,81,var(--un-bg-opacity));}.bg-slate-300{--un-bg-opacity:1;background-color:rgba(203,213,225,var(--un-bg-opacity));}.bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}.dark .dark\\:bg-black{--un-bg-opacity:1;background-color:rgba(0,0,0,var(--un-bg-opacity));}.dark .dark\\:bg-gray-800{--un-bg-opacity:1;background-color:rgba(31,41,55,var(--un-bg-opacity));}.dark .dark\\:bg-white\\/10{background-color:rgba(255,255,255,0.1);}.group:hover .group-hover\\:bg-gray-500{--un-bg-opacity:1;background-color:rgba(107,114,128,var(--un-bg-opacity));}.from-violet-700{--un-gradient-from:rgba(109,40,217,var(--un-from-opacity, 1));--un-gradient-to:rgba(109,40,217,0);--un-gradient-stops:var(--un-gradient-from), var(--un-gradient-to);}.to-pink-600{--un-gradient-to:rgba(219,39,119,var(--un-to-opacity, 1));}.bg-gradient-to-r{--un-gradient-shape:to right;--un-gradient:var(--un-gradient-shape), var(--un-gradient-stops);background-image:linear-gradient(var(--un-gradient));}.bg-clip-text{-webkit-background-clip:text;background-clip:text;}.p-1\\.5{padding:0.375rem;}.p-2{padding:0.5rem;}.p-2\\.5{padding:0.625rem;}.p-4{padding:1rem;}.p-5{padding:1.25rem;}.p-8{padding:2rem;}.px-\\[5\\%\\]{padding-left:5%;padding-right:5%;}.px-10{padding-left:2.5rem;padding-right:2.5rem;}.px-2{padding-left:0.5rem;padding-right:0.5rem;}.px-4{padding-left:1rem;padding-right:1rem;}.px-8{padding-left:2rem;padding-right:2rem;}.py-1{padding-top:0.25rem;padding-bottom:0.25rem;}.py-2{padding-top:0.5rem;padding-bottom:0.5rem;}.py-2\\.5{padding-top:0.625rem;padding-bottom:0.625rem;}.pl-10{padding-left:2.5rem;}.pl-3{padding-left:0.75rem;}.pr-4{padding-right:1rem;}.pt-14{padding-top:3.5rem;}.pt-20{padding-top:5rem;}.text-center{text-align:center;}.font-sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";}.text-2xl{font-size:1.5rem;line-height:2rem;}.text-4xl{font-size:2.25rem;line-height:2.5rem;}.text-6xl{font-size:3.75rem;line-height:1;}.text-8xl{font-size:6rem;line-height:1;}.text-base{font-size:1rem;line-height:1.5rem;}.text-sm{font-size:0.875rem;line-height:1.25rem;}.text-xl{font-size:1.25rem;line-height:1.75rem;}.text-xs{font-size:0.75rem;line-height:1rem;}.font-bold{font-weight:700;}.font-light{font-weight:300;}.font-medium{font-weight:500;}.font-semibold{font-weight:600;}.leading-normal{line-height:1.5;}.leading-tight{line-height:1.25;}.tracking-tight{letter-spacing:-0.025em;}.tracking-tighter{letter-spacing:-0.05em;}.tracking-wider{letter-spacing:0.05em;}.uppercase{text-transform:uppercase;}.dark .dark\\:hover\\:text-black:hover,\n.text-black{--un-text-opacity:1;color:rgba(0,0,0,var(--un-text-opacity));}.dark .dark\\:text-gray-200{--un-text-opacity:1;color:rgba(229,231,235,var(--un-text-opacity));}.dark .dark\\:text-gray-400,\n.text-gray-400{--un-text-opacity:1;color:rgba(156,163,175,var(--un-text-opacity));}.dark .dark\\:text-white,\n.text-white{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity));}.group:hover .group-hover\\:text-gray-100{--un-text-opacity:1;color:rgba(243,244,246,var(--un-text-opacity));}.text-gray-500{--un-text-opacity:1;color:rgba(107,114,128,var(--un-text-opacity));}.text-gray-600{--un-text-opacity:1;color:rgba(75,85,99,var(--un-text-opacity));}.text-gray-700{--un-text-opacity:1;color:rgba(55,65,81,var(--un-text-opacity));}.text-gray-900{--un-text-opacity:1;color:rgba(17,24,39,var(--un-text-opacity));}.text-red-600{--un-text-opacity:1;color:rgba(220,38,38,var(--un-text-opacity));}.text-transparent{color:transparent;}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline;}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:grayscale;}.group:hover .group-hover\\:opacity-100{opacity:1;}.opacity-0{opacity:0;}.opacity-50{opacity:0.5;}.hover\\:shadow-xl:hover{--un-shadow:var(--un-shadow-inset) 0 20px 25px -5px var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 8px 10px -6px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.shadow{--un-shadow:var(--un-shadow-inset) 0 1px 3px 0 var(--un-shadow-color, rgba(0,0,0,0.1)),var(--un-shadow-inset) 0 1px 2px -1px var(--un-shadow-color, rgba(0,0,0,0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px;}.focus\\:ring-2:focus{--un-ring-width:2px;--un-ring-offset-shadow:var(--un-ring-inset) 0 0 0 var(--un-ring-offset-width) var(--un-ring-offset-color);--un-ring-shadow:var(--un-ring-inset) 0 0 0 calc(var(--un-ring-width) + var(--un-ring-offset-width)) var(--un-ring-color);box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.focus\\:ring-4:focus{--un-ring-width:4px;--un-ring-offset-shadow:var(--un-ring-inset) 0 0 0 var(--un-ring-offset-width) var(--un-ring-offset-color);--un-ring-shadow:var(--un-ring-inset) 0 0 0 calc(var(--un-ring-width) + var(--un-ring-offset-width)) var(--un-ring-color);box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}.dark .dark\\:focus\\:ring-gray-600:focus{--un-ring-opacity:1;--un-ring-color:rgba(75,85,99,var(--un-ring-opacity));}.dark .dark\\:focus\\:ring-gray-700:focus{--un-ring-opacity:1;--un-ring-color:rgba(55,65,81,var(--un-ring-opacity));}.focus\\:ring-blue-500:focus{--un-ring-opacity:1;--un-ring-color:rgba(59,130,246,var(--un-ring-opacity));}.focus\\:ring-gray-200:focus{--un-ring-opacity:1;--un-ring-color:rgba(229,231,235,var(--un-ring-opacity));}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}.duration-200{transition-duration:200ms;}.delay-100{transition-delay:100ms;}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);}@media (min-width: 640px){\n.sm\\:mx-auto{margin-left:auto;margin-right:auto;}\n.sm\\:mb-0{margin-bottom:0rem;}\n.sm\\:inline-block{display:inline-block;}\n.sm\\:h-9{height:2.25rem;}\n.sm\\:flex{display:flex;}\n.sm\\:items-center{align-items:center;}\n.sm\\:justify-between{justify-content:space-between;}\n.sm\\:px-0{padding-left:0rem;padding-right:0rem;}\n.sm\\:px-4{padding-left:1rem;padding-right:1rem;}\n.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n.sm\\:py-3{padding-top:0.75rem;padding-bottom:0.75rem;}\n.sm\\:text-center{text-align:center;}\n.sm\\:text-2xl{font-size:1.5rem;line-height:2rem;}\n.sm\\:text-4xl{font-size:2.25rem;line-height:2.5rem;}\n.sm\\:text-8xl{font-size:6rem;line-height:1;}\n.sm\\:text-sm{font-size:0.875rem;line-height:1.25rem;}\n.sm\\:text-xl{font-size:1.25rem;line-height:1.75rem;}\n}@media (min-width: 768px){\n.md\\:order-1{order:1;}\n.md\\:order-2{order:2;}\n.md\\:mr-6{margin-right:1.5rem;}\n.md\\:mt-0{margin-top:0rem;}\n.md\\:block{display:block;}\n.md\\:hidden{display:none;}\n.md\\:w-auto{width:auto;}\n.md\\:flex{display:flex;}\n.md\\:flex-row{flex-direction:row;}\n.md\\:space-x-8>:not([hidden])~:not([hidden]){--un-space-x-reverse:0;margin-left:calc(2rem * calc(1 - var(--un-space-x-reverse)));margin-right:calc(2rem * var(--un-space-x-reverse));}\n.md\\:border-0{border-width:0px;border-style:solid;}\n.dark .md\\:dark\\:bg-gray-900{--un-bg-opacity:1;background-color:rgba(17,24,39,var(--un-bg-opacity));}\n.md\\:bg-transparent{background-color:transparent;}\n.md\\:bg-white{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));}\n.md\\:p-0{padding:0rem;}\n.md\\:px-6{padding-left:1.5rem;padding-right:1.5rem;}\n.md\\:py-8{padding-top:2rem;padding-bottom:2rem;}\n.md\\:text-sm{font-size:0.875rem;line-height:1.25rem;}\n.md\\:font-medium{font-weight:500;}\n.md\\:text-blue-700{--un-text-opacity:1;color:rgba(29,78,216,var(--un-text-opacity));}\n}@media (min-width: 1024px){\n.lg\\:px-\\[15\\%\\]{padding-left:15%;padding-right:15%;}\n.lg\\:text-5xl{font-size:3rem;line-height:1;}\n.lg\\:text-6xl{font-size:3.75rem;line-height:1;}\n}";
 }
 
 
@@ -6364,31 +6507,86 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // Parents: 
 // - /layouts/main.vue ($id_Iyy1A44MrL)
 // Dependencies: 
-// - vue/server-renderer ($id_UyJffsox60)
+// - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_zNsVk0jMsC = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_xVjx8iXC1B = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
+
 const _sfc_main = {}
-const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("vue/server-renderer");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${__vite_ssr_import_0__.ssrRenderAttrs(_attrs)}> I am Header </div>`)
+  const _component_NuxtLink = __vite_ssr_import_0__.default
+
+  _push(`<nav${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "bg-gray-50 border-gray-200 px-2 sm:px-4 py-2.5 rounded" }, _attrs))}><div class="container flex flex-wrap justify-between items-center mx-auto"><a class="flex items-center"><img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo"><span class="self-center text-xl font-semibold whitespace-nowrap">CSIT</span></a><div class="flex md:order-2"><button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-lg text-sm p-2.5 mr-1"><svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg><span class="sr-only">Search</span></button><div class="hidden relative md:block"><div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"><svg class="w-5 h-5 text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg><span class="sr-only">Search icon</span></div><input type="text" id="search-navbar" class="block p-2 pl-10 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700" placeholder="Search..."></div><button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false"><span class="sr-only">Open menu</span><svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button></div><div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-search"><div class="relative mt-3 md:hidden"><div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"><svg class="w-5 h-5 text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg></div><input type="text" id="search-navbar" class="block p-2 pl-10 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Search..."></div><ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"><li>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
+    to: "/home",
+    class: "block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+  }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(` Home `)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode(" Home ")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
+    to: "/about",
+    class: "block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+  }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(` About `)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode(" About ")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
+    to: "/services",
+    class: "block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+  }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(` Services `)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode(" Services ")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li></ul></div></div></nav>`)
 }
 
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Header.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/Header.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/Header.vue"]]);
 }
 
 
@@ -6397,31 +6595,102 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // Parents: 
 // - /layouts/main.vue ($id_Iyy1A44MrL)
 // Dependencies: 
-// - vue/server-renderer ($id_UyJffsox60)
+// - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_LM91OYyckT = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_6hS09aLR4D = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
+
 const _sfc_main = {}
-const __vite_ssr_import_0__ = await __vite_ssr_import__("vue/server-renderer");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("vue/server-renderer");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${__vite_ssr_import_0__.ssrRenderAttrs(_attrs)}> I am Footer </div>`)
+  const _component_NuxtLink = __vite_ssr_import_0__.default
+
+  _push(`<footer${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "p-4 bg-gray-100 rounded-lg shadow md:px-6 md:py-8" }, _attrs))}><div class="sm:flex sm:items-center sm:justify-between"><a class="flex items-center mb-4 sm:mb-0"><img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="Flowbite Logo"><span class="self-center text-2xl font-semibold whitespace-nowrap">CSIT Elite</span></a><ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0"><li>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
+    to: "/about",
+    class: "mr-4 hover:underline md:mr-6"
+  }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(` About `)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode(" About ")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
+    to: "/PrivacyPolicy",
+    class: "mr-4 hover:underline md:mr-6"
+  }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(` Privacy Policy `)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode(" Privacy Policy ")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
+    to: "/licensing",
+    class: "mr-4 hover:underline md:mr-6"
+  }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(` Licensing `)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode(" Licensing ")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
+    to: "/contact",
+    class: "mr-4 hover:underline md:mr-6"
+  }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(` Contact `)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode(" Contact ")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li></ul></div><hr class="my-6 border-gray-200 sm:mx-auto"><span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 CSIT . All Rights Reserved. </span></footer>`)
 }
 
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Footer.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/Footer.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"E:/github/CSIT-Elites-Dev-Res2/components/Footer.vue"]]);
 }
 
 
@@ -6516,14 +6785,16 @@ const __modules__ = {
   "/node_modules/nuxt/dist/pages/runtime/page.mjs": $id_fFq7qeRP5k,
   "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_556mQZwqc2,
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_AxaBi36skE,
-  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs": $id_fdy1yXcBsH,
-  "/pages/[...slug].vue?macro=true": $id_bTC5vvVyAW,
-  "/pages/[...slug].vue": $id_kCxM37on23,
+  "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/routes.mjs": $id_93e9EPyxQo,
+  "/pages/CardDetails.vue?macro=true": $id_oyXGJgNGBN,
+  "/pages/[...slug].vue?macro=true": $id_TN4ReduQT5,
+  "/pages/CardDetails.vue": $id_mrsdbsTprI,
+  "/pages/[...slug].vue": $id_tYJr5XS6mh,
   "/pages/[...slug].vue?vue&type=style&index=0&lang.css": $id_1VS79gcHz5,
   "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/router.options.mjs": $id_tFSgz8RiXS,
   "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/middleware.mjs": $id_1ShPjGyenB,
   "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/unocss.mjs": $id_gWN5GWayl9,
-  "/__uno.css": $id_1eWlTK3n1a,
+  "/__uno.css": $id_oXUY4mPaUq,
   "/node_modules/@nuxt/content/dist/runtime/plugin.mjs": $id_nKi2ivSk2C,
   "/node_modules/@nuxt/content/dist/runtime/composables/web-socket.mjs": $id_sDnuTWGyut,
   "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/root-component.mjs": $id_bs5zZqGrcd,
@@ -6541,8 +6812,8 @@ const __modules__ = {
   "/node_modules/nuxt/dist/app/components/layout.mjs": $id_07KbvrREq3,
   "/@id/virtual:nuxt:E:/github/CSIT-Elites-Dev-Res2/.nuxt/layouts.mjs": $id_BGaWMXcgFF,
   "/layouts/main.vue": $id_aqD0VdK3Y0,
-  "/components/Header.vue": $id_zNsVk0jMsC,
-  "/components/Footer.vue": $id_LM91OYyckT
+  "/components/Header.vue": $id_xVjx8iXC1B,
+  "/components/Footer.vue": $id_6hS09aLR4D
 }
 
 
