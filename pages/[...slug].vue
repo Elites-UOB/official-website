@@ -11,6 +11,7 @@
             </section>
         </main>
     </div>
+    
 
     <template #not-found>
       <h1 class="text-2xl">
