@@ -2,7 +2,6 @@
     <div>
         <Header />
         <slot />
-        
         <Footer />
     </div>
 
