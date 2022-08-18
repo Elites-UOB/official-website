@@ -1,5 +1,5 @@
 <template>
-    <main>
-        hello from footer
-    </main>
+    <div>
+        I am Footer
+    </div>
 </template>

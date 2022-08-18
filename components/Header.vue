@@ -1,5 +1,5 @@
 <template>
-    <main>
-        hello from header
-    </main>
+    <div>
+        I am Header
+    </div>
 </template>

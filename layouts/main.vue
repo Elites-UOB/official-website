@@ -1,5 +1,9 @@
 <template>
-    <main>
-        <div>hello from main </div>
-    </main>
+    <div>
+        <Header />
+        <slot />
+        
+        <Footer />
+    </div>
+
 </template>
