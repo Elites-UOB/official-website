@@ -1,9 +1,61 @@
+<<<<<<< HEAD
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/node-fetch-native/dist/polyfill.mjs';
+=======
 globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://D:/GitHub/CSIT-Elites-Res/node_modules/node-fetch-native/dist/polyfill.mjs';
+>>>>>>> origin/Manar2
 import { Server } from 'http';
 import { tmpdir } from 'os';
 import { join } from 'path';
 import { mkdirSync } from 'fs';
 import { parentPort, threadId } from 'worker_threads';
+<<<<<<< HEAD
+import { provider, isWindows } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/std-env/dist/index.mjs';
+import { createRenderer } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { eventHandler, defineEventHandler, handleCacheHeaders, createEvent, useQuery, useCookie, createError, createApp, createRouter, lazyEventHandler, getQuery } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/h3/dist/index.mjs';
+import devalue from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/devalue/dist/devalue.mjs';
+import { renderToString } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/vue/server-renderer/index.mjs';
+import { parseURL, withQuery, withLeadingSlash, withoutTrailingSlash, joinURL } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/ufo/dist/index.mjs';
+import destr from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/destr/dist/index.mjs';
+import { snakeCase, kebabCase, pascalCase } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/scule/dist/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/ohmyfetch/dist/node.mjs';
+import { createRouter as createRouter$1 } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/radix3/dist/index.mjs';
+import { createCall, createFetch } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/hookable/dist/index.mjs';
+import { hash } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/ohash/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/unstorage/dist/index.mjs';
+import _unstorage_drivers_fs from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/unstorage/dist/drivers/fs.mjs';
+import { extname } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/pathe/dist/index.mjs';
+import defu from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/defu/dist/defu.mjs';
+import remarkEmoji from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/remark-emoji/index.js';
+import rehypeSlug from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/rehype-slug/index.js';
+import remarkSqueezeParagraphs from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/remark-squeeze-paragraphs/index.js';
+import rehypeExternalLinks from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/rehype-external-links/index.js';
+import remarkGfm from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/remark-gfm/index.js';
+import rehypeSortAttributeValues from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/rehype-sort-attribute-values/index.js';
+import rehypeSortAttributes from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/rehype-sort-attributes/index.js';
+import rehypeRaw from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/rehype-raw/index.js';
+import yaml from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/js-yaml/dist/js-yaml.mjs';
+import flat from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/flat/index.js';
+import { unified } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/unified/index.js';
+import remarkParse from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/remark-parse/index.js';
+import remark2rehype from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/remark-rehype/index.js';
+import { visit } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/unist-util-visit/index.js';
+import { stringifyEntitiesLight } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/stringify-entities/index.js';
+import { parseEntities } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/parse-entities/index.js';
+import { markdownLineEnding, markdownSpace, asciiAlpha, markdownLineEndingOrSpace, asciiAlphanumeric } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/micromark-util-character/dev/index.js';
+import { factorySpace } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/micromark-factory-space/dev/index.js';
+import { factoryWhitespace } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/micromark-factory-whitespace/dev/index.js';
+import { codeFenced } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/micromark-core-commonmark/dev/index.js';
+import { all } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/mdast-util-to-hast/index.js';
+import { detab } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/detab/index.js';
+import { u } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/unist-builder/index.js';
+import { encode } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/mdurl/index.js';
+import { position } from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/unist-util-position/index.js';
+import htmlTags from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/html-tags/index.js';
+import slugify from 'file://E:/github/CSIT-Elites-Dev-Res2/node_modules/slugify/slugify.js';
+
+const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"routes":{},"envPrefix":"NUXT_"},"public":{"content":{"base":"_content","tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"highlight":false,"wsUrl":"ws://localhost:4000/"}},"content":{"cacheVersion":2,"cacheIntegerity":"cN8Gkpfl2c","transformers":["E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/server/transformers/markdown.mjs","E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/server/transformers/yaml.mjs","E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/server/transformers/json.mjs","E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/server/transformers/csv.mjs","E:/github/CSIT-Elites-Dev-Res2/node_modules/@nuxt/content/dist/runtime/server/transformers/path-meta.mjs"],"base":"_content","watch":true,"sources":["content"],"ignores":["\\.","-"],"locales":[],"highlight":false,"markdown":{"tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"rehypePlugins":[],"remarkPlugins":[]},"yaml":{},"csv":{},"navigation":{"fields":[]}}};
+=======
 import { provider, isWindows } from 'file://D:/GitHub/CSIT-Elites-Res/node_modules/std-env/dist/index.mjs';
 import { createRenderer } from 'file://D:/GitHub/CSIT-Elites-Res/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { eventHandler, defineEventHandler, handleCacheHeaders, createEvent, useQuery, useCookie, createError, createApp, createRouter, lazyEventHandler, getQuery } from 'file://D:/GitHub/CSIT-Elites-Res/node_modules/h3/dist/index.mjs';
@@ -50,6 +102,7 @@ import htmlTags from 'file://D:/GitHub/CSIT-Elites-Res/node_modules/html-tags/in
 import slugify from 'file://D:/GitHub/CSIT-Elites-Res/node_modules/slugify/slugify.js';
 
 const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"routes":{},"envPrefix":"NUXT_"},"public":{"content":{"base":"_content","tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"highlight":false,"wsUrl":"ws://localhost:4000/"}},"content":{"cacheVersion":2,"cacheIntegerity":"cN8Gkpfl2c","transformers":["D:/GitHub/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/server/transformers/markdown.mjs","D:/GitHub/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/server/transformers/yaml.mjs","D:/GitHub/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/server/transformers/json.mjs","D:/GitHub/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/server/transformers/csv.mjs","D:/GitHub/CSIT-Elites-Res/node_modules/@nuxt/content/dist/runtime/server/transformers/path-meta.mjs"],"base":"_content","watch":true,"sources":["content"],"ignores":["\\.","-"],"locales":[],"highlight":false,"markdown":{"tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"rehypePlugins":[],"remarkPlugins":[]},"yaml":{},"csv":{},"navigation":{"fields":[]}}};
+>>>>>>> origin/Manar2
 const ENV_PREFIX = "NITRO_";
 const ENV_PREFIX_ALT = _runtimeConfig.nitro.envPrefix ?? process.env.NITRO_ENV_PREFIX ?? "_";
 const getEnv = (key) => {
@@ -106,7 +159,11 @@ function timingMiddleware(_req, res, next) {
   next();
 }
 
+<<<<<<< HEAD
+const serverAssets = [{"baseName":"server","dir":"E:/github/CSIT-Elites-Dev-Res2/server/assets"}];
+=======
 const serverAssets = [{"baseName":"server","dir":"D:/GitHub/CSIT-Elites-Res/server/assets"}];
+>>>>>>> origin/Manar2
 
 const assets = createStorage();
 
@@ -120,11 +177,19 @@ const useStorage = () => storage;
 
 storage.mount('/assets', assets);
 
+<<<<<<< HEAD
+storage.mount('content:source:content', _unstorage_drivers_fs({"name":"content","driver":"fs","prefix":"","base":"E:\\github\\CSIT-Elites-Dev-Res2\\content","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', _unstorage_drivers_fs({"driver":"fs","base":"E:\\github\\CSIT-Elites-Dev-Res2","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', _unstorage_drivers_fs({"driver":"fs","base":"E:\\github\\CSIT-Elites-Dev-Res2\\server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', _unstorage_drivers_fs({"driver":"fs","base":"E:\\github\\CSIT-Elites-Dev-Res2\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', _unstorage_drivers_fs({"driver":"fs","base":"E:\\github\\CSIT-Elites-Dev-Res2\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
+=======
 storage.mount('content:source:content', _unstorage_drivers_fs({"name":"content","driver":"fs","prefix":"","base":"D:\\GitHub\\CSIT-Elites-Res\\content","ignore":["**/node_modules/**","**/.git/**"]}));
 storage.mount('root', _unstorage_drivers_fs({"driver":"fs","base":"D:\\GitHub\\CSIT-Elites-Res","ignore":["**/node_modules/**","**/.git/**"]}));
 storage.mount('src', _unstorage_drivers_fs({"driver":"fs","base":"D:\\GitHub\\CSIT-Elites-Res\\server","ignore":["**/node_modules/**","**/.git/**"]}));
 storage.mount('build', _unstorage_drivers_fs({"driver":"fs","base":"D:\\GitHub\\CSIT-Elites-Res\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
 storage.mount('cache', _unstorage_drivers_fs({"driver":"fs","base":"D:\\GitHub\\CSIT-Elites-Res\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
+>>>>>>> origin/Manar2
 
 function defineRenderHandler$1(handler) {
   return eventHandler(async (event) => {
@@ -2502,7 +2567,11 @@ const importPlugin = async (p) => [
   await import(p[0]).then((res) => res.default || res),
   typeof p[1] === "object" ? { ...p[1] } : p[1]
 ];
+<<<<<<< HEAD
+const E_58_47github_47CSIT_45Elites_45Dev_45Res2_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47markdown_46mjs = {
+=======
 const D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47markdown_46mjs = {
+>>>>>>> origin/Manar2
   name: "markdown",
   extentions: [".md"],
   parse: async (_id, content) => {
@@ -2519,7 +2588,11 @@ const D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47d
   }
 };
 
+<<<<<<< HEAD
+const E_58_47github_47CSIT_45Elites_45Dev_45Res2_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47yaml_46mjs = {
+=======
 const D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47yaml_46mjs = {
+>>>>>>> origin/Manar2
   name: "Yaml",
   extentions: [".yml", ".yaml"],
   parse: async (_id, content) => {
@@ -2539,14 +2612,22 @@ ${content}
   }
 };
 
+<<<<<<< HEAD
+const E_58_47github_47CSIT_45Elites_45Dev_45Res2_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47json_46mjs = {
+=======
 const D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47json_46mjs = {
+>>>>>>> origin/Manar2
   name: "Json",
   extentions: [".json", ".json5"],
   parse: async (_id, content) => {
     let parsed = content;
     if (typeof content === "string") {
       if (_id.endsWith("json5")) {
+<<<<<<< HEAD
+        parsed = (await import('file://E:/github/CSIT-Elites-Dev-Res2/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
+=======
         parsed = (await import('file://D:/GitHub/CSIT-Elites-Res/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
+>>>>>>> origin/Manar2
       } else if (_id.endsWith("json")) {
         parsed = destr(content);
       }
@@ -2565,12 +2646,20 @@ const D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47d
   }
 };
 
+<<<<<<< HEAD
+const E_58_47github_47CSIT_45Elites_45Dev_45Res2_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47csv_46mjs = {
+=======
 const D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47csv_46mjs = {
+>>>>>>> origin/Manar2
   name: "csv",
   extentions: [".csv"],
   parse: async (_id, content) => {
     const config = { ...useRuntimeConfig().content?.csv || {} };
+<<<<<<< HEAD
+    const csvToJson = await import('file://E:/github/CSIT-Elites-Dev-Res2/node_modules/csvtojson/v2/index.js').then((m) => m.default || m);
+=======
     const csvToJson = await import('file://D:/GitHub/CSIT-Elites-Res/node_modules/csvtojson/v2/index.js').then((m) => m.default || m);
+>>>>>>> origin/Manar2
     const parsed = await csvToJson({ output: "json", ...config }).fromString(content);
     return {
       _id,
@@ -2593,7 +2682,11 @@ const describeId = (_id) => {
     _file: _extension ? `${_path}.${_extension}` : _path
   };
 };
+<<<<<<< HEAD
+const E_58_47github_47CSIT_45Elites_45Dev_45Res2_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47path_45meta_46mjs = {
+=======
 const D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47path_45meta_46mjs = {
+>>>>>>> origin/Manar2
   name: "path-meta",
   extentions: [".*"],
   transform(content) {
@@ -2627,7 +2720,11 @@ function refineUrlPart(name) {
   return name.replace(/(\d+\.)?(.*)/, "$2").replace(/^index/, "").replace(/\.draft/, "");
 }
 
+<<<<<<< HEAD
+const transformers = [E_58_47github_47CSIT_45Elites_45Dev_45Res2_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47markdown_46mjs, E_58_47github_47CSIT_45Elites_45Dev_45Res2_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47yaml_46mjs, E_58_47github_47CSIT_45Elites_45Dev_45Res2_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47json_46mjs, E_58_47github_47CSIT_45Elites_45Dev_45Res2_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47csv_46mjs, E_58_47github_47CSIT_45Elites_45Dev_45Res2_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47path_45meta_46mjs];
+=======
 const transformers = [D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47markdown_46mjs, D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47yaml_46mjs, D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47json_46mjs, D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47csv_46mjs, D_58_47GitHub_47CSIT_45Elites_45Res_47node_modules_47_64nuxt_47content_47dist_47runtime_47server_47transformers_47path_45meta_46mjs];
+>>>>>>> origin/Manar2
 const getParser = (ext) => transformers.find(p => ext.match(new RegExp(p.extentions.join("|"),  "i")) && p.parse);
 const getTransformers = (ext) => transformers.filter(p => ext.match(new RegExp(p.extentions.join("|"),  "i")) && p.transform);
 
@@ -2805,7 +2902,11 @@ const getContentQuery = (event) => {
   return query;
 };
 
+<<<<<<< HEAD
+const _jIX0oh = defineEventHandler(async (event) => {
+=======
 const _7MJlVn = defineEventHandler(async (event) => {
+>>>>>>> origin/Manar2
   const query = getContentQuery(event);
   const contents = await serverQueryContent(event, query).find();
   if (query.first && Array.isArray(contents) && contents.length === 0) {
@@ -2821,7 +2922,11 @@ const _7MJlVn = defineEventHandler(async (event) => {
   return contents;
 });
 
+<<<<<<< HEAD
+const _JXYbyw = defineEventHandler(async (event) => {
+=======
 const _9Dya9A = defineEventHandler(async (event) => {
+>>>>>>> origin/Manar2
   const now = Date.now();
   await serverQueryContent(event).find();
   return {
@@ -2903,7 +3008,11 @@ function pick(keys) {
   };
 }
 
+<<<<<<< HEAD
+const _uNFGSD = defineEventHandler(async (event) => {
+=======
 const _uxiRnW = defineEventHandler(async (event) => {
+>>>>>>> origin/Manar2
   const query = getContentQuery(event);
   const contents = await serverQueryContent(event, query).where({
     _partial: false
@@ -2923,6 +3032,18 @@ const _uxiRnW = defineEventHandler(async (event) => {
   return createNav(contents, configs);
 });
 
+<<<<<<< HEAD
+const _lazy_1JyUBo = () => Promise.resolve().then(function () { return renderer$1; });
+
+const handlers = [
+  { route: '/__nuxt_error', handler: _lazy_1JyUBo, lazy: true, middleware: false, method: undefined },
+  { route: '/api/_content/query/:qid', handler: _jIX0oh, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query', handler: _jIX0oh, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache', handler: _JXYbyw, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid', handler: _uNFGSD, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation', handler: _uNFGSD, lazy: false, middleware: false, method: "get" },
+  { route: '/**', handler: _lazy_1JyUBo, lazy: true, middleware: false, method: undefined }
+=======
 const _lazy_zi36Fd = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
@@ -2933,6 +3054,7 @@ const handlers = [
   { route: '/api/_content/navigation/:qid', handler: _uxiRnW, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _uxiRnW, lazy: false, middleware: false, method: "get" },
   { route: '/**', handler: _lazy_zi36Fd, lazy: true, middleware: false, method: undefined }
+>>>>>>> origin/Manar2
 ];
 
 function createNitroApp() {
@@ -3017,8 +3139,13 @@ function publicAssetsURL(...path) {
 }
 
 const defineRenderHandler = defineRenderHandler$1;
+<<<<<<< HEAD
+const getClientManifest = () => import('file://E:/github/CSIT-Elites-Dev-Res2/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getServerEntry = () => import('file://E:/github/CSIT-Elites-Dev-Res2/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+=======
 const getClientManifest = () => import('file://D:/GitHub/CSIT-Elites-Res/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getServerEntry = () => import('file://D:/GitHub/CSIT-Elites-Res/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+>>>>>>> origin/Manar2
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   if (!manifest) {
