@@ -35,6 +35,7 @@ export default defineNuxtConfig({
             body {
               overflow: hidden !important;
               background-color: #000;
+              color: #fff;
             }
           `
       }
