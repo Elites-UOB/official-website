@@ -10,8 +10,9 @@
 
             <h1
               class="lg:text-6xl text-4xl text-center leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600">
-              Learn, Share, Grow
+              Learn, Share, Grow 
             </h1>
+              <div class="i-carbon-growth" text="gray-500"></div>
           </section>
         </main>
         <nuxt-link to="/CardDetails">
