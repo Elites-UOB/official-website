@@ -1,0 +1,10 @@
+{
+    "people": [
+        {
+            "name": "أحمد عبدالكريم",
+            "title": "مطور مواقع",
+            "image": "/_nuxt/assets/img/people/hamody.jpg",
+            "link": "https://github.com"
+        }
+    ]
+}

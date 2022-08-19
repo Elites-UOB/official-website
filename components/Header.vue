@@ -97,7 +97,7 @@
             <template v-for="(n, i) in links" :key="`navLink-${i}`">
                 <NuxtLink :to="n.link" class="inline-block text-2xl underline-offset-0 nav-link hover:text-primary group">
                     <div class="flex items-center space-x-2">
-                        <Icon :icon="n.icon" class="w-4 h-4" />
+                        <!-- <Icon :icon="n.icon" class="w-4 h-4" /> -->
                         <span class="font-xl"> {{ n.name }}</span>
                     </div>
                 </NuxtLink>
@@ -107,7 +107,6 @@
 </template>
 
 <script setup>
-import { Icon } from "@/iconify/vue";
 const links = [
     {
         name: "Blog",

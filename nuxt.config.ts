@@ -25,19 +25,24 @@ export default defineNuxtConfig({
     preflights: [
       {
         getCSS: ({ theme }) => `
-            * {
-              padding: 0;
-              margin: 0;
-              font-family: ${theme['fontFamily']['sans']};
-              direction: rtl;
-            }
+          * {
+            padding: 0;
+            margin: 0;
+            font-family: ${theme['fontFamily']['sans']};
+            direction: rtl;
+          }
 
-            body {
-              overflow: hidden !important;
-              background-color: #000;
-              color: #fff;
-            }
-          `
+          body {
+            overflow: hidden !important;
+            background-color: #000;
+            color: #fff;
+          }
+
+          .prose :where(p,ul,ol,pre):not(:where(.not-prose,.not-prose *)) {
+            margin: 0 !important;
+            line-height: auto !important;
+          }
+        `
       }
     ],
     theme: {
