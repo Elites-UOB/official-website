@@ -1,5 +1,5 @@
 <template>
-<<<<<<< HEAD
+
     <header class="flex items-center bg-gray-50 justify-between h-20 lg:px-10">
         <a href="/" class="flex items-center">
             <img src="~/assets/CoreTeamLogo.png" class="mr-2 h-9 sm:h-12" alt="CSIT Logo">
@@ -39,9 +39,9 @@ const links = [
     @apply text-primary;
 }
 </style>
-=======
+
     <div>
-        header
+     
     </div>
 </template>
->>>>>>> origin/Fatma
+
