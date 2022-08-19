@@ -11,6 +11,7 @@
     "nuxt": "^3.0.0-rc.4"
   },
   "dependencies": {
+    "@iconify/json": "^2.1.95",
     "@unocss/nuxt": "^0.45.7"
   }
 }
