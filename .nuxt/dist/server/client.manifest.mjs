@@ -4,7 +4,6 @@ export default {
     "file": "@vite/client",
     "css": [
       "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue?vue&type=style&index=0&lang.css",
-      "pages/[...slug].vue?vue&type=style&index=0&lang.css",
       "__uno.css",
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=bc8852ab&lang.css",
       "node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=6b2d7187&lang.css",
@@ -16,10 +15,6 @@ export default {
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue?vue&type=style&index=0&lang.css": {
     "file": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue?vue&type=style&index=0&lang.css",
-    "resourceType": "style"
-  },
-  "pages/[...slug].vue?vue&type=style&index=0&lang.css": {
-    "file": "pages/[...slug].vue?vue&type=style&index=0&lang.css",
     "resourceType": "style"
   },
   "__uno.css": {
