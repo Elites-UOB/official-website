@@ -89,7 +89,7 @@
 
 <template>
     <header class="flex items-center bg-gray-80 justify-between h-20 px-[5%] lg:px-[15%]">
-        <a class="flex items-center">
+        <a href="/" class="flex items-center">
             <img src="~/assets/CoreTeamLogo.png" class="mr-2 h-9 sm:h-12" alt="CSIT Logo">
             <span class="font-bold text-2xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600">CSIT</span>
         </a>
