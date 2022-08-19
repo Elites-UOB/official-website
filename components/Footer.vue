@@ -14,13 +14,13 @@
                     class="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600  hover:from-pink-900 hover:via-purple-400 hover:to-gray-100 ">
                     Join
                 </h1>
-                <div class=" hover:from-gray-900 hover:via-gray-400 hover:to-gray-100">
-                    <div class="items-center flex mb-3 ">
-                        <i class="fa-brands fa-telegram"></i>
+                <div class="">
+                    <div class=" flex mb-3 ">
+                        <div class="i-akar-icons-telegram-fill"> </div>
                         <a href="https://telegram.me/CsitElites">Join telegram </a>
                     </div>
                     <div>
-                        <i class="fa-solid fa-circle-envelope"></i>
+                        <div class="i-clarity-email-solid"> </div>
                         <a href="mailto:zainabamjedlatef31@gmail.com"> send email</a>
                     </div>
                 </div>
