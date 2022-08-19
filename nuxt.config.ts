@@ -30,8 +30,18 @@ export default defineNuxtConfig({
               margin: 0;
               font-family: ${theme['fontFamily']['sans']};
             }
+
+            body {
+              overflow: hidden !important;
+              background-color: #000;
+            }
           `
       }
     ],
+    theme: {
+      height: {
+        "main-content": "calc(100vh - 11rem)",
+      },
+    },
   }
 })
