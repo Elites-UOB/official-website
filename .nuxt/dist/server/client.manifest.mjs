@@ -7,8 +7,7 @@ export default {
       "__uno.css",
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=bc8852ab&lang.css",
       "node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=6b2d7187&lang.css",
-      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css",
-      "components/Header.vue?vue&type=style&index=0&scoped=a81738bd&lang.css"
+      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css"
     ],
     "module": true,
     "resourceType": "script"
@@ -31,10 +30,6 @@ export default {
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css": {
     "file": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css",
-    "resourceType": "style"
-  },
-  "components/Header.vue?vue&type=style&index=0&scoped=a81738bd&lang.css": {
-    "file": "components/Header.vue?vue&type=style&index=0&scoped=a81738bd&lang.css",
     "resourceType": "style"
   },
   "C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry": {
