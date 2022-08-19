@@ -6593,7 +6593,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - /components/Header.vue?vue&type=style&index=0&scoped=a81738bd&lang.css ($id_B1pL7w8jIL)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_a7dfLlbDzR = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_neQL8X2ZLK = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/iconify/vue");
@@ -6636,7 +6636,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
 
   _push(`<header${
     __vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({ class: "flex items-center bg-gray-50 justify-between h-20 lg:px-10" }, _attrs))
-  } data-v-a81738bd><a class="flex items-center" data-v-a81738bd><img${
+  } data-v-a81738bd><a href="/" class="flex items-center" data-v-a81738bd><img${
     __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_4__.default)
   } class="mr-2 h-9 sm:h-12" alt="CSIT Logo" data-v-a81738bd><span class="font-bold text-2xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600" data-v-a81738bd>CSIT</span></a><nav class="flex items-center space-x-7 text-gray-600" data-v-a81738bd><!--[-->`)
   __vite_ssr_import_3__.ssrRenderList($setup.links, (n, i) => {
@@ -6888,7 +6888,7 @@ const __modules__ = {
   "/node_modules/nuxt/dist/app/components/layout.mjs": $id_PeSPNI5i90,
   "/@id/virtual:nuxt:D:/GitHub/CSIT-Elites-Res/.nuxt/layouts.mjs": $id_16Ue92TlY1,
   "/layouts/main.vue": $id_3D2DoXYfNr,
-  "/components/Header.vue": $id_a7dfLlbDzR,
+  "/components/Header.vue": $id_neQL8X2ZLK,
   "/iconify/vue": $id_ZR1xnGh5pa,
   "/assets/CoreTeamLogo.png": $id_C8mrNashPK,
   "/components/Header.vue?vue&type=style&index=0&scoped=a81738bd&lang.css": $id_6vW6w3CULL,
