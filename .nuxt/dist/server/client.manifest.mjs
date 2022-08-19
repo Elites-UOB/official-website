@@ -37,9 +37,9 @@ export default {
     "file": "components/Header.vue?vue&type=style&index=0&scoped=a81738bd&lang.css",
     "resourceType": "style"
   },
-  "C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry": {
+  "D:/GitHub/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry": {
     "isEntry": true,
-    "file": "C:/Users/so/Desktop/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry",
+    "file": "D:/GitHub/CSIT-Elites-Res/node_modules/nuxt/dist/app/entry",
     "module": true,
     "resourceType": "script"
   }
