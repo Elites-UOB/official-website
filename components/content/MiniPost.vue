@@ -5,7 +5,7 @@
                 {{ post.title }}
             </span>
             <div v-if="post.categories?.length > 0" flex="~ gap-10px">
-                <Tag v-for="category in post.categories" :key="category" :title="category" type="category" />                    
+                <Tag @click.stop="selectCategory(category)" v-for="category in post.categories" :key="category" :title="category" type="category" />                    
             </div>
             <span text="sm mid">
                 {{ post.date }}
@@ -17,4 +17,7 @@
 <script setup>
 const props = defineProps(['path', 'post'])
 const router = useRouter()
+
+const emit = defineEmits(['category'])
+const selectCategory = (category) => emit('category', category)
 </script>

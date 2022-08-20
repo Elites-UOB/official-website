@@ -3,7 +3,7 @@
         <div flex="~" h="11/12" w="full">
             <div grid="~ sm:cols-1 md:cols-2 lg:cols-2 xl:cols-2 2xl:cols-3 gap-4.375rem" class="auto-rows-min" w="full">
                 <div v-if="pending" h="48px" w="48px" text="light" class="i-line-md-loading-twotone-loop"></div>
-                <MiniPost v-else :path="post._path" v-for="post in filteredPosts" :key="post" :post="post" />
+                <MiniPost v-else @category="selectCategory($event)" :path="post._path" v-for="post in filteredPosts" :key="post" :post="post" />
             </div>
         </div>
         <div h="1/12" w="full" flex="~ col gap-13px">
