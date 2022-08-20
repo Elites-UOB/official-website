@@ -7,6 +7,24 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
   ],
 
+  vite:{
+    optimizeDeps:{
+      esbuildOptions: {
+        target: 'es2020'
+      },
+    },
+    build:{
+      target: 'es2020',
+    },
+    resolve:{
+      alias:{
+        https: 'https-browserify',
+        http: 'http-browserify',
+      }
+    }
+    
+  },
+
   content: {
     highlight: {
       // preload
