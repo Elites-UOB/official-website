@@ -7,6 +7,19 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
   ],
 
+  content: {
+    highlight: {
+      // preload
+       theme: 'one-dark-pro'
+    },
+    markdown: {
+      tags: {
+        code: 'Code',
+        h2: 'H2'
+      }
+    }
+  },
+
 
   unocss: {
     autoImport: true,
@@ -19,29 +32,26 @@ export default defineNuxtConfig({
     webFonts: {
       provider: 'google',
       fonts: {
-        sans: ['Cairo:200,300,400,500,600,700,800,900'],
+        "sans": ['Cairo:200,300,400,500,600,700,800,900'],
       },
     },
     preflights: [
       {
         getCSS: ({ theme }) => `
           * {
-            padding: 0;
-            margin: 0;
             font-family: ${theme['fontFamily']['sans']};
-            direction: rtl;
           }
 
           body {
-            overflow: hidden !important;
             background-color: #000;
-            color: #fff;
+            color: #B7B7B7;
+            padding: 0;
+            margin: 0;
+            direction: rtl;
           }
 
-          .prose :where(p,ul,ol,pre):not(:where(.not-prose,.not-prose *)) {
-            margin: 0 !important;
-            line-height: auto !important;
-          }
+
+          
         `
       }
     ],
