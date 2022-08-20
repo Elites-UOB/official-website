@@ -40,9 +40,8 @@
     </div>
     <div flex="~" justify="center" mt="8">
         <div>
-            //logo
-
-
+            <img src="~/assets/ITLogo.png" width="34.4" height="32" alt="IT" />
+            <img src="~/assets/AlbasrahUniversityLogo.png" width="32" height="32" mr="3" alt="IT" />
         </div>
     </div>
 </template>
