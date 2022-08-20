@@ -5,9 +5,11 @@
             <img h="48px" w="48px" rounded="full" :src="person.image" alt="">
             <span>{{ person.name }} - {{ person.title }}</span>
         </a>
-        <div mt="3rem">
-            <slot />
-        </div>
+        <ClientOnly>
+            <div>
+                <slot />
+            </div>
+        </ClientOnly>
     </div>
 </template>
 

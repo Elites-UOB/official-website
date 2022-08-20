@@ -15,7 +15,12 @@ export default defineNuxtConfig({
     markdown: {
       tags: {
         code: 'Code',
-        h2: 'H2'
+        h2: 'H2',
+        h3: 'H3',
+        h4: 'H4',
+        h5: 'H5',
+        h6: 'H6',
+        p: 'P'
       }
     }
   },
@@ -43,7 +48,6 @@ export default defineNuxtConfig({
           }
 
           body {
-            background-color: #000;
             color: #B7B7B7;
             padding: 0;
             margin: 0;
@@ -60,7 +64,7 @@ export default defineNuxtConfig({
         "main-content": "calc(100vh - 11rem)",
       },
       colors: {
-        "dark": "#000000",
+        "dark": "#181818",
         "light": "#ffffff",
         "mid": "#B7B7B7",
         "error": "#FF493E",
