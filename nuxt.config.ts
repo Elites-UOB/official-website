@@ -72,5 +72,15 @@ export default defineNuxtConfig({
         "success": "#38CC76",
       }
     },
+    safelist: [
+      ...(() => {
+        let colors = ['dark', 'light', 'mid', 'error', 'warning', 'success']
+        return [
+          ...colors.map(color => `text-${color}`),
+          ...colors.map(color => `border-${color}`),
+          ...colors.map(color => `bg-${color}`),
+        ]
+      })(),
+    ]
   }
 })
