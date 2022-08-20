@@ -1,6 +1,6 @@
 <template>
     <div flex="~" w="full" items="center" justify="center">
-        <div flex="~" w="2/3" h="2/3" p="2.8125rem" border="2 mid">
+        <div flex="~" w="full" h="2/3" p="2.8125rem" border="2 mid">
             <Event :id="$route.params.id">
                 <ContentDoc>
                     <!-- Slot if document is not found -->

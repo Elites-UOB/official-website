@@ -6,7 +6,9 @@
                 <template #title>{{ event.title }}</template>
                 <template #description>{{ event.description}}</template>
                 <template #time>{{ event.time }}</template>
-                <template #state>{{ event.state }}</template>
+                <template #state>
+                    <span :class="textColor(event.state)">{{ stateText(event.state) }}</span>
+                </template>
                 <template #image>
                     <img :src="event.image" alt="Event image" />
                 </template>
@@ -17,4 +19,11 @@
 
 <script setup>
 const { data: events, pending } = await useAsyncData('events', () => queryContent('events').where({ _type: "markdown" }).find())
+const { textColor, states, stateText } = useColorState()
+states.value = [
+    { number: 1, text: "مفتوح" },
+    { number: 2, text: "سينتهي التسجيل" },
+    { number: 3, text: "أنتهى" },
+]
+
 </script>

@@ -12,7 +12,7 @@
                     <span font="semibold" text="mid">
                         <slot name="time" />
                     </span>
-                    <span class="text-success text-sm">
+                    <span class="text-sm">
                         <slot name="state" />
                     </span>
                 </div>
