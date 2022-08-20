@@ -44,4 +44,35 @@
             <img src="~/assets/AlbasrahUniversityLogo.png" width="32" height="32" mr="3" alt="IT" />
         </div>
     </div>
+    <div flex="~" justify="center" mt="4">
+        <a href="https://github.com/Gruce">
+            <img src="~/assets/CoreTeam/Hasan Alkhalidi.jpg" title="حسن الخالدي" rounded="full" width="53" height="53" mr="3" />
+        </a>
+        <a href="https://github.com/6vnar">
+            <img src="~/assets/CoreTeam/Manar Naser.jpg" title=" منار ناصر " rounded="full" width="53" height="53" mr="3" />
+        </a>
+        <a href="https://github.com/i1Zeus">
+            <img src="~/assets/CoreTeam/Hussein Najah.jpg"  title=" حسين نجاح " rounded="full" width="53" height="53" mr="3" />
+        </a>
+        <a href="https://github.com/MohammedJ18">
+            <img src="~/assets/CoreTeam/Mohammed Jawad.jpg" title=" محمد جواد " rounded="full" width="53" height="53" mr="3" />
+        </a>
+        <a href="https://github.com/MosaNameer">
+            <img src="~/assets/CoreTeam/mosa nameer.jpg" title=" موسى نمير " rounded="full" width="53" height="53" mr="3" />
+        </a>
+    </div>
+    <div flex="~" justify="center" mt="4">
+        <a href="https://github.com/fatmanawfal/">
+            <img src="~/assets/CoreTeam/Fatma Nawfal.jpg" title=" فاطمة نوفل " rounded="full" width="53" height="53" mr="3" />
+        </a>
+        <a href="https://github.com/a7med3bd">
+            <img src="~/assets/CoreTeam/Ahmed Abdulkareem.jpg" title=" احمد عبدالكريم" rounded="full" width="53" height="53" mr="3" />
+        </a>
+        <a href="https://github.com/zal3">
+            <img src="~/assets/CoreTeam/Zainab Amjed.jpg" title=" زينب امجد" rounded="full" width="53" height="53" mr="3" />
+        </a>
+        <a href="https://github.com/eq0">
+            <img src="~/assets/CoreTeam/Hasan Alkhalidi.jpg" title=" زين احمد" rounded="full" width="53" height="53" mr="3" />
+        </a>
+    </div>
 </template>
