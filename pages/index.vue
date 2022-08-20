@@ -10,10 +10,16 @@
                 رسميًا إلى كلية علوم الحاسوب وتكنولوجيا
                 المعلومات، جامعة البصرة.
             </div>
+            <div mt="4">
+              //logo
+
+            </div>
+
         </div>
         <!-- ... -->
         <div w="2/4" flex="~" justify="center">
-            <svg m="t-1.25rem" width="166" height="202.33" viewBox="0 0 696 849" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg m="t-1.25rem" width="166" height="202.33" viewBox="0 0 696 849" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M344.92 142.769L0 0V92.3893V142.769V285.538V428.308V560.495V702.159V703.265L344.92 848.324L696 703.265V560.495L344.92 703.265L123.186 611.484V479.297L344.92 571.077L696 428.308V285.538L344.92 428.308L123.186 336.527V193.758L344.92 285.538L696 142.769V0L344.92 142.769Z"
                     fill="white" />
@@ -25,17 +31,17 @@
                 <div flex="~" justify="between">
                     <div flex="~ col">
                         <span text="light 32px">+34</span>
-                        <span text="24px">مشروعاً</span>
+                        <span text="24px">مشروعًا</span>
                     </div>
                     <div flex="~ col">
                         <span text="light 32px">+34</span>
-                        <span text="24px">متدرباً</span>
+                        <span text="24px">متدربًا</span>
                     </div>
                 </div>
                 <div flex="~" justify="between">
                     <div flex="~ col">
                         <span text="light 32px">+34</span>
-                        <span text="24px">حدثاً</span>
+                        <span text="24px">حدثًا</span>
                     </div>
                     <div flex="~ col">
                         <span text="light 32px">+34</span>
@@ -46,7 +52,3 @@
         </div>
     </div>
 </template>
-
-<script setup>
-const props = defineProps(['num', 'description'])
-</script>
