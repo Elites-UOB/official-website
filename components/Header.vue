@@ -1,6 +1,6 @@
 <template>
     <div position="sticky" top="5" border="b light opacity-10" pb="5">
-        <nav px="2" w="full">
+        <nav w="full">
             <div class="flex flex-wrap justify-between items-center mx-auto">
                 <NuxtLink to="/" decoration="none" self="center" mb="4" text="2xl light" font="bold" whitespace="nowrap">فريق النخبة البرمجي</NuxtLink>
                 
