@@ -7,6 +7,24 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
   ],
 
+  vite:{
+    optimizeDeps:{
+      esbuildOptions: {
+        target: 'es2020'
+      },
+    },
+    build:{
+      target: 'es2020',
+    },
+    resolve:{
+      alias:{
+        https: 'https-browserify',
+        http: 'http-browserify',
+      }
+    }
+    
+  },
+
   content: {
     highlight: {
       // preload
@@ -81,6 +99,12 @@ export default defineNuxtConfig({
           ...colors.map(color => `bg-${color}`),
         ]
       })(),
+      ...[
+        'bg-[#eec210]',
+        'bg-[#2ea863]',
+        'bg-[#df4444]',
+        'bg-[#7b92c5]',
+      ]
     ]
   }
 })
