@@ -15,6 +15,10 @@
     "@iconify/json": "^2.1.95",
     "@unocss/nuxt": "^0.45.7",
     "discord-api-types": "^0.37.3",
-    "discord.js": "^14.2.0"
+    "discord.js": "^14.2.0",
+    "events": "^3.3.0",
+    "http-browserify": "^1.7.0",
+    "https-browserify": "^1.0.0",
+    "util": "^0.12.4"
   }
 }

@@ -99,6 +99,12 @@ export default defineNuxtConfig({
           ...colors.map(color => `bg-${color}`),
         ]
       })(),
+      ...[
+        'bg-[#eec210]',
+        'bg-[#2ea863]',
+        'bg-[#df4444]',
+        'bg-[#7b92c5]',
+      ]
     ]
   }
 })
