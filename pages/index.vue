@@ -11,10 +11,9 @@
                 المعلومات، جامعة البصرة.
             </div>
             <div mt="4">
-              //logo
-
+                <img src="~/assets/ITLogo.png" width="34.4" height="32" alt="IT" />
+                <img src="~/assets/AlbasrahUniversityLogo.png" width="32" height="32" mr="3" alt="IT" />
             </div>
-
         </div>
         <!-- ... -->
         <div w="2/4" flex="~" justify="center">
