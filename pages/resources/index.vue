@@ -1,5 +1,6 @@
 <template>
-  <div flex="~ col" h="full" items="center" justify="center">
+  <div flex="~ col" h="full" items="center" justify="center" sm="m-4" 
+  >
     <div h="1/12" w="full" flex="~ col gap-13px" mb="60px">
       <span text="2xl">التصنيفات</span>
       <div flex="~ gap-1rem">

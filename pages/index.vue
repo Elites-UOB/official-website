@@ -1,5 +1,5 @@
 <template>
-    <div flex="flex">
+
         <div flex="~" justify="between" w="full">
             <div w="1/4">
                 <span text="xl mid" whitespace="nowrap">لمجتمعٍ منتج تقنيًا </span>
@@ -50,11 +50,10 @@
                 </div>
             </div>
         </div>
-        <MiniEvent/>
         
-    </div>
+        
+
 </template>
 <script setup>
-const { data: events, pending } = await useAsyncData('events', () => queryContent('events').where({ _type: "markdown" }).find())
 </script>
 
