@@ -50,11 +50,10 @@
                 </div>
             </div>
         </div>
-        <MiniEvent/>
+        
         
     </div>
 </template>
 <script setup>
-const { data: events, pending } = await useAsyncData('events', () => queryContent('events').where({ _type: "markdown" }).find())
 </script>
 
