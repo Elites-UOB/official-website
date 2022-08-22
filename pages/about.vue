@@ -19,7 +19,7 @@
 
         </div>
         <div flex="~" justify="center" mt="3">
-            <div text="mid" mt="12px" w="298px">
+            <div text="mid center" mt="12px" w="298px">
                 ضمن <span text="light">مشروع قادة التحول الرقمي</span>. الفريق تابع
                 رسميًا إلى كلية علوم الحاسوب وتكنولوجيا
                 المعلومات، جامعة البصرة.
@@ -37,6 +37,9 @@
             </a>
             <a href="https://github.com/MohammedJ18">
                 <img src="~/assets/CoreTeam/MohammedJawad.jpg" title=" محمد جواد " rounded="full" width="53" height="53" mr="3" />
+            </a>
+            <a href="https://github.com/eq0">
+                <img src="~/assets/CoreTeam/ZainAhmad.png" title="زين العابدين أحمد" rounded="full" width="53" height="53" mr="3" />
             </a>
             <a href="https://github.com/Gruce">
                 <img src="~/assets/CoreTeam/HasanAlkhalidi.jpg" title="حسن الخالدي" rounded="full" width="53" height="53" mr="3" />

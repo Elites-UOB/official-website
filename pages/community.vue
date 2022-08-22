@@ -1,17 +1,22 @@
 <template>
     <div>
-        <div flex="~ gap-4" justify="center">
-            <div v-for="unit in data.units" :key="unit.id">
-                <Unit @select="selectedUnit = $event" :selected="selectedUnit.id == unit.id" :unit="unit" />
-            </div>
+        <div v-if="pending" text="center">
+            loading
         </div>
-        <div flex="~ col" capitalize="~">
-            <span>{{ unitLeader?.nick ? unitLeader.nick : unitLeader.user.username }}</span>
-            <span :class="[
-                member.title == 'Leader' ? getUnitColor(selectedUnit.name) : '' 
-            ]" v-for="member in unitMembers" :key="member.id">
-                {{ member.title }} - {{ member.nick ? member.nick : member.user.username }}
-            </span>
+        <div v-else>
+            <div flex="~ gap-4" justify="center">
+                <div v-for="unit in data.units" :key="unit.id" :style="{background: selectedUnit.id == unit.id ? getUnitColor(selectedUnit.name) : ''}">
+                    <Unit @select="selectedUnit = $event" :selected="selectedUnit.id == unit.id" :unit="unit" />
+                </div>
+            </div>
+            <div flex="~ col" capitalize="~" align="center" mt="4">
+                <span text="lg" :style="{color: getUnitColor(selectedUnit.name)}">{{ unitLeader.title }} - {{ unitLeader?.nick ? unitLeader.nick : unitLeader.user.username }}</span>
+                <div grid="~" grid-cols="3">
+                    <span v-for="member in unitMembers" :key="member.id">
+                        {{ member.nick ? member.nick : member.user.username }}
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
 </template>
