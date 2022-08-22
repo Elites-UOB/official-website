@@ -1,5 +1,5 @@
 <template>
-    <div flex="flex">
+
         <div flex="~" justify="between" w="full">
             <div w="1/4">
                 <span text="xl mid" whitespace="nowrap">لمجتمعٍ منتج تقنيًا </span>
@@ -52,7 +52,7 @@
         </div>
         
         
-    </div>
+
 </template>
 <script setup>
 </script>
