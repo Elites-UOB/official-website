@@ -3,9 +3,9 @@
         <div v-if="pending" text="center">
             loading
         </div>
-        <div v-else>
-            <div flex="~ gap-4" justify="center">
-                <div v-for="unit in data.units" :key="unit.id" :style="{background: selectedUnit.id == unit.id ? getUnitColor(selectedUnit.name) : ''}">
+        <div v-else >
+            <div flex="~ gap-4" justify="center" sm="flex grid-cols-2 gap-3 justify-between" >
+                <div  v-for="unit in data.units" :key="unit.id" :style="{background: selectedUnit.id == unit.id ? getUnitColor(selectedUnit.name) : ''}">
                     <Unit @select="selectedUnit = $event" :selected="selectedUnit.id == unit.id" :unit="unit" />
                 </div>
             </div>
