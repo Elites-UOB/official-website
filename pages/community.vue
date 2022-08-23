@@ -4,12 +4,12 @@
             loading
         </div>
         <div v-else >
-            <div flex="~ gap-4" justify="center" sm="flex grid-cols-2 gap-3 justify-between" >
+            <div flex="~"  sm="w-20 gap-2  m-0" md="m-9"   >
                 <div  v-for="unit in data.units" :key="unit.id" :style="{background: selectedUnit.id == unit.id ? getUnitColor(selectedUnit.name) : ''}">
                     <Unit @select="selectedUnit = $event" :selected="selectedUnit.id == unit.id" :unit="unit" />
                 </div>
             </div>
-            <div flex="~ col" capitalize="~" align="center" mt="4">
+            <div flex="~ col" capitalize="~" align="center" mt="4" >
                 <span text="lg" :style="{color: getUnitColor(selectedUnit.name)}">{{ unitLeader.title }} - {{ unitLeader?.nick ? unitLeader.nick : unitLeader.user.username }}</span>
                 <div grid="~" grid-cols="3">
                     <span v-for="member in unitMembers" :key="member.id">

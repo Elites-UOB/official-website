@@ -1,7 +1,7 @@
 <template>
 
-    <div flex="~" justify="between" w="full">
-        <div w="1/4">
+    <div flex="~" justify="between" w="full"  >
+        <div w="1/4" >
             <span text="xl mid" whitespace="nowrap">لمجتمعٍ منتج تقنيًا </span>
             <div text="3xl light" m="t-10px" font="bold">تعلّم، شارك، وطوّر
             </div>
@@ -16,7 +16,7 @@
             </div>
         </div>
         <!-- ... -->
-        <div w="2/4" flex="~" justify="center">
+        <div w="2/4" flex="~" justify="center" >
             <svg m="t-1.25rem" width="166" height="202.33" viewBox="0 0 696 849" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -50,16 +50,15 @@
             </div>
         </div>
     </div>
-    <div text="3xl mid" mt="6">
+    <div text="3xl mid" mt="8">
         الأحداث
     </div>
-    <div class="prose prose-gray dark:prose-invert max-w-none">
-        <div grid="~ cols-4 gap-19.75" sm="gap-13px grid-cols-2 m-6 justify-center " md="gap-20 "
-            lg="grid-cols-4 gap-19">
-            <div v-if="pending" h="48px" w="48px" text="light" class="i-line-md-loading-twotone-loop"></div>
-            <MiniEvent v-else :path="event._path" v-for="event in events" :key="event">
+    <div class="prose prose-gray dark:prose-invert max-w-none" >
+        <div grid="~ gap-10  "  justify="center" sm="gap-13px grid-cols-2 m-6 justify-center " md="gap-20 " lg="grid-cols-3 gap-20 m-1" xl="grid-cols-4 gap-10 m-1 " >
+            <div  v-if="pending" h="48px" w="48px" text="light" class="i-line-md-loading-twotone-loop" ></div>
+            <MiniEvent v-else :path="event._path" v-for="event in events" :key="event"  >
                 <template #title>{{ event.title }}</template>
-                <template #description>{{ event.description }}</template>
+                <template #description>{{ event.description}}</template>
                 <template #time>{{ event.time }}</template>
                 <template #state>
                     <span :class="textColor(event.state)">{{ stateText(event.state) }}</span>
