@@ -50,7 +50,7 @@
             </div>
         </div>
     </div>
-    <div text="3xl mid" mt="8">
+    <div text="3xl mid" mt="8" mb="4">
         الأحداث
     </div>
     <div class="prose prose-gray dark:prose-invert max-w-none" >
