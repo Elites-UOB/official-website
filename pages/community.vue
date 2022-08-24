@@ -15,6 +15,7 @@
                     <span v-for="member in unitMembers" :key="member.id">
                         {{ member.nick ? member.nick : member.user.username }}
                     </span>
+                    
                 </div>
             </div>
         </div>
