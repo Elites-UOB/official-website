@@ -14,21 +14,7 @@
         >
 
         <!-- Mobile toggle -->
-        <div class="md:hidden">
-          <button @click="isOpen = true">
-            <svg
-              class="h-8 w-8 fill-current text-black"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
-        </div>
+        
 
         <div class="hidden md:block space-x-8">
           <div flex="~ gap-25px">
@@ -75,19 +61,19 @@
           <div class="close" flex="~" justify="between">
             
             <button
-              class=" top-0 right-0 mt-4 mr-4 mb-4"
+              class=" top-0 right-0 mt-4 mr-4 mb-4 bg-dark border-none"
               @click="isOpen = false"
             >
               <svg
-                class="w-6 h-6"
+                class="w-6 h-6 mt-2  "
                 fill="none"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                viewBox="0 0 24 24"
+                
                 stroke="currentColor"
               >
-                <path d="M6 18L18 6M6 6l12 12"></path>
+                <path d="M6 18L18 6M6 6l12 12" class="text-light "></path>
               </svg>
             </button>
             <div class="mt">
@@ -104,7 +90,7 @@
             <li  grid="~ cols-1 gap-1" class=" hover hover:text-dark">
                 <span class="  hover hover:text-green" border="b light opacity-15"
                   v-for="nav in navigations"
-                  @click="router.push(nav._path)"
+                  @click="router.push(nav._path),isOpen = false"
                   cursor="pointer"
                   :key="nav._path"
                   :class="
@@ -121,11 +107,31 @@
           </ul>
         </aside>
 
-        <div class="flex">
+        
+        <div class="flex gap-3">
+          <div >
           <a href="https://discord.gg/e6E9RQHx" items="center">
             <div i-jam-discord text="light" h="48px" w="48px"></div>
           </a>
         </div>
+
+            <div class="md:hidden">
+              <button @click="isOpen = true">
+                <svg
+                  class="h-8 w-8 fill-current text-black"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+          </div>
+        </div>
+
       </div>
     </nav>
   </div>
