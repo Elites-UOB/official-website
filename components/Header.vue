@@ -69,12 +69,13 @@
 
         <!-- toggle Menu -->
         <aside
-          class="p-5 transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+          class="p-5 transform top-0 left-0 w-64 bg-dark fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
           :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
         >
-          <div class="close">
+          <div class="close" flex="~" justify="between">
+            
             <button
-              class="absolute top-0 right-0 mt-4 mr-4"
+              class=" top-0 right-0 mt-4 mr-4 mb-4"
               @click="isOpen = false"
             >
               <svg
@@ -89,17 +90,19 @@
                 <path d="M6 18L18 6M6 6l12 12"></path>
               </svg>
             </button>
+            <div class="mt">
+              <a href="https://discord.gg/e6E9RQHx" items="center">
+                <div i-jam-discord text="light" h="48px" w="48px"></div>
+                </a>
+            </div>
           </div>
+          
 
-          <span
-            @click="isOpen = false"
-            class="flex w-full items-center p-4 border-b"
-          >
-          </span>
+          
 
-          <ul class="divide-y font-sans">
-            <li flex="~ gap-25px">
-                <span
+          <ul class=" font-sans m-0 p-4">
+            <li  grid="~ cols-1 gap-1" class=" hover hover:text-dark">
+                <span class="  hover hover:text-green" border="b light opacity-15"
                   v-for="nav in navigations"
                   @click="router.push(nav._path)"
                   cursor="pointer"
@@ -108,20 +111,13 @@
                     $route.fullPath == nav._path ? 'text-light' : 'text-mid'
                   "
                   text="20px"
-                  font="bold"
+                  
                   >{{ nav.title }}</span
                 >
             </li>
 
-            <li>
-              <a
-                href="https://discord.gg/e6E9RQHx"
-                @click="isOpen = false"
-                class="my-8 w-full text-center font-semibold cta inline-block bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded text-white"
-              >
-                <div i-jam-discord text="light" h="48px" w="48px"></div>
-              </a>
-            </li>
+              
+            
           </ul>
         </aside>
 
