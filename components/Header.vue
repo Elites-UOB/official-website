@@ -54,6 +54,22 @@
         </transition> -->
 
         <!-- toggle Menu -->
+        <div class="md:hidden ">
+              <button @click="isOpen = true" class="rounded bg-light">
+                <svg
+                  class="h-8 w-8 fill-current text-black bg-light pt-1.1"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M4 6h16M4 12h16M4 18h16" ></path>
+                </svg>
+            </button>
+          </div>
+
         <aside
           class="p-5 transform top-0 left-0 w-64 bg-dark fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
           :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
@@ -79,7 +95,7 @@
             <div class="mt">
               <a href="https://discord.gg/e6E9RQHx" items="center">
                 <div i-jam-discord text="light" h="48px" w="48px"></div>
-                </a>
+              </a>
             </div>
           </div>
           
@@ -108,30 +124,13 @@
         </aside>
 
         
-        <div class="flex gap-3">
-          <div >
+        <div class=" hidden md:block space-x-8" >
           <a href="https://discord.gg/e6E9RQHx" items="center">
             <div i-jam-discord text="light" h="48px" w="48px"></div>
           </a>
         </div>
 
-            <div class="md:hidden">
-              <button @click="isOpen = true">
-                <svg
-                  class="h-8 w-8 fill-current text-black"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-            </button>
-          </div>
-        </div>
-
+            
       </div>
     </nav>
   </div>
