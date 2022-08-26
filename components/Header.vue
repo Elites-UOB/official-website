@@ -15,7 +15,7 @@
 
         <!-- Mobile toggle -->
         <div class="md:hidden">
-          <button @click="drawer">
+          <button @click="isOpen = true">
             <svg
               class="h-8 w-8 fill-current text-black"
               fill="none"
@@ -46,7 +46,7 @@
         </div>
 
         <!-- Dark Background Transition -->
-        <transition
+        <!-- <transition
           enter-class="opacity-0"
           enter-active-class="ease-out transition-medium"
           enter-to-class="opacity-100"
@@ -65,7 +65,7 @@
               tabindex="0"
             ></div>
           </div>
-        </transition>
+        </transition> -->
 
         <!-- toggle Menu -->
         <aside
@@ -140,7 +140,7 @@ const { data: navigations } = await useAsyncData("navigation", () =>
   fetchContentNavigation()
 );
 const router = useRouter();
-
+const isOpen = ref(false)
 // export default {
 //   data() {
 //     return {
