@@ -4,8 +4,8 @@
             loading
         </div>
         <div v-else >
-            <div flex="~ " justify="center"  gap="2"   >
-                <div  v-for="unit in data.units" :key="unit.id" :style="{background: selectedUnit.id == unit.id ? getUnitColor(selectedUnit.name) : ''}">
+            <div md:flex="~" grid="~ cols gap-8" justify="center" >
+                <div   v-for="unit in data.units" :key="unit.id" :style="{background: selectedUnit.id == unit.id ? getUnitColor(selectedUnit.name) : ''}">
                     <Unit @select="selectedUnit = $event" :selected="selectedUnit.id == unit.id" :unit="unit" />
                 </div>
             </div>
