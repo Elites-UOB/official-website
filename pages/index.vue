@@ -1,6 +1,6 @@
 <template>
 
-    <div  justify="center"  w="full"  md="flex justify-center " sm=" grid justify-center"   >
+    <div justify="center" w="full" md="flex justify-center" sm="grid justify-center">
         <div w="1/4" md="text-start" text-center mt="6" >
             <span text="xl mid" whitespace="nowrap"  mt="6">لمجتمعٍ منتج تقنيًا </span>
             <div  font="bold" text="4xl" m="4" md="text-3xl light mt-10px" >تعلّم،شارك،وطوّر
