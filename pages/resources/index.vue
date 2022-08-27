@@ -1,41 +1,18 @@
 <template>
-  <div flex="~ col" h="full" items="center" justify="center" sm="m-4" 
-  >
+  <div flex="~ col" h="full" items="center" justify="center" sm="m-4" mx="5">
     <div h="1/12" w="full" flex="~ col gap-13px" mb="60px">
       <span text="2xl">التصنيفات</span>
       <div flex="~ gap-1rem">
-        <Tag
-          @click="selectCategory(selfCategory)"
-          :active="selfCategory == selectedCategory"
-          v-for="selfCategory in categories"
-          :key="selfCategory"
-          :title="selfCategory"
-          type="category"
-        />
+        <Tag @click="selectCategory(selfCategory)" :active="selfCategory == selectedCategory"
+          v-for="selfCategory in categories" :key="selfCategory" :title="selfCategory" type="category" />
       </div>
     </div>
 
     <div flex="~" h="11/12" w="full">
-      <div
-        grid="~ sm:cols-1 md:cols-2 lg:cols-2 xl:cols-2 2xl:cols-3 gap-4.375rem"
-        class="auto-rows-min"
-        w="full"
-      >
-        <div
-          v-if="pending"
-          h="48px"
-          w="48px"
-          text="light"
-          class="i-line-md-loading-twotone-loop"
-        ></div>
-        <MiniResources
-          v-else
-          @category="selectCategory($event)"
-          :path="resource._path"
-          v-for="resource in filteredResources"
-          :key="resource"
-          :resource="resource"
-        />
+      <div grid="~ sm:cols-1 md:cols-2 lg:cols-2 xl:cols-2 2xl:cols-3 gap-4.375rem" class="auto-rows-min" w="full">
+        <div v-if="pending" h="48px" w="48px" text="light" class="i-line-md-loading-twotone-loop"></div>
+        <MiniResources v-else @category="selectCategory($event)" :path="resource._path"
+          v-for="resource in filteredResources" :key="resource" :resource="resource" />
       </div>
     </div>
   </div>
