@@ -1,7 +1,7 @@
 <template>
   <div position="sticky" top="0" border="b light opacity-15" bg="dark" pb="5">
     <nav w="full">
-      <div class="flex flex-wrap justify-between items-center mx-10">
+      <div class="flex flex-wrap justify-between items-center mx-10 md:mx-0">
         <NuxtLink to="/" decoration="none" self="center" mb="4" text="2xl light" font="bold" whitespace="nowrap">فريق
           النخبة البرمجي</NuxtLink>
 

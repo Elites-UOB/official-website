@@ -1,9 +1,8 @@
 <template>
-
     <div justify="center" w="full" md:flex="~" grid="~ cols gap-8">
         <div w="1/4" md="text-start" text-center mt="6">
             <span text="xl mid" whitespace="nowrap" mt="6">لمجتمعٍ منتج تقنيًا </span>
-            <div font="bold" text="4xl" m="4" md="text-3xl light mt-10px">تعلّم،شارك،وطوّر
+            <div font="bold" text="4xl" m="4" md:m="0" md="text-3xl light mt-10px">تعلّم،شارك،وطوّر
             </div>
             <div md:justify="center" text="mid" mt="12px" w="298px">
                 ضمن <span text="light">مشروع قادة التحول الرقمي</span>. الفريق تابع
@@ -16,7 +15,7 @@
             </div>
         </div>
         <!-- ... -->
-        <div w="2/4" flex="~" justify="center" mr="19" mb="3" md="m-0">
+        <div w="2/4" md:w="3/4" flex="~" justify="center" mr="19" mb="3" md="m-0">
             <svg m="t-1.25rem" width="166" height="202.33" viewBox="0 0 696 849" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -50,7 +49,7 @@
             </div>
         </div>
     </div>
-    <div text="3xl mid" mt="8" mb="4" mr="10">
+    <div text="3xl mid" mt="8" mb="4" mr="10" md:mr="0">
         الأحداث
     </div>
     <div class="prose prose-gray dark:prose-invert max-w-none">
