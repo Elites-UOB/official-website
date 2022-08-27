@@ -38,7 +38,7 @@
             </div>
           </div>
           <ul class=" font-sans m-0 p-4">
-            <li grid="~ cols-1 gap-1" class=" hover hover:text-dark">
+            <li grid="~ cols-1 gap-1">
               <span class="  hover hover:text-green" border="b light opacity-15" v-for="nav in navigations"
                 @click="router.push(nav._path), isOpen = false" cursor="pointer" :key="nav._path" :class="
                   $route.fullPath == nav._path ? 'text-light' : 'text-mid'
