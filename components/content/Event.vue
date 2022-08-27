@@ -1,11 +1,11 @@
 <template>
-    <div md="flex gap-3.25rem" sm="justify-center"  >
-        <img md="w-95 h-95" w="70"    :src="_event.image" alt="" >
+    <div md="flex gap-3.25rem"   >
+        <img md="w-95 h-95" w="full"     :src="_event.image" alt="" >
         <div md="w=1/2 flex-col "   >
             <div h="4.625rem" flex="~" items="end" justify="start">
                 <span text="32px light" font="medium">{{ _event.title }}</span>
             </div>
-            <div  justify="between" md="text-24px mid flex gap-1rem justify-start" text="20px"  font="semibold">
+            <div  justify="between" md="text-24px mid gap-1rem justify-start" text="20px"  font="semibold">
                 <span> {{ _event.time }} - {{ _event.date }} </span>
                 <span> لمدة: {{ _event.duration }} </span>
             </div>
