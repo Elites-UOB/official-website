@@ -1,7 +1,7 @@
 <template>
-    <div flex="~ gap-3.25rem">
-        <img w="1/2" :src="_event.image" alt="">
-        <div w="1/2" flex="~ col">
+    <div md="flex gap-3.25rem">
+        <img md="w-1/2" w="70" p="0" m="1" :src="_event.image" alt="">
+        <div md="w=1/2 flex-col" grid=" cols-1">
             <div h="4.625rem" flex="~" items="end" justify="start">
                 <span text="32px light" font="medium">{{ _event.title }}</span>
             </div>
