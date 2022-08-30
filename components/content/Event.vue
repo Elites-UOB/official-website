@@ -1,32 +1,34 @@
 <template>
-    <div md="flex gap-3.25rem"   >
-        <img md="w-95 h-95" w="full"     :src="_event.image" alt="" >
-        <div md="w=1/2 flex-col "   >
+    <div md="flex gap-3.25rem">
+        <img md="w-95 h-95" w="full" :src="_event.image" alt="">
+        <div md="w=1/2 flex-col ">
             <div h="4.625rem" flex="~" items="end" justify="start">
-                <span text="32px light" font="medium">{{ _event.title }}</span>
+                <span text="32px light" font="medium">{{  _event.title  }}</span>
             </div>
-            <div  justify="between" md="text-24px mid gap-1rem justify-start" text="20px"  font="semibold">
-                <span> {{ _event.time }} - {{ _event.date }} </span>
-                <span> لمدة: {{ _event.duration }} </span>
+            <div justify="between" md="text-24px mid gap-1rem justify-start" text="20px" font="semibold">
+                <span> {{  _event.time  }} - {{  _event.date  }} </span>
+                <span> لمدة: {{  _event.duration  }} </span>
             </div>
             <div flex="~ gap-1.125rem" mt="1rem" text="20px mid">
-                <span>{{ _event.type }}</span>
-                <span :class="textColor(_event.state)">{{ stateText(_event.state) }}</span>
+                <span>{{  _event.type  }}</span>
+                <span :class="textColor(_event.state)">{{  stateText(_event.state)  }}</span>
             </div>
-            <a v-if="person" :href="person.link" cursor="pointer" decoration="none" flex="~ gap-1rem" un-text="mid hover:light 20px" mt="1rem" items="center">
+            <a v-if="person" :href="person.link" cursor="pointer" decoration="none" flex="~ gap-1rem"
+                un-text="mid hover:light 20px" mt="1rem" items="center">
                 <img h="56px" md="w-56px" w="48px" rounded="full" :src="person.image" alt="">
-                <span>{{ person.name }} - {{ person.title }}</span>
+                <span>{{  person.name  }} - {{  person.title  }}</span>
             </a>
             <div text="20px mid" mt="1rem">
-                <span>{{ _event.collaboration }}</span>
+                <span>{{  _event.collaboration  }}</span>
             </div>
             <div text="20px mid" mt="1rem">
                 <slot />
             </div>
             <div v-if="_event.details?.length > 0" md=" grow gap-1rem" text="20px mid" items="end">
                 <span>للمزيد من التفاصيل: </span>
-                <a v-for="detail in _event.details" :key="detail.link" :href="detail.link" un-text="mid" target="_blank" ml="5">
-                    <span>{{ detail.title }}</span>
+                <a v-for="detail in _event.details" :key="detail.link" :href="detail.link" un-text="mid" target="_blank"
+                    ml="5">
+                    <span>{{  detail.title  }}</span>
                 </a>
             </div>
         </div>
