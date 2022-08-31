@@ -84,7 +84,7 @@ states.value = [
 ]
 
 function getimage(imgsrc){
-    let imageUrl = new URL(`../../assets/img/events/${imgsrc}`, import.meta.url).href
+    let imageUrl = new URL(`../assets/img/events/${imgsrc}`, import.meta.url).href
     return imageUrl
 }
 
