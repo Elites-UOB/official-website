@@ -10,7 +10,7 @@
                     <span :class="textColor(event.state)">{{ stateText(event.state) }}</span>
                 </template>
                 <template #image>
-                    <img :src="require('events.image')" alt="Event image" />
+                    <img :src="getImg(event.image)" alt="Event image" />
                 </template>
             </MiniEvent>
         </div>
@@ -26,4 +26,7 @@ states.value = [
     { number: 3, text: "أنتهى" },
 ]
 
+function getImg(src){
+    return require(`~/assets/img/events/${src}`)
+}
 </script>
