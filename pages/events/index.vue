@@ -10,7 +10,7 @@
                     <span :class="textColor(event.state)">{{ stateText(event.state) }}</span>
                 </template>
                 <template #image>
-                    <img :src="event.image" alt="Event image" />
+                    <img :src="event.image" alt="Even image" />
                 </template>
             </MiniEvent>
         </div>
