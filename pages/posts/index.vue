@@ -6,9 +6,9 @@
                 <MiniPost v-else @category="selectCategory($event)" :path="post._path" v-for="post in filteredPosts" :key="post" :post="post" />
             </div>
         </div>
-        <div h="1/12" w="full" flex="~ col gap-13px">
-            <span text="2xl">جميع التصنيفات</span>
-            <div flex="~ gap-1rem">
+        <div mb="8" h="1/12" w="full" flex="~ col gap-13px" >
+            <span mr="6" text="2xl">جميع التصنيفات</span>
+            <div flex="~ gap-1rem" mr="6">
                 <Tag @click="selectCategory(selfCategory)" :active="selfCategory == selectedCategory" v-for="selfCategory in categories" :key="selfCategory" :title="selfCategory" type="category" />
             </div>
         </div>
