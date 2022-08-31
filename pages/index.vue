@@ -1,6 +1,6 @@
 <template>
-
-    <div justify="center" w="full" md:flex="~" grid="~ cols gap-8" >
+    <div mb="7">
+        <div justify="center" w="full" md:flex="~" grid="~ cols gap-8" >
         <div w="1/4" md="text-start" text-center mt="6">
             <span text="xl mid" whitespace="nowrap" mt="6" mr="4">لمجتمعٍ منتج تقنيًا </span>
             <div font="bold" text="4xl" m="4" md="text-3xl light mt-10px" mr="4">تعلّم،شارك،وطوّر
@@ -70,6 +70,8 @@
             </MiniEvent>
         </div>
     </div>
+    </div>
+    
 
 </template>
 
