@@ -1,21 +1,22 @@
 <template>
-    <div justify="center" w="full" md:flex="~" grid="~ cols gap-8">
+
+    <div justify="center" w="full" md:flex="~" grid="~ cols gap-8" >
         <div w="1/4" md="text-start" text-center mt="6">
-            <span text="xl mid" whitespace="nowrap" mt="6">لمجتمعٍ منتج تقنيًا </span>
-            <div font="bold" text="4xl" m="4" md:m="0" md="text-3xl light mt-10px">تعلّم،شارك،وطوّر
+            <span text="xl mid" whitespace="nowrap" mt="6" mr="4">لمجتمعٍ منتج تقنيًا </span>
+            <div font="bold" text="4xl" m="4" md="text-3xl light mt-10px" mr="4">تعلّم،شارك،وطوّر
             </div>
-            <div md:justify="center" text="mid" mt="12px" w="298px">
+            <div md:justify="center" text="mid" mt="12px" w="298px" mr="4" sm:w="270px">
                 ضمن <span text="light">مشروع قادة التحول الرقمي</span>. الفريق تابع
                 رسميًا إلى كلية علوم الحاسوب وتكنولوجيا
                 المعلومات، جامعة البصرة.
             </div>
-            <div flex="~ " mt="4" mr="27" md="mr-0">
+            <div flex="~ " mt="4" mr="27" md="mr-2">
                 <img src="~/assets/ITLogo.png" width="34.4" height="32" alt="IT" />
                 <img src="~/assets/AlbasrahUniversityLogo.png" width="32" height="32" mr="3" alt="IT" />
             </div>
         </div>
         <!-- ... -->
-        <div w="2/4" md:w="3/4" flex="~" justify="center" mr="19" mb="3" md="m-0">
+        <div w="2/4" flex="~" justify="center" mr="19" mb="3">
             <svg m="t-1.25rem" width="166" height="202.33" viewBox="0 0 696 849" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -24,8 +25,8 @@
             </svg>
         </div>
         <!-- ... -->
-        <div w="1/4" justify="center" mr="10">
-            <div flex="~ col gap-1rem" justify="start" font="bold" w="230px">
+        <div w="1/4" justify="center" mr="10" >
+            <div flex="~ col gap-1rem" justify="start" font="bold" w="230px" sm:w="160px" sm:ml="4">
                 <div flex="~" justify="between">
                     <div flex="~ col">
                         <span text="light 32px">+34</span>
@@ -49,7 +50,7 @@
             </div>
         </div>
     </div>
-    <div text="3xl mid" mt="8" mb="4" mr="10" md:mr="0">
+    <div text="3xl mid" mt="8" mb="4" mr="10">
         الأحداث
     </div>
     <div class="prose prose-gray dark:prose-invert max-w-none">

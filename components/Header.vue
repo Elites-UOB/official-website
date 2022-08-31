@@ -1,11 +1,12 @@
 <template>
-  <div position="sticky" top="0" border="b light opacity-15" bg="dark" pb="5">
+  <div position="sticky" top="0" border="b light opacity-15" bg="dark" pb="5" pt="3">
     <nav w="full">
-      <div class="flex flex-wrap justify-between items-center mx-10 md:mx-0">
+
+      <div class="flex flex-wrap justify-between items-center mx-10 flex-nowrap">
         <NuxtLink to="/" decoration="none" self="center" mb="4" text="2xl light" font="bold" whitespace="nowrap">فريق
           النخبة البرمجي</NuxtLink>
 
-        <div class="hidden md:block space-x-8">
+        <div class="hidden lg:block space-x-8 ">
           <div flex="~ gap-25px">
             <span v-for="nav in navigations" @click="router.push(nav._path)" cursor="pointer" :key="nav._path"
               :class="$route.fullPath == nav._path ? 'text-light' : 'text-mid'" text="20px" font="bold">{{ nav.title
@@ -13,7 +14,7 @@
           </div>
         </div>
         <!-- toggle Menu -->
-        <div class="md:hidden ">
+        <div class="lg:hidden ">
           <button @click="isOpen = true" class="rounded bg-light">
             <svg class="h-8 w-8 fill-current text-black bg-light pt-1.1" fill="none" stroke-linecap="round"
               stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -28,17 +29,17 @@
             <button class=" top-0 right-0 mt-4 mr-4 mb-4 bg-dark border-none" @click="isOpen = false">
               <svg class="w-6 h-6 mt-2  " fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 stroke="currentColor">
-                <path d="M6 18L18 6M6 6l12 12" class="text-light "></path>
+                <path d="M6 18L18 6M6 6l12 12" class="text-light"></path>
               </svg>
             </button>
-            <div class="mt">
-              <a href="https://discord.gg/e6E9RQHx" items="center">
+            <!-- <div class="mt" >
+              <a href="https://discord.gg/e6E9RQHx" items="center" >
                 <div i-jam-discord text="light" h="48px" w="48px"></div>
               </a>
-            </div>
+            </div> -->
           </div>
           <ul class=" font-sans m-0 p-4">
-            <li grid="~ cols-1 gap-1">
+            <li grid="~ cols-1 gap-1" class=" hover hover:text-dark">
               <span class="  hover hover:text-green" border="b light opacity-15" v-for="nav in navigations"
                 @click="router.push(nav._path), isOpen = false" cursor="pointer" :key="nav._path" :class="
                   $route.fullPath == nav._path ? 'text-light' : 'text-mid'
@@ -46,10 +47,8 @@
             </li>
           </ul>
         </aside>
-        <div class=" hidden md:block space-x-8">
-          <a href="https://discord.gg/e6E9RQHx" items="center">
-            <div i-jam-discord text="light" h="48px" w="48px"></div>
-          </a>
+        <div class="hidden lg:block">
+
         </div>
       </div>
     </nav>
