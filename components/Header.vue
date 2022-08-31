@@ -1,5 +1,5 @@
 <template>
-  <div position="sticky" top="-1"  border="b light  opacity-15"  bg="dark" pb="5" pt="3" >
+  <div position="sticky" top="0" border="b light opacity-15" bg="dark" pb="5" sm:pt="3">
     <nav w="full">
 
       <div class="flex flex-wrap justify-between items-center mx-10 flex-nowrap">

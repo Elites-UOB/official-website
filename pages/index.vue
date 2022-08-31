@@ -65,7 +65,7 @@
                     <span :class="textColor(event.state)">{{ stateText(event.state) }}</span>
                 </template>
                 <template #image>
-                    <img :src="event.image" alt="Event image" />
+                    <img :src="getimage(event.image)" alt="Event image" />
                 </template>
             </MiniEvent>
         </div>
@@ -84,5 +84,10 @@ states.value = [
     { number: 2, text: "سينتهي التسجيل" },
     { number: 3, text: "أنتهى" },
 ]
+
+function getimage(imgsrc){
+    let imageUrl = new URL(`../assets/img/events/${imgsrc}`, import.meta.url).href
+    return imageUrl
+}
 
 </script>
