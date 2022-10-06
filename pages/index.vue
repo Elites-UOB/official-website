@@ -90,7 +90,7 @@
                     </svg>
 
                 </div>
-                <div class="flex flex-col">
+                <div class="flex flex-col items-end">
                     <div v-for="(member, i) in core[0]?.members" :key="member.id">
                         <div v-if="i % 2 != 0" class="flex flex-col md:flex-row mt-5 group">
                             <div class="self-center mt-2 md:mr-0 md:ml-5 text-center md:text-left order-2 md:order-1">
