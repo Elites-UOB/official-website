@@ -10,6 +10,7 @@ export default {
       sans: ['Tajawal'],
     },
     extend: {
+      backgroundImage: { 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))', },
       colors: {
         dark: "#0F0F11",
         light: "#F3F3F3",
