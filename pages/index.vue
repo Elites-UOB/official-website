@@ -1,17 +1,10 @@
 <template>
-    <div>
-        <img class="bg-gradient-radial-t from-purple-500 via-purple-100 to-gray-100 opacity-40 h-full w-full" src="assets/line.svg" alt="">
-        <div class="grid grid-cols-2 w-full h-full absolute top-20">
-            <div class="bg-gradient-radial-t from-purple-500 via-purple-100 to-gray-100 opacity-25 "></div>
-            <div class="bg-gradient-radial-t from-purple-500 via-purple-100 to-gray-100 opacity-25 "></div>
-        
-        </div>
-
-        <main class="flex flex-col max-w-none absolute top-20">
-            <div class="grid lg:grid-cols-12 justify-between mt-4">
-                <div class="col-span-3 w-full h-full"></div>
-                <div class="col-span-6 text-center text-dark dark:text-light ">
-                    <div class="flex justify-center mb-6 mt-5">
+    <div class="flex justify-center">
+        <img class="h-full w-full" src="assets/line.svg" alt="">
+        <div class="max-w-3xl px-4 py-10 m-auto sm:px-8 text-dark dark:text-light absolute top-20">
+            <main class="max-w-none">
+                <div class="text-center">
+                    <div class="flex justify-center mb-6">
                         <ColorScheme placeholder="...">
                             <svg class="w-[20%] self-center" viewBox="0 0 156 189" xmlns="http://www.w3.org/2000/svg">
                                 <path :class="colorMode.value === 'dark' ? 'fill-light' : 'fill-dark'"
@@ -21,24 +14,21 @@
                     </div>
                     <h1 class="text-2xl md:text-4xl font-bold">نادي النخبة المطورين</h1>
                     <h2 class="text-xl md:text-3xl font-bold">CSIT Developers Club</h2>
-                    <p class="text-center mx-6 md:mx-20">نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية
-                        للمجتمع المحلي،
-                        الفريق ضمن
-                        مشروع قادة
-                        التحوّل الرقمي التابع رسميًا إلى جامعة البصرة، كلية علوم الحاسوب وتكنولوجيا المعلومات.</p>
-
-                        <div class="flex justify-center my-10 grayscale">
-                            <div class="mx-2 h-20 w-20 mt-1">
-                                <img src="assets/AlbasrahUniversityLogo.png" alt="">
-                            </div>
-                            <div class="mx-2 h-20 w-20">
-                                <img src="assets/ITLogo.png" alt="">
-                            </div>
-                        </div>
                 </div>
-                <div class="col-span-3 w-full h-full hidden lg:block"></div>
-            </div>
-            <div class="max-w-3xl px-4 py-10 m-auto sm:px-8 text-dark dark:text-light">
+                <p class="text-center mx-6 md:mx-20">نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية
+                    للمجتمع المحلي،
+                    الفريق ضمن
+                    مشروع قادة
+                    التحوّل الرقمي التابع رسميًا إلى جامعة البصرة، كلية علوم الحاسوب وتكنولوجيا المعلومات.</p>
+
+                <div class="flex justify-center my-10 grayscale">
+                    <div class="mx-2 h-20 w-20 mt-1">
+                        <img src="assets/AlbasrahUniversityLogo.png" alt="">
+                    </div>
+                    <div class="mx-2 h-20 w-20">
+                        <img src="assets/ITLogo.png" alt="">
+                    </div>
+                </div>
 
                 <div v-if="statsPending" class="flex justify-center">
                     <svg class="w-[20%]" version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg"
@@ -72,15 +62,15 @@
                     </svg>
                 </div>
 
-                <div v-else class="flex justify-around md:justify-between mt-2 mr-2">
+                <div v-else class="flex justify-around self-center md:justify-between mt-2 mr-2">
                     <div class="flex flex-col">
                         <div v-for="(member, i) in core[0]?.members" :key="member.id">
                             <div v-if="i % 2 == 0" class="flex flex-col md:flex-row mt-5 group">
                                 <div
                                     class="self-center drop-shadow-[2px_2px_0px_#4F009D] transition ease-in-out group-hover:-translate-y-1 group-hover:drop-shadow-[4px_4px_0px_#4F009D] duration-200">
                                     <img class=" w-28 h-28 md:w-24 md:h-24 lg:h-16 lg:w-16
-                                border-2
-                                border-dark dark:border-light" :src="dynamicImages[member.img]" alt="">
+                            border-2
+                            border-dark dark:border-light" :src="dynamicImages[member.img]" alt="">
                                 </div>
                                 <div class="self-center mt-2 text-center md:text-right md:mr-5">
                                     <p class="text-base md:text-xl font-semibold">{{member.name}}</p>
@@ -114,8 +104,8 @@
                                 <div
                                     class="self-center order-1 lg:order-2 drop-shadow-[2px_2px_0px_#4F009D] drop-shadow-[-2px_2px_0px_#4F009D] transition ease-in-out group-hover:-translate-y-1 group-hover:drop-shadow-[4px_4px_0px_#4F009D] group-hover:drop-shadow-[-4px_4px_0px_#4F009D] duration-200">
                                     <img class="w-28 h-28 md:w-24 md:h-24 lg:h-16 lg:w-16
-                                border-2
-                                border-dark dark:border-light" :src="dynamicImages[member.img]" alt="">
+                            border-2
+                            border-dark dark:border-light" :src="dynamicImages[member.img]" alt="">
                                 </div>
                             </div>
                         </div>
@@ -137,10 +127,10 @@
                 <div v-else class="flex">
                     <NuxtLink class="w-full " v-for="post in posts" :key="post.id" :to="post._path">
                         <div class="bg-light dark:bg-dark mx-2 md:mx--0
-                    drop-shadow-[2px_2px_0px_#4F009D]
-                    flex
-                    border-2 border-dark dark:border-light
-                    transition ease-in-out hover:-translate-y-1 hover:drop-shadow-[4px_4px_0px_#4F009D] duration-200">
+                drop-shadow-[2px_2px_0px_#4F009D]
+                flex
+                border-2 border-dark dark:border-light
+                transition ease-in-out hover:-translate-y-1 hover:drop-shadow-[4px_4px_0px_#4F009D] duration-200">
                             <div class="m-2 flex flex-col justify-center">
                                 <Icon class="w-14 h-14" :name="`fluent-emoji:${post.emoji}`" />
                             </div>
@@ -170,8 +160,8 @@
                 </div>
 
                 <p class="text-center text-mid font-semibold text-lg mt-20">نادي النخبة المطورين - 2022</p>
-            </div>
-        </main>
+            </main>
+        </div>
     </div>
 </template>
 
