@@ -1,10 +1,16 @@
 <template>
     <div>
-        <img class="h-full w-full" src="assets/line.svg" alt="">
+        <img class="bg-gradient-radial-t from-purple-500 via-purple-100 to-gray-100 opacity-40 h-full w-full" src="assets/line.svg" alt="">
+        <div class="grid grid-cols-2 w-full h-full absolute top-20">
+            <div class="bg-gradient-radial-t from-purple-500 via-purple-100 to-gray-100 opacity-25 "></div>
+            <div class="bg-gradient-radial-t from-purple-500 via-purple-100 to-gray-100 opacity-25 "></div>
+        
+        </div>
+
         <main class="flex flex-col max-w-none absolute top-20">
             <div class="grid lg:grid-cols-12 justify-between mt-4">
-                <div class="col-span-3 light:bg-gradient-radial from-purple-600 via-gray-100 w-full h-full opacity-20 hidden lg:block"></div>
-                <div class="col-span-6 text-center text-dark dark:text-light">
+                <div class="col-span-3 w-full h-full"></div>
+                <div class="col-span-6 text-center text-dark dark:text-light ">
                     <div class="flex justify-center mb-6 mt-5">
                         <ColorScheme placeholder="...">
                             <svg class="w-[20%] self-center" viewBox="0 0 156 189" xmlns="http://www.w3.org/2000/svg">
@@ -21,18 +27,18 @@
                         مشروع قادة
                         التحوّل الرقمي التابع رسميًا إلى جامعة البصرة، كلية علوم الحاسوب وتكنولوجيا المعلومات.</p>
 
+                        <div class="flex justify-center my-10 grayscale">
+                            <div class="mx-2 h-20 w-20 mt-1">
+                                <img src="assets/AlbasrahUniversityLogo.png" alt="">
+                            </div>
+                            <div class="mx-2 h-20 w-20">
+                                <img src="assets/ITLogo.png" alt="">
+                            </div>
+                        </div>
                 </div>
-                <div class="col-span-3 light:bg-gradient-radial from-purple-600 via-gray-100 w-full h-full opacity-40 hidden lg:block"></div>
+                <div class="col-span-3 w-full h-full hidden lg:block"></div>
             </div>
             <div class="max-w-3xl px-4 py-10 m-auto sm:px-8 text-dark dark:text-light">
-                <div class="flex justify-center my-10 grayscale">
-                    <div class="mx-2 h-20 w-20 mt-1">
-                        <img src="assets/AlbasrahUniversityLogo.png" alt="">
-                    </div>
-                    <div class="mx-2 h-20 w-20">
-                        <img src="assets/ITLogo.png" alt="">
-                    </div>
-                </div>
 
                 <div v-if="statsPending" class="flex justify-center">
                     <svg class="w-[20%]" version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg"
