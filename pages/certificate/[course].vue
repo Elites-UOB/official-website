@@ -170,23 +170,64 @@ var text = new fabric.Textbox(course.leader, {
 });
 canvas.add(text);
 
+// Leader Signature
+fabric.Image.fromURL(course.leaderSignature, function (oImg) {
+    oImg.scaleToHeight(75);
+    oImg.setPositionByOrigin(new fabric.Point(695, 530), 'center', 'center');
+    canvas.add(oImg);
+});
+
+
+
 
 // Instructor
 var text = new fabric.Textbox(course.instructor, {
-    left: getSize({ width: 50}),
-    top: getSize({ height: 675}),
-    width: 200,
+    left: 542.5,
+    top: 432.5,
+    width: 300,
     fontFamily: 'Tajawal',
-    fontSize: 14,
+    fontSize: 18,
     textAlign: 'center',
-    fill: 'rgb(0,200,0)'
+    fill: 'rgb(0,0,0)',
+    fontWeight: '500'
+});
+canvas.add(text);
+
+// Instructor Signature
+fabric.Image.fromURL(course.instructorSignature, function (oImg) {
+    oImg.scaleToHeight(75);
+    oImg.setPositionByOrigin(new fabric.Point(695, 395), 'center', 'center');
+    canvas.add(oImg);
+});
+
+
+
+// Location
+var text = new fabric.Textbox(course.location, {
+    left: 199,
+    top: 540,
+    width: 250,
+    fontFamily: 'Tajawal',
+    fontSize: 17,
+    textAlign: 'left',
+    fill: 'rgb(0,0,0)',
+    fontWeight: '500'
 });
 canvas.add(text);
 
 
-// console.log(course)
-
-// canvas.renderAll()
+// Certificate Id
+var text = new fabric.Textbox(student.value?.certificateId, {
+    left: 310,
+    top: 590,
+    width: 250,
+    fontFamily: 'Tajawal',
+    fontSize: 17,
+    textAlign: 'left',
+    fill: 'rgb(0,0,0)',
+    fontWeight: '500'
+});
+canvas.add(text);
 
 
 </script>
