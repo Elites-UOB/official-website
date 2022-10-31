@@ -1513,6 +1513,11 @@ busboy@^1.6.0:
   dependencies:
     streamsearch "^1.1.0"
 
+bwip-js@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/bwip-js/-/bwip-js-3.1.0.tgz#4ab493f747d08240e7fab1e294377e0a1883cbae"
+  integrity sha512-H+4s1/25kC/ybwt+o0zhFkbTL4nGrzZV7KW44luWqT/ClmCzhXVqVgaNx8d9YoOUVKR461xDmLt3eGDRtGqRag==
+
 c12@^0.2.13:
   version "0.2.13"
   resolved "https://registry.yarnpkg.com/c12/-/c12-0.2.13.tgz#c5eb795684cfecdbc5f0d31bb13df6f2f0913420"

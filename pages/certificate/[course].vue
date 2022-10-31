@@ -1,17 +1,9 @@
 <template>
     <NuxtLayout name="standard">
-        {{student.certificateId}}
-        <canvas id="myCanvas" width="1814" height="1398"></canvas>
-
         <div v-if="course" class="flex flex-col text-left">
-            <span class="capitalize">Title: {{ course.title }}</span>
-            <span class="capitalize">category: {{ course.category }}</span>
-            <span class="capitalize">description: {{ course.description }}</span>
-            <span class="capitalize">type: {{ course.type }}</span>
-            <span class="capitalize">location: {{ course.location }}</span>
-            <span class="capitalize">coverPath: {{ course.coverPath }}</span>
-            <span class="capitalize">instructor: {{ course.instructor }}</span>
-            <span class="capitalize">leader: {{ course.leader }}</span>
+            <button class="w-fit" @click="downloadCertificate()">تحميل</button>
+            <canvas id="myCanvas" width="1814" height="1398"></canvas>
+            <canvas class="hidden" ref="qrCode" id="qrCode" width="200" height="200"></canvas>
         </div>
         <div v-else>
             No Certificate
@@ -21,25 +13,30 @@
 
 <script setup>
 import { fabric } from 'fabric';
+import bwipjs from 'bwip-js';
+
+const qrCode = ref(null)
+
+
 
 const { params: { course: certificateId } } = useRoute()
 
 const course = await queryContent('_courses').where({
-        'students': [{ 'certificateId': certificateId }]
+    'students': [{ 'certificateId': certificateId }]
 }).findOne()
 
-const student = computed( () => course?.students?.find(student => student.certificateId == certificateId))
+const student = computed(() => course?.students?.find(student => student.certificateId == certificateId))
 
 
 const textConverted = computed(() => {
     let text = course.text
     const metas = text.match(/[^{\}]+(?=})/g)
     metas.forEach(meta => {
-        if (meta == "student"){
+        if (meta == "student") {
             text = text.replace(`{${meta}}`, student.value?.name)
         } else {
-        //    console.log(`{${meta}}`, course?.[meta])
-           text = text.replace(`{${meta}}`, course?.[meta])
+            //    console.log(`{${meta}}`, course?.[meta])
+            text = text.replace(`{${meta}}`, course?.[meta])
         }
     });
     return text
@@ -82,14 +79,14 @@ fabric.Image.fromURL(course.coverPath, function (oImg) {
 
     oImg.scaleToWidth(newWidth);
     oImg.scaleToHeight(newHeight);
-    
+
     canvas.setDimensions({ width: newWidth, height: newHeight });
     canvas.setBackgroundImage(oImg)
-    canvas.imageSmoothingEnabled       = false;
+    canvas.imageSmoothingEnabled = false;
     canvas.webkitImageSmoothingEnabled = false;
-    canvas.mozImageSmoothingEnabled    = false;
-    canvas.msImageSmoothingEnabled     = false;
-    canvas.oImageSmoothingEnabled      = false;
+    canvas.mozImageSmoothingEnabled = false;
+    canvas.msImageSmoothingEnabled = false;
+    canvas.oImageSmoothingEnabled = false;
 });
 
 
@@ -230,4 +227,27 @@ var text = new fabric.Textbox(student.value?.certificateId, {
 canvas.add(text);
 
 
+onMounted(() => {
+    let x = bwipjs.toCanvas('qrCode', {
+        bcid: 'qrcode',       // Barcode type
+        text: `https://csitelites.tech/certificate/${student.value.certificateId}`,    // Text to encode
+        scale: 3,               // 3x scaling factor
+        includetext: true,            // Show human-readable text
+        textxalign: 'center',        // Always good to set this
+    });
+
+    fabric.Image.fromURL(qrCode.value?.toDataURL('image/png'), function (oImg) {
+        oImg.scaleToHeight(100);
+        oImg.setPositionByOrigin(new fabric.Point(128, 557), 'center', 'center');
+        canvas.add(oImg);
+    });
+})
+
+
+const downloadCertificate = () => {
+    let link = document.createElement('a');
+    link.download = `${student.value?.name}-${student.value?.certificateId}.png`;
+    link.href = document.getElementById('myCanvas').toDataURL()
+    link.click();
+}
 </script>
