@@ -1,24 +1,22 @@
 title: Web Basics
 category: Web
 description: Web Basics Description
-type: Offline
-location: CSIT College
-coverPath: /covers/main.jpg
 instructor: Hassan K. Alkhalidi
-leader: Zain A. Habeeb
+instructorSignature: /signatures/ZainAhmed.png
 date: 2022/10/31
 
-text: This is to inform that {student} has been graduated from {title} at {date}
-
-students: [
-  { email: "test@gmail.com", name: "AbudlHaleem" },
-  { email: "test2@gmail.com", name: "AbudlHaleem2" },
-]
-
-
-
-
+# STATIC
+leader: Zain-alabideen A. Habeeb
+leaderSignature: /signatures/ZainAhmed.png
+coverPath: /covers/main.png
+kind: Certificate of Completion
+location: Basra University, CSIT College CSIT Elites Team
+type: Offline
+text: has successfully completed the course "{title}."
 
 
-
-
+students:
+  [
+    { email: "test@gmail.com", name: "AbudlHaleem Hafid" },
+    { email: "test2@gmail.com", name: "AbudlHaleem2 Hafid2" },
+  ]

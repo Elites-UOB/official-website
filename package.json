@@ -11,7 +11,9 @@
     "@nuxt/content": "^2.1.1",
     "@nuxtjs/color-mode": "^3.1.5",
     "@nuxtjs/tailwindcss": "^5.3.3",
+    "@sindresorhus/string-hash": "^2.0.0",
     "@tailwindcss/typography": "^0.5.7",
+    "bwip-js": "^3.1.0",
     "fabric": "^5.2.4",
     "nuxt-icon": "^0.1.6"
   },
