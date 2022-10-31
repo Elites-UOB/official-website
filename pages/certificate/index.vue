@@ -2,9 +2,9 @@
     <NuxtLayout name="standard">
         <div class="flex flex-col" v-if="myCourses">
             <!-- {{ myCourses }} -->
-            <NuxtLink v-for="course in myCourses" :key="course._path" :to="`/certificate/${course.currentStudent?.certificateId}`">
+            <a v-for="course in myCourses" :key="course._path" :href="`/certificate/${course.currentStudent?.certificateId}`">
                 {{ course.title }}
-            </NuxtLink>
+            </a>
         </div>
         <div v-else class="flex flex-col">
             <input v-model="certificateId" />
