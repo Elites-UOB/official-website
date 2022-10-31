@@ -1,6 +1,7 @@
 <template>
     <NuxtLayout name="standard">
-        <canvas id="myCanvas" width="400" height="400"></canvas>
+        {{student.certificateId}}
+        <canvas id="myCanvas" width="1814" height="1398"></canvas>
 
         <div v-if="course" class="flex flex-col text-left">
             <span class="capitalize">Title: {{ course.title }}</span>
@@ -21,14 +22,13 @@
 <script setup>
 import { fabric } from 'fabric';
 
-const email = useCookie('certificate-email')
-const { params: { course: coursePath } } = useRoute()
+const { params: { course: certificateId } } = useRoute()
 
-const course = await queryContent('_courses', coursePath).where({
-    'students': [{ 'email': email.value }]
+const course = await queryContent('_courses').where({
+        'students': [{ 'certificateId': certificateId }]
 }).findOne()
 
-const student = computed( () => course?.students?.find(student => student.email == email.value))
+const student = computed( () => course?.students?.find(student => student.certificateId == certificateId))
 
 
 const textConverted = computed(() => {
@@ -38,7 +38,7 @@ const textConverted = computed(() => {
         if (meta == "student"){
             text = text.replace(`{${meta}}`, student.value?.name)
         } else {
-           console.log(`{${meta}}`, course?.[meta])
+        //    console.log(`{${meta}}`, course?.[meta])
            text = text.replace(`{${meta}}`, course?.[meta])
         }
     });
@@ -56,8 +56,8 @@ var canvas = new fabric.StaticCanvas('myCanvas');
 
 const getSize = (size) => {
     // STANDARD SIZES (DESIGN SHOULD BE IN THIS SIZE (A4))
-    const width = 3508
-    const height = 2480
+    const width = 1814
+    const height = 1398
 
     if (size?.width) {
         const ratio = width / height
@@ -72,31 +72,106 @@ const getSize = (size) => {
 
 // BACKGROUND COVER
 fabric.Image.fromURL(course.coverPath, function (oImg) {
-    const newWidth = 800
-    const newHeight = getSize({ width: newWidth})
+    const width = 1814
+    const height = 1398
+    const ratio = width / height
+    const newWidth = 850
+    const newHeight = newWidth / ratio
+
+
 
     oImg.scaleToWidth(newWidth);
     oImg.scaleToHeight(newHeight);
     
     canvas.setDimensions({ width: newWidth, height: newHeight });
     canvas.setBackgroundImage(oImg)
+    canvas.imageSmoothingEnabled       = false;
+    canvas.webkitImageSmoothingEnabled = false;
+    canvas.mozImageSmoothingEnabled    = false;
+    canvas.msImageSmoothingEnabled     = false;
+    canvas.oImageSmoothingEnabled      = false;
 });
 
 
 
 /****** TEXT ******/
-// LEADER
-var text = new fabric.Textbox(course.leader, {
-    left: getSize({ width: 765}),
-    top: getSize({ height: 675}),
-    width: 200,
+// Title
+var text = new fabric.Textbox(course.title, {
+    left: 75,
+    top: 125,
+    width: 600,
     fontFamily: 'Tajawal',
-    fontSize: 14,
-    textAlign: 'center',
-    fill: 'rgb(0,200,0)'
+    fontSize: 32,
+    textAlign: 'left',
+    fill: 'rgb(255,255,255)'
 });
 canvas.add(text);
 
+// Kind
+var text = new fabric.Textbox(course.kind, {
+    left: 75,
+    top: 165,
+    width: 600,
+    fontFamily: 'Tajawal',
+    fontSize: 24,
+    textAlign: 'left',
+    fill: 'rgb(255,255,255)'
+});
+canvas.add(text);
+
+// Student Name
+var text = new fabric.Textbox(student.value?.name, {
+    left: 75,
+    top: 285,
+    width: 600,
+    fontFamily: 'Tajawal',
+    fontSize: 48,
+    textAlign: 'left',
+    fill: 'rgb(0,0,0)',
+    fontWeight: '500'
+});
+canvas.add(text);
+
+// Text
+var text = new fabric.Textbox(textConverted.value, {
+    left: 75,
+    top: 355,
+    width: 350,
+    fontFamily: 'Tajawal',
+    fontSize: 18,
+    textAlign: 'left',
+    fill: 'rgb(0,0,0)',
+});
+canvas.add(text);
+
+// Date
+var text = new fabric.Textbox(`on ${course.date}`, {
+    left: 75,
+    top: 410,
+    width: 200,
+    fontFamily: 'Tajawal',
+    fontSize: 18,
+    textAlign: 'left',
+    fill: 'rgb(0,0,0)',
+});
+canvas.add(text);
+
+
+// LEADER
+var text = new fabric.Textbox(course.leader, {
+    left: 542.5,
+    top: 567.5,
+    width: 300,
+    fontFamily: 'Tajawal',
+    fontSize: 18,
+    textAlign: 'center',
+    fill: 'rgb(0,0,0)',
+    fontWeight: '500'
+});
+canvas.add(text);
+
+
+// Instructor
 var text = new fabric.Textbox(course.instructor, {
     left: getSize({ width: 50}),
     top: getSize({ height: 675}),
@@ -109,17 +184,7 @@ var text = new fabric.Textbox(course.instructor, {
 canvas.add(text);
 
 
-var text = new fabric.Textbox(textConverted.value, {
-    left: getSize({ width: 150}),
-    top: getSize({ height: 300}),
-    width: 600,
-    fontFamily: 'Tajawal',
-    fontSize: 24,
-    textAlign: 'center',
-    fill: 'rgb(0,200,0)'
-});
-canvas.add(text);
-
+// console.log(course)
 
 // canvas.renderAll()
 
