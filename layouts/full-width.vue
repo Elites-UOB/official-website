@@ -1,7 +1,11 @@
 <template>
-  <div class="max-w-2xl px-4 py-10 m-auto sm:px-8">
-    <main class="prose prose-gray text-dark dark:text-light dark:prose-invert max-w-none">
-      <slot />
+  <div class="py-10 m-auto sm:px-8">
+    <main class="max-w-2xl px-4 mx-auto prose sm:px-8 prose-gray dark:prose-invert">
+      <slot>
+        <h1 class="text-2xl">
+          Page not found
+        </h1>
+      </slot>
     </main>
   </div>
 </template>

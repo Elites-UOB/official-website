@@ -1,110 +1,21 @@
-import { defineNuxtConfig } from 'nuxt'
-
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
-    '@unocss/nuxt',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
+    'nuxt-icon'
   ],
-
-  vite:{
-    optimizeDeps:{
-      esbuildOptions: {
-        target: 'es2020'
-      },
-    },
-    build:{
-      target: 'es2020',
-    },
-    resolve:{
-      alias:{
-        https: 'https-browserify',
-        http: 'http-browserify',
-      }
-    }
-    
+  // https://color-mode.nuxtjs.org
+  colorMode: {
+    classSuffix: ''
   },
-
+  // https://content.nuxtjs.org
   content: {
+    documentDriven: true,
     highlight: {
-      // preload
-       theme: 'one-dark-pro'
-    },
-    markdown: {
-      tags: {
-        code: 'Code',
-        h2: 'H2',
-        h3: 'H3',
-        h4: 'H4',
-        h5: 'H5',
-        h6: 'H6',
-        p: 'P'
-      }
+      // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
+      theme: 'vitesse-dark'
     }
-  },
-
-
-  unocss: {
-    autoImport: true,
-    uno: true,
-    icons: true,
-    attributify: {
-      ignoreAttributes: ['label'],
-    },
-    typography: true,
-    webFonts: {
-      provider: 'google',
-      fonts: {
-        "sans": ['Cairo:200,300,400,500,600,700,800,900'],
-      },
-    },
-    preflights: [
-      {
-        getCSS: ({ theme }) => `
-          * {
-            font-family: ${theme['fontFamily']['sans']};
-          }
-
-          body {
-            color: #B7B7B7;
-            padding: 0;
-            margin: 0;
-            direction: rtl;
-          }
-
-
-          
-        `
-      }
-    ],
-    theme: {
-      height: {
-        "main-content": "calc(100vh - 11rem)",
-      },
-      colors: {
-        "dark": "#181818",
-        "light": "#ffffff",
-        "mid": "#B7B7B7",
-        "error": "#FF493E",
-        "warning": "#FFCC42",
-        "success": "#38CC76",
-      }
-    },
-    safelist: [
-      ...(() => {
-        let colors = ['dark', 'light', 'mid', 'error', 'warning', 'success']
-        return [
-          ...colors.map(color => `text-${color}`),
-          ...colors.map(color => `border-${color}`),
-          ...colors.map(color => `bg-${color}`),
-        ]
-      })(),
-      ...[
-        'bg-[#eec210]',
-        'bg-[#2ea863]',
-        'bg-[#df4444]',
-        'bg-[#7b92c5]',
-      ]
-    ]
-  }
+  },  
 })
