@@ -29,7 +29,7 @@
 
                 <div class="flex flex-col mt-8" v-if="myCourses">
                     <h1 class="text-2xl font-bold text-right mb-2">الدورات</h1>
-                    <NuxtLink class="w-full" v-for="course in myCourses" :key="course._path" :href="`/certificate/${course.currentStudent?.certificateId}`">
+                    <div class="w-full cursor-pointer" v-for="course in myCourses" :key="course._path" @click="selectedCourse = course">
                         <div class="w-full bg-light dark:bg-dark p-3
                 drop-shadow-[2px_2px_0px_#4F009D]
                 flex
@@ -41,20 +41,32 @@
                                 <span class="text-sm">{{ course.date }} - {{ course.instructor }}</span>
                             </div>
                         </div>
-                    </NuxtLink>
+                    </div>
                 </div>
             </div>
 
         </div>
 
+
+        <!-- MODAL -->
+        <Teleport to="body">
+            <Transition>
+                <div v-if="selectedCourse" class="w-screen h-screen flex items-center justify-center bg-light dark:bg-dark/30 backdrop-blur-sm z-20 fixed">
+                    <LazyCertificate class="opacity-90 hover:opacity-100 transition duration-300 delay-75 ease-in-out" ref="certifRef" :course="selectedCourse" />
+                </div>
+            </Transition>
+        </Teleport>
     </NuxtLayout>
 </template>
 
 <script setup>
-const certificateId = ref("")
+const certificateId = ref("test@gmail.com")
 const colorMode = useColorMode()
 const isLoading = ref(false)
+const certifRef = ref(null)
 const myCourses = ref(null)
+const selectedCourse = ref(null)
+
 const getMyCourses = async () => {
     if (certificateId.value.toString().replace(/\s/g, '') == "") return false
     isLoading.value = true
@@ -74,6 +86,8 @@ const getMyCourses = async () => {
     isLoading.value = false
 }
 
+onClickOutside(certifRef, (event) => selectedCourse.value = null)
+
 
 </script>
 
@@ -81,7 +95,7 @@ const getMyCourses = async () => {
 /* we will explain what these classes do next! */
 .v-enter-active,
 .v-leave-active {
-  transition: opacity 0.5s ease;
+  transition: opacity 0.25s ease-in-out;
 }
 
 .v-enter-from,
