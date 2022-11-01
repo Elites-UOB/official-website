@@ -1,7 +1,7 @@
 <template>
     <NuxtLayout name="standard">
         <div class="text-center flex flex-col gap-8">
-            <div>
+            <div flex="~ col">
                 <div class="flex justify-center mb-6">
                     <ColorScheme placeholder="...">
                         <svg class="w-[25%] self-center" viewBox="0 0 156 189" xmlns="http://www.w3.org/2000/svg">
@@ -10,9 +10,9 @@
                         </svg>
                     </ColorScheme>
                 </div>
-                <h4 class="text-md md:text-xl">نادي النخبة المطورين</h4>
-                <h4 class="text-md md:text-xl">CSIT Elites Developers Club</h4>
-                <h1 class="text-2xl md:text-4xl font-semibold my-4">شهادات النخبة</h1>
+                <span class="text-md md:text-xl">نادي النخبة المطورين</span>
+                <span class="text-md md:text-xl">CSIT Elites Developers Club</span>
+                <span class="text-2xl md:text-4xl font-semibold my-4">شهادات النخبة</span>
             </div>
 
 
