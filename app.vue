@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 const route = useRoute()
-const metaTitle = computed(() => route.meta.title ?? 'نادي النخبة المطورين')
+const metaTitle = route.meta.title ?? 'نادي النخبة المطورين'
 
 useHead({
   titleTemplate: (titleChunk) => {
@@ -20,13 +20,13 @@ useHead({
     class: 'bg-light dark:bg-dark m-0 p-0 font-tajawal text-mid',
   },
   meta: [
-    { name: 'og:title', content: `${metaTitle.value}` },
+    { name: 'og:title', content: `${metaTitle}` },
     {
       name: 'og:description', content: `نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية للمجتمع المحلي.`
     },
     { name: 'og:image', content: "/cover.jpg" },
     { name: 'og:url', content: route.fullPath },
-    { name: 'twitter:title', content: `${metaTitle.value}` },
+    { name: 'twitter:title', content: `${metaTitle}` },
     {
       name: 'twitter:description', content: `نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية للمجتمع المحلي.`
     },

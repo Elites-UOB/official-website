@@ -14,14 +14,17 @@
 </template>
 
 <script setup>
-definePageMeta({
-    title: `شهادتي - ${course.title}`,
-})
-
 const { params: { course: certificateId } } = useRoute()
 
 const course = await queryContent('_courses').where({
     'students': [{ 'certificateId': certificateId }]
 }).findOne()
+
+definePageMeta({
+    title: () => {
+        if (course) return course.title
+        return "No Certificate"
+    },
+})
 
 </script>
