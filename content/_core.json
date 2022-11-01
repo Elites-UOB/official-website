@@ -1,12 +1,41 @@
 {
-    "members": [{"name": "زين العابدين أحمد", "label": "FullStack Developer - Leader", "img": "ZainAhmad"},
-        {"name": "حسن الخالدي", "label": "FullStack Developer - Co-Leader", "img": "HasanAlkhalidi"},
-        {"name": "فاطمة نوفل", "label": "Front-End Developer", "img": "FatmaNawfal"},
-        {"name": "محمد جواد", "label": "Back-End Developer", "img": "MohammedJawad"},
-        {"name": "منار ناصر", "label": "Back-End Developer", "img": "ManarNaser"},
-        {"name": "شهد جواد", "label": "Junior Flutter Developer", "img": "ShahadJawad"},
-        {"name": "حسين نجاح", "label": "Front-End Developer", "img": "HusseinNajah"},
-        {"name": "زينب أمجد", "label": "Back-End Developer", "img": "ZainabAmjed"},
-        {"name": "موسى نمير", "label": "Front-End Developer", "img": "mosanameer"}
-    ]
+  "members": [
+    {
+      "name": "زين العابدين أحمد",
+      "label": "FullStack Developer",
+      "img": "ZainAhmad"
+    },
+    {
+      "name": "حسن الخالدي",
+      "label": "FullStack Developer",
+      "img": "HasanAlkhalidi"
+    },
+    {
+      "name": "فاطمة نوفل",
+      "label": "Front-End Developer",
+      "img": "FatmaNawfal"
+    },
+    {
+      "name": "محمد جواد",
+      "label": "Back-End Developer",
+      "img": "MohammedJawad"
+    },
+    { "name": "منار ناصر", "label": "Back-End Developer", "img": "ManarNaser" },
+    {
+      "name": "شهد جواد",
+      "label": "Junior Flutter Developer",
+      "img": "ShahadJawad"
+    },
+    {
+      "name": "حسين نجاح",
+      "label": "Front-End Developer",
+      "img": "HusseinNajah"
+    },
+    {
+      "name": "زينب أمجد",
+      "label": "Back-End Developer",
+      "img": "ZainabAmjed"
+    },
+    { "name": "موسى نمير", "label": "Front-End Developer", "img": "mosanameer" }
+  ]
 }
