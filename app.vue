@@ -22,17 +22,13 @@ useHead({
   meta: [
     { name: 'og:title', content: `${metaTitle.value}` },
     {
-      name: 'og:description', content: `نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية للمجتمع
-المحلي، الفريق ضمن مشروع قادة التحوّل الرقمي التابع رسميًا إلى جامعة
-البصرة، كلية علوم الحاسوب وتكنولوجيا المعلومات.`
+      name: 'og:description', content: `نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية للمجتمع المحلي.`
     },
     { name: 'og:image', content: "/cover.jpg" },
     { name: 'og:url', content: route.fullPath },
     { name: 'twitter:title', content: `${metaTitle.value}` },
     {
-      name: 'twitter:description', content: `نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية للمجتمع
-المحلي، الفريق ضمن مشروع قادة التحوّل الرقمي التابع رسميًا إلى جامعة
-البصرة، كلية علوم الحاسوب وتكنولوجيا المعلومات.`
+      name: 'twitter:description', content: `نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية للمجتمع المحلي.`
     },
     { name: 'twitter:image', content: "/cover.jpg" },
     { name: 'twitter:card', content: 'summary_large_image' },
