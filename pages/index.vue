@@ -45,7 +45,7 @@
                     </div>
                 </div>
 
-                <p class="text-3xl md:text-3xl font-semibold mb-3 mt-8 mr-2 md:mr-0">
+                <p class="text-3xl md:text-3xl font-semibold mb-3 mt-12 mr-2 md:mr-0">
                     أعضاء الفريق
                 </p>
 
@@ -111,7 +111,7 @@
                     </div>
                 </div>
 
-                <p class="text-3xl font-semibold mb-3 mt-10 mr-2 md:mr-0">
+                <p class="text-3xl font-semibold mb-3 mt-12 mr-2 md:mr-0">
                     آخر المنشورات
                 </p>
                 <div v-if="postPending" class="flex justify-center">
