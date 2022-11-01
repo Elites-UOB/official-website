@@ -4,7 +4,7 @@
             <div>
                 <div class="flex justify-center mb-6">
                     <ColorScheme placeholder="...">
-                        <svg class="w-[30%] self-center" viewBox="0 0 156 189" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="w-[25%] self-center" viewBox="0 0 156 189" xmlns="http://www.w3.org/2000/svg">
                             <path :class="colorMode.value === 'dark' ? 'fill-light' : 'fill-dark'"
                                 d="M76.8455 31.8079L0 0V31.8079L0.000216272 31.8079V63.6157V95.4235V124.874V156.436V156.682L76.8457 189L155.063 156.682V124.874L76.8457 156.682L27.445 136.234V106.783L76.8457 127.231L155.063 95.4235V63.6157L76.8457 95.4235L27.445 74.9756V43.1679L76.8455 63.6157L155.063 31.8079V0L76.8455 31.8079Z" />
                         </svg>
@@ -19,7 +19,7 @@
             <div class="flex flex-col">
                 <h1 class="text-2xl font-bold text-right mb-2">البحث عن شهادة</h1>
                 <div class="relative">
-                    <input @keydown.enter="getMyCourses()" v-model="certificateId" class="md:w-[600px] w-[350px] bg-light dark:bg-dark px-4 md:mx--0 md:h-16 h-14 rounded-md text-dark dark:text-light border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent
+                    <input @keydown.enter="getMyCourses()" v-model="certificateId" class="md:w-[600px] w-[350px] bg-light dark:bg-dark px-4 md:mx--0 md:h-16 h-14 rounded-md
                     flex text-md md:text-xl
                     border-2 border-dark dark:border-light
                     drop-shadow-[4px_4px_0px_#4F009D]" placeholder="رقم الشهادة او البريد الالكتروني للمشارك..." />
@@ -32,7 +32,7 @@
                     <h1 class="text-2xl font-bold text-right mb-2">الدورات</h1>
                     <div class="w-full cursor-pointer" v-for="course in myCourses" :key="course._path"
                         @click="selectedCourse = course">
-                        <div class="w-full bg-light dark:bg-dark p-3  rounded-md text-dark dark:text-light border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-300 focus:border-transparent
+                        <div class="w-full bg-light dark:bg-dark p-3  rounded-md 
                 drop-shadow-[2px_2px_0px_#4F009D]
                 flex
                 border-2 border-dark dark:border-light
