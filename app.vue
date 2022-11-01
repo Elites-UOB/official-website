@@ -4,10 +4,10 @@
   </AppLayout>
 </template>
 
-<script setup>
-useHead({
-  script: [
-    { src: 'https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js' }
-  ]
-})
+<script setup lang="ts">
+  useHead({
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - نادي النخبة المطورين` : 'نادي النخبة المطورين';
+    }
+  })
 </script>

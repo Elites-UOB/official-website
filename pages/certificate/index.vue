@@ -64,6 +64,10 @@
 </template>
 
 <script setup>
+useHead({
+    title: 'شهادات النخبة',
+})
+
 const certificateId = ref("test@gmail.com")
 const colorMode = useColorMode()
 const isLoading = ref(false)

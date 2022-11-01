@@ -168,9 +168,6 @@
 <script setup>
 import { filename } from 'pathe/utils';
 
-useHead({
-    title: 'نادي النخبة المطورين'
-})
 
 
 const colorMode = useColorMode()
