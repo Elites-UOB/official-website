@@ -1,7 +1,7 @@
 <template>
     <div class="text-dark dark:text-light">
         <div class="flex flex-col text-left items-center">
-            <div @click="downloadCertificate()" class="cursor-pointer w-[877px] g-light dark:bg-dark p-3
+            <div @click="downloadCertificate()" class="cursor-pointer g-light dark:bg-dark p-3
             border-2 border-dark dark:border-light drop-shadow-[4px_4px_0px_#4F009D]">
                 <canvas id="myCanvas"></canvas>
             </div>
