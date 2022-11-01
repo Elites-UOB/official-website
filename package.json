@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "@unocss/nuxt": "^0.46.2",
     "@vueuse/core": "^9.4.0",
     "@vueuse/nuxt": "^9.4.0",
     "eslint": "^8.23.1",

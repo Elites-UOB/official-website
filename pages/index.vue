@@ -1,9 +1,9 @@
 <template>
     <div class="flex justify-center">
         <img class="h-full w-full opacity-50 dark:opacity-100" src="/line.svg" alt="" />
-        <div class="max-w-3xl px-4 py-10 m-auto sm:px-8 text-dark dark:text-light absolute top-20">
+        <div class="max-w-2xl px-4 py-10 m-auto sm:px-8 text-dark dark:text-light absolute top-20">
             <main class="max-w-none">
-                <div class="text-center">
+                <div flex="~ col" class="text-center">
                     <div class="flex justify-center mb-6">
                         <ColorScheme placeholder="...">
                             <svg class="w-[20%] self-center" viewBox="0 0 156 189" xmlns="http://www.w3.org/2000/svg">
@@ -13,22 +13,18 @@
                             </svg>
                         </ColorScheme>
                     </div>
-                    <h1 class="text-2xl md:text-4xl font-bold">نادي النخبة المطورين</h1>
-                    <h2 class="text-xl md:text-3xl font-bold">CSIT Developers Club</h2>
+                    <span class="text-2xl md:text-4xl font-bold">نادي النخبة المطورين</span>
+                    <span class="text-xl md:text-3xl font-bold">CSIT Developers Club</span>
                 </div>
-                <p class="text-center mx-6 md:mx-20">
+                <div class="text-center mx-6 md:mx-20">
                     نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية للمجتمع
                     المحلي، الفريق ضمن مشروع قادة التحوّل الرقمي التابع رسميًا إلى جامعة
                     البصرة، كلية علوم الحاسوب وتكنولوجيا المعلومات.
-                </p>
+                </div>
 
                 <div class="flex justify-center my-10 grayscale">
-                    <div class="mx-2 h-20 w-20 mt-1">
-                        <img src="assets/AlbasrahUniversityLogo.png" alt="" />
-                    </div>
-                    <div class="mx-2 h-20 w-20">
-                        <img src="assets/ITLogo.png" alt="" />
-                    </div>
+                    <img class="mx-2 h-20 w-20 mt-1" src="/AlbasrahUniversityLogo.png" alt="" />
+                    <img class="mx-2 h-20 w-20" src="/ITLogo.png" alt="" />
                 </div>
 
                 <div v-if="statsPending" class="flex justify-center">
@@ -44,8 +40,8 @@
                 </div>
                 <div v-else class="flex justify-between text-center mx-6 sm:mx-16 md:mx-20">
                     <div v-for="stato in stats[0]?.stat" :key="stato.id" class="flex flex-col">
-                        <p class="text-3xl font-bold">{{ stato.stat }}</p>
-                        <p class="text-md font-bold">{{ stato.name }}</p>
+                        <span class="text-3xl font-bold">{{ stato.stat }}</span>
+                        <span class="text-md font-bold">{{ stato.name }}</span>
                     </div>
                 </div>
 
@@ -75,10 +71,10 @@
                                         :src="dynamicImages[member.img]" alt="" />
                                 </div>
                                 <div class="self-center mt-2 text-center md:text-right md:mr-5">
-                                    <p class="text-base md:text-xl font-semibold">
+                                    <div class="text-base md:text-xl font-semibold">
                                         {{ member.name }}
-                                    </p>
-                                    <p class="text-sm md:text-base">{{ member.label }}</p>
+                                    </div>
+                                    <div class="text-sm md:text-base">{{ member.label }}</div>
                                 </div>
                             </div>
                         </div>
@@ -100,10 +96,10 @@
                             <div v-if="i % 2 != 0" class="flex flex-col md:flex-row mt-5 group">
                                 <div
                                     class="self-center mt-2 md:mr-0 md:ml-5 text-center md:text-left order-2 md:order-1">
-                                    <p class="text-base md:text-xl font-semibold">
+                                    <div class="text-base md:text-xl font-semibold">
                                         {{ member.name }}
-                                    </p>
-                                    <p class="text-sm md:text-base">{{ member.label }}</p>
+                                    </div>
+                                    <div class="text-sm md:text-base">{{ member.label }}</div>
                                 </div>
                                 <div
                                     class="self-center order-1 lg:order-2 drop-shadow-[2px_2px_0px_#4F009D] drop-shadow-[-2px_2px_0px_#4F009D] transition ease-in-out group-hover:-translate-y-1 group-hover:drop-shadow-[4px_4px_0px_#4F009D] group-hover:drop-shadow-[-4px_4px_0px_#4F009D] duration-200">
@@ -129,16 +125,16 @@
                         </path>
                     </svg>
                 </div>
-                <div v-else class="flex">
-                    <NuxtLink class="w-full" v-for="post in posts" :key="post.id" :to="post._path">
+                <div v-else grid="~ cols-1 sm:cols-2 gap-4">
+                    <NuxtLink decoration="none" w="full" un-text="dark dark:light" v-for="post in posts" :key="post.id" :to="post._path">
                         <div
                             class="bg-light dark:bg-dark mx-2 md:mx--0 drop-shadow-[2px_2px_0px_#4F009D] flex border-2 border-dark dark:border-light transition ease-in-out hover:-translate-y-1 hover:drop-shadow-[4px_4px_0px_#4F009D] duration-200">
                             <div class="m-2 flex flex-col justify-center">
                                 <Icon class="w-14 h-14" :name="`fluent-emoji:${post.emoji}`" />
                             </div>
                             <div class="my-2 md:my-4 ml-2 flex flex-col justify-center">
-                                <p class="font-semibold text-lg">{{ post.title }}</p>
-                                <p>{{ post.description }}</p>
+                                <div class="font-semibold text-lg">{{ post.title }}</div>
+                                <div>{{ post.description }}</div>
                             </div>
                         </div>
                     </NuxtLink>

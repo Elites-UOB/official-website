@@ -6,13 +6,14 @@ const appConfig = useAppConfig()
 <template>
   <div class="flex justify-between max-w-2xl px-4 py-4 mx-auto sm:px-8">
     <!-- Navigation -->
-    <div class="text-mid flex flex-revirse">
+    <div class="text-mid flex">
       <NuxtLink
         v-for="link of navigation"
         :key="link._path"
         :to="link._path"
         active-class="font-bold text-dark dark:text-light"
-        class="ml-6 hover:text-dark dark:hover:text-light"
+        class="ml-6 text-mid hover:text-dark dark:hover:text-light"
+        decoration="none"
       >
         {{ link.title }}
       </NuxtLink>
