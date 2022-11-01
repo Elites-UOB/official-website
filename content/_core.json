@@ -1,6 +1,6 @@
 {
-    "members": [{"name": "زين العابدين أحمد", "label": "FullStack Developer", "img": "ZainAhmad"},
-        {"name": "حسن الخالدي", "label": "FullStack Developer", "img": "HasanAlkhalidi"},
+    "members": [{"name": "زين العابدين أحمد", "label": "FullStack Developer - Leader", "img": "ZainAhmad"},
+        {"name": "حسن الخالدي", "label": "FullStack Developer - Co-Leader", "img": "HasanAlkhalidi"},
         {"name": "فاطمة نوفل", "label": "Front-End Developer", "img": "FatmaNawfal"},
         {"name": "محمد جواد", "label": "Back-End Developer", "img": "MohammedJawad"},
         {"name": "منار ناصر", "label": "Back-End Developer", "img": "ManarNaser"},
