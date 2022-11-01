@@ -6,6 +6,7 @@
 
 <script setup lang="ts">
 const route = useRoute()
+const metaTitle = computed(() => route.meta.title ?? 'نادي النخبة المطورين')
 
 useHead({
   titleTemplate: (titleChunk) => {
@@ -19,7 +20,7 @@ useHead({
     class: 'bg-light dark:bg-dark m-0 p-0 font-tajawal text-mid',
   },
   meta: [
-    { name: 'og:title', content: `${route.meta.title} - نادي النخبة المطورين` },
+    { name: 'og:title', content: `${metaTitle.value}` },
     {
       name: 'og:description', content: `نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية للمجتمع
 المحلي، الفريق ضمن مشروع قادة التحوّل الرقمي التابع رسميًا إلى جامعة
@@ -27,7 +28,7 @@ useHead({
     },
     { name: 'og:image', content: "/cover.jpg" },
     { name: 'og:url', content: route.fullPath },
-    { name: 'twitter:title', content: `${route.meta.title} - نادي النخبة المطورين` },
+    { name: 'twitter:title', content: `${metaTitle.value}` },
     {
       name: 'twitter:description', content: `نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية للمجتمع
 المحلي، الفريق ضمن مشروع قادة التحوّل الرقمي التابع رسميًا إلى جامعة
