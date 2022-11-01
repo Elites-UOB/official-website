@@ -52,7 +52,6 @@ onMounted(() => {
     var canvas = new fabric.StaticCanvas('myCanvas');
     canvas.objectCaching = false;
 
-    console.log(course.coverPath)
     // BACKGROUND COVER
     fabric.Image.fromURL(course.coverPath, function (oImg) {
 
@@ -61,7 +60,6 @@ onMounted(() => {
         const ratio = width / height
         const newWidth = 850
         const newHeight = newWidth / ratio
-        console.log(newWidth, newHeight)
 
 
 
