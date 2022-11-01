@@ -60,7 +60,7 @@
 </template>
 
 <script setup>
-useHead({
+definePageMeta({
     title: 'شهادات النخبة',
 })
 
