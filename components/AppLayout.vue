@@ -5,7 +5,7 @@
     <slot />
 
 
-    <div class="max-w-lg px-4 mt-20 pt-10 m-auto sm:px-8 text-center text-dark dark:text-light">
+    <div v-if="$route.path !== '/'" class="max-w-lg px-4 mt-20 pt-10 m-auto sm:px-8 text-center text-dark dark:text-light">
       <!-- <p class="text-md font-semibold text-center mb-3 mt-20">
         يمكنك المساهمة في تطوير المجتمع المحلي
       </p>
@@ -32,6 +32,7 @@
 
   </div>
 </template>
+
 
 <style lang="postcss">
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
