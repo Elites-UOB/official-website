@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'nuxt-icon',
   ],
+  css: [
+    '@/assets/scss/main.scss',
+  ],
   // https://color-mode.nuxtjs.org
   colorMode: {
     classSuffix: ''
@@ -62,6 +65,10 @@ export default defineNuxtConfig({
         'light': "#F3F3F3",
         'mid': "#B7B7B7",
       },
-    }
+    },
+
+    safelist: [
+      'no-underline'
+    ]
   },
 })
