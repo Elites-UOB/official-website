@@ -1,6 +1,8 @@
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-  
+  experimental: {
+    inlineSSRStyles: false,
+  },
   modules: [
     '@vueuse/nuxt',
     '@nuxt/content',

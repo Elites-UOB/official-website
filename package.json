@@ -13,6 +13,7 @@
     "@nuxtjs/tailwindcss": "^5.3.3",
     "@sindresorhus/string-hash": "^2.0.0",
     "@tailwindcss/typography": "^0.5.7",
+    "@unocss/nuxt": "^0.46.3",
     "bwip-js": "^3.1.0",
     "fabric": "^5.2.4",
     "nuxt-icon": "^0.1.6",
@@ -20,7 +21,6 @@
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
-    "@unocss/nuxt": "^0.46.2",
     "@vueuse/core": "^9.4.0",
     "@vueuse/nuxt": "^9.4.0",
     "eslint": "^8.23.1",
