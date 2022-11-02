@@ -1,12 +1,12 @@
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   modules: [
-    '@unocss/nuxt',
     '@vueuse/nuxt',
     '@nuxt/content',
     // '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     'nuxt-icon',
+    '@unocss/nuxt',
   ],
   css: [
     '@/assets/scss/main.scss',
