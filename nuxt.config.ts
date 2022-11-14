@@ -1,12 +1,18 @@
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+  experimental: {
+    inlineSSRStyles: false,
+  },
   modules: [
-    '@unocss/nuxt',
     '@vueuse/nuxt',
     '@nuxt/content',
     // '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     'nuxt-icon',
+    '@unocss/nuxt',
+  ],
+  css: [
+    '@/assets/scss/main.scss',
   ],
   // https://color-mode.nuxtjs.org
   colorMode: {
