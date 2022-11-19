@@ -13,8 +13,8 @@
                             </svg>
                         </ColorScheme>
                     </div>
-                    <span class="text-2xl md:text-4xl font-bold">نادي النخبة المطورين</span>
-                    <span class="text-xl md:text-3xl font-bold">CSIT Developers Club</span>
+                    <span class="text-2xl md:text-4xl font-bold">فريق النخبة المطورين</span>
+                    <span class="text-xl md:text-3xl font-bold">CSIT Elites Developers</span>
                 </div>
                 <div class="text-center mx-6 md:mx-20">
                     نادي طلابي لتطوير المهارات التقنية وتطوير الحلول التكنولوجية للمجتمع
