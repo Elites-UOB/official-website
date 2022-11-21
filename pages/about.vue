@@ -6,7 +6,7 @@
                     <div
                         class="grid grid-cols-3 w-125 h-40 rounded overflow-hidden shadow-lg bg-light dark:bg-dark mx-2 drop-shadow-[2px_2px_0px_#4F009D] border-2 border-dark dark:border-light transition ease-in-out hover:-translate-y-1 hover:drop-shadow-[4px_4px_0px_#4F009D] duration-200">
                         <div class="col-span-1 overflow-hidden ">
-                            <img src="">
+                            <img class="w-full" src="./../assets/mosanameer.jpg">
                         </div>
                         <div class="col-span-2">
                             <div class="px-2">
@@ -38,6 +38,6 @@
 const colorMode = useColorMode();
 
 const { data: projects, pending: projectPending } = await useAsyncData("projects", () =>
-    queryContent("projects").where({ _partial: true, _type: "markdown" }).find()
+    queryContent("_projects").where({ _partial: true, _type: "markdown" }).find()
 );
 </script>
