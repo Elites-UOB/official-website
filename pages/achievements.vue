@@ -9,7 +9,7 @@
                             <img class="w-full" src="./../assets/mosanameer.jpg">
                         </div>
                         <div class="col-span-2 grid grid-row-5">
-                            <div class="px-2 row-span-4 over">
+                            <div class="px-2 row-span-4">
                                 <div class="font-bold text-lg mt-1"> {{ project.title }} </div>
                                 <p class="text-gray-700 text-xs">
                                     {{ project.description }}
