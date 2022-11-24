@@ -10,10 +10,12 @@
                         </div>
                         <div class="col-span-2 flex flex-col justify-between">
                             <div class="px-2">
-                                <div class="font-bold md:text-lg text-base mt-1"> {{ project.title }} </div>
-                                <p class="text-gray-700 text-xs">
+                                <div class="font-bold mt-1">
+                                    <h1 class="text-base md:text-lg text-dark dark:text-light">{{ project.title }} </h1> 
+                                    </div>
+                                <h1 class="text-gray-700 text-xs text-dark dark:text-light	">
                                     {{ project.description }}
-                                </p>
+                                </h1>
                             </div>
                             <div class="px-4 mb-2">
                                 <span v-for="tag in project.tags" :key="tag"
@@ -36,3 +38,9 @@ const { data: projects, pending: projectPending } = await useAsyncData("projects
     queryContent("_projects").where({ _partial: true, _type: "markdown" }).find()
 );
 </script>
+
+<style>
+h1 {
+    text-decoration: none;
+}
+</style>

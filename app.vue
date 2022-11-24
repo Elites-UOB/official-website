@@ -35,9 +35,11 @@ useHead({
 
   ]
 
-
 })
 </script>
 <style lang="scss">
-
+  h1 {
+    color: green;
+    text-decoration: none;
+  }
 </style>
