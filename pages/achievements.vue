@@ -11,9 +11,9 @@
                         <div class="col-span-2 flex flex-col justify-between">
                             <div class="px-2">
                                 <div class="font-bold mt-1">
-                                    <h1 class="text-base md:text-lg text-dark dark:text-light">{{ project.title }} </h1>
+                                    <h1 class="text-base md:text-lg text-dark dark:text-light"> {{ project.title }} </h1>
                                 </div>
-                                <h1 class="text-gray-700 text-xs text-dark dark:text-light	">
+                                <h1 class="text-gray-700 text-xs text-dark dark:text-light">
                                     {{ project.description }}
                                 </h1>
                             </div>
