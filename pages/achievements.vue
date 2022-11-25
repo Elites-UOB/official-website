@@ -6,7 +6,7 @@
                     <div
                         class="md:grid md:grid-cols-3 mb-15 md:w-125 w-72 md:h-40 rounded overflow-hidden shadow-lg bg-light dark:bg-dark mx-2 drop-shadow-[2px_2px_0px_#4F009D] border-2 border-dark dark:border-light transition ease-in-out hover:-translate-y-1 hover:drop-shadow-[4px_4px_0px_#4F009D] duration-200">
                         <div class="col-span-1 overflow-hidden ">
-                            <img class="w-full h-72" :src="dynamicImages[project.img]">
+                            <img class="w-full md:h-full h-72" :src="dynamicImages[project.img]">
                         </div>
                         <div class="col-span-2 flex flex-col justify-between">
                             <div class="px-2">
