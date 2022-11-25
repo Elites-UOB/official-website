@@ -48,7 +48,6 @@
                 <p class="text-3xl md:text-3xl font-semibold mb-3 mt-12 mr-2 md:mr-0">
                     أعضاء الفريق
                 </p>
-
                 <div v-if="corePending" class="flex justify-center">
                     <svg class="w-[20%]" version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
