@@ -6,10 +6,10 @@
                     <div
                         class="md:grid md:grid-cols-3 mb-15 md:w-125 w-72 md:h-40 rounded overflow-hidden shadow-lg bg-light dark:bg-dark mx-2 drop-shadow-[2px_2px_0px_#4F009D] border-2 border-dark dark:border-light transition ease-in-out hover:-translate-y-1 hover:drop-shadow-[4px_4px_0px_#4F009D] duration-200">
                         <div class="col-span-1 overflow-hidden self-center dark:bg-light">
-                            <img v-if="project.img" class="w-full md:h-full h-72" :src="dynamicImages[project.img]">
-                            <!-- <div v-if="project.img2" class="self-center flex justify-center">
-                                <img class="w-[70%] " :src="dynamicImages2[project.img2]">
-                            </div> -->
+                            <img v-if="project.img" class="w-full self-center flex justify-center md:h-full h-72" :src="dynamicImages[project.img]">
+                            <div v-if="project.img2" class="self-center flex justify-center">
+                                <img class="w-[70%]" :src="dynamicImages[project.img2]">
+                            </div>
                         </div>
                         <div class="col-span-2 flex flex-col justify-between">
                             <div class="px-2">
@@ -42,9 +42,8 @@ const { data: projects, pending: projectPending } = await useAsyncData("projects
     queryContent("_projects").where({ _partial: true, _type: "markdown" }).find()
 );
 
-const glob = import.meta.glob("~/assets/*.jpg", { eager: true });
-// const glob2 = import.meta.glob("~/assets/*.svg", { eager: true });
-
+const glob = import.meta.glob("~/assets/*.*", { eager: true });
+// 
 const dynamicImages = Object.fromEntries(
     Object.entries(glob).map(([key, value]) => [filename(key), value.default])
 );

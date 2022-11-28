@@ -36,6 +36,11 @@
       "label": "Back-End Developer",
       "img": "ZainabAmjed"
     },
+    {
+      "name": "احمد عبد الكريم",
+      "label": "Front-End Developer",
+      "img": "AhmedAbdulkareem"
+    },
     { "name": "موسى نمير", "label": "Front-End Developer", "img": "mosanameer" }
   ]
 }
