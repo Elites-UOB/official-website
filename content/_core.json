@@ -19,9 +19,12 @@
       "name": "محمد جواد",
       "label": "Back-End Developer",
       "img": "MohammedJawad"
-    },
+    }
+  ],
+
+  "projectsTeam": [
     { "name": "منار ناصر", "label": "Back-End Developer", "img": "ManarNaser" },
-  
+
     {
       "name": "حسين نجاح",
       "label": "Front-End Developer",
@@ -37,11 +40,26 @@
       "label": "Front-End Developer",
       "img": "AhmedAbdulkareem"
     },
-    { "name": "موسى نمير", "label": "Front-End Developer", "img": "mosanameer" },
+    {
+      "name": "موسى نمير",
+      "label": "Front-End Developer",
+      "img": "mosanameer"
+    },
     {
       "name": "شهد جواد",
       "label": "Junior Flutter Developer",
       "img": "ShahadJawad"
+    },
+    {
+      "name": "حسن محمد",
+      "label": "Front-End Developer",
+      "img": "HasanMohammed"
+    },
+    {
+      "name": "حسن رعد",
+      "label": "Front-End Developer",
+      "img": "HasanRaad"
     }
+    
   ]
 }
