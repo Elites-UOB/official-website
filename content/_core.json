@@ -21,11 +21,7 @@
       "img": "MohammedJawad"
     },
     { "name": "منار ناصر", "label": "Back-End Developer", "img": "ManarNaser" },
-    {
-      "name": "شهد جواد",
-      "label": "Junior Flutter Developer",
-      "img": "ShahadJawad"
-    },
+  
     {
       "name": "حسين نجاح",
       "label": "Front-End Developer",
@@ -41,6 +37,11 @@
       "label": "Front-End Developer",
       "img": "AhmedAbdulkareem"
     },
-    { "name": "موسى نمير", "label": "Front-End Developer", "img": "mosanameer" }
+    { "name": "موسى نمير", "label": "Front-End Developer", "img": "mosanameer" },
+    {
+      "name": "شهد جواد",
+      "label": "Junior Flutter Developer",
+      "img": "ShahadJawad"
+    }
   ]
 }
