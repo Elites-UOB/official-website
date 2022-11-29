@@ -17,7 +17,7 @@
 
             <!-- core team -->
             <p class="text-3xl md:text-2xl font-semibold mb-1 mt-12 mr-2 md:mr-0">
-                الفريق الأساسي
+                الفريق الأداري
             </p>
             <div v-if="corePending" class="flex justify-center">
                 <svg class="w-[20%]" version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg"
