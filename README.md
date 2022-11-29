@@ -1,6 +1,8 @@
 
 
-![markdown photo] ()
+![image](public/cover.jpg)
+
+
 
 ## Setup
 
