@@ -6,6 +6,8 @@
 المحلي، الفريق ضمن مشروع قادة التحوّل الرقمي التابع رسميًا إلى جامعة
 البصرة، كلية علوم الحاسوب وتكنولوجيا المعلومات.
 
+![image](assets/logo.svg)
+
 ## Setup
 
 Make sure to install the dependencies:
