@@ -14,17 +14,20 @@
       "name": "فاطمة نوفل",
       "label": "Front-End Developer",
       "img": "FatmaNawfal"
-    },
-    {
-      "name": "محمد جواد",
-      "label": "Back-End Developer",
-      "img": "MohammedJawad"
     }
   ],
 
   "projectsTeam": [
-    { "name": "منار ناصر", "label": "Back-End Developer", "img": "ManarNaser" },
-
+    {
+      "name": "محمد جواد",
+      "label": "Back-End Developer",
+      "img": "MohammedJawad"
+    },
+    {
+      "name": "منار ناصر",
+      "label": "Back-End Developer",
+      "img": "ManarNaser"
+    },
     {
       "name": "حسين نجاح",
       "label": "Front-End Developer",
@@ -57,9 +60,8 @@
     },
     {
       "name": "حسن رعد",
-      "label": "Front-End Developer",
+      "label": "Motion graphic Designer",
       "img": "HasanRaad"
     }
-    
   ]
 }
