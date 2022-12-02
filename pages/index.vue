@@ -126,7 +126,18 @@
                 </div>
                 <div v-else grid="~ cols-1 sm:cols-2 gap-4">
                     <NuxtLink decoration="none" w="full" un-text="dark dark:light" v-for="post in posts" :key="post.id" :to="post._path">
-                        <div
+                        <div v-if="(post.id % 2 == 0)"
+                            class="bg-light dark:bg-dark mx-2 md:mx--0 drop-shadow-[-2px_2px_0px_#4F009D] flex border-2 border-dark dark:border-light transition ease-in-out hover:-translate-y-1 hover:drop-shadow-[4px_4px_0px_#4F009D] duration-200">
+                            <div class="m-2 flex flex-col justify-center">
+                                <Icon class="w-14 h-14" :name="`fluent-emoji:${post.emoji}`" />
+                            </div>
+                            <div class="my-2 md:my-4 ml-2 flex flex-col justify-center">
+                                <div class="font-semibold text-lg">{{ post.title }}</div>
+                                <div>{{ post.description }}</div>
+                            </div>
+                        </div>
+
+                        <div v-if="(post.id % 2 == 1)"
                             class="bg-light dark:bg-dark mx-2 md:mx--0 drop-shadow-[2px_2px_0px_#4F009D] flex border-2 border-dark dark:border-light transition ease-in-out hover:-translate-y-1 hover:drop-shadow-[4px_4px_0px_#4F009D] duration-200">
                             <div class="m-2 flex flex-col justify-center">
                                 <Icon class="w-14 h-14" :name="`fluent-emoji:${post.emoji}`" />
