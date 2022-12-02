@@ -1,6 +1,6 @@
 ![image](public/cover.jpg)
 
-## موقع فريق النخبة المطورين  
+## CSIT Elites Developers website
 
 This is CSIT Elites website. It is built using NuxtJS, Unocss & markdown.
 
