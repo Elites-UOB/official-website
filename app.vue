@@ -44,7 +44,7 @@ useHead({
   font-size: 25px;
 }
 
-.responsiveImg {
+img {
   width: 100%;
   max-width: 100%;
   height: auto;
