@@ -12,7 +12,7 @@ const appConfig = useAppConfig()
         :key="link._path"
         :to="link._path"
         active-class="font-bold text-dark dark:text-light"
-        class="md:ml-6 ml-5 text-mid hover:text-dark dark:hover:text-light"
+        class="md:ml-6 ml-4 text-mid hover:text-dark dark:hover:text-light"
         decoration="none"
       >
         {{ link.title }}
