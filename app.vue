@@ -39,7 +39,10 @@ useHead({
 </script>
 <style lang="scss">
 h1 {
-  text-decoration: none;
+  
+}
+a {
+  color: white;
 }
 
 .responsiveImg {
