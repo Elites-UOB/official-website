@@ -38,11 +38,10 @@ useHead({
 })
 </script>
 <style lang="scss">
-h1 {
-  
-}
-a {
+
+.SourceLink {
   color: white;
+  font-size: 25px;
 }
 
 .responsiveImg {
