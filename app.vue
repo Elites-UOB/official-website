@@ -38,7 +38,13 @@ useHead({
 })
 </script>
 <style lang="scss">
-  h1 {
-    text-decoration: none;
-  }
+h1 {
+  text-decoration: none;
+}
+
+.responsiveImg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 </style>
