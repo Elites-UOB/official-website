@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'nuxt-icon',
     '@unocss/nuxt',
+    '@nuxtjs/sitemap',
   ],
   css: [
     '@/assets/scss/main.scss',
