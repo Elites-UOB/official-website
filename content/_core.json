@@ -19,16 +19,6 @@
 
   "projectsTeam": [
     {
-      "name": "محمد جواد",
-      "label": "Back-End Developer",
-      "img": "MohammedJawad"
-    },
-    {
-      "name": "منار ناصر",
-      "label": "Back-End Developer",
-      "img": "ManarNaser"
-    },
-    {
       "name": "حسين نجاح",
       "label": "Front-End Developer",
       "img": "HusseinNajah"
@@ -50,7 +40,7 @@
     },
     {
       "name": "شهد جواد",
-      "label": "Junior Flutter Developer",
+      "label": "Jr. Flutter Developer",
       "img": "ShahadJawad"
     },
     {

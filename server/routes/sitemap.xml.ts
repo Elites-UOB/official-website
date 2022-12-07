@@ -12,7 +12,7 @@ export default defineEventHandler(async (event) => {
         if (doc._extension === 'md') {
             sitemap.write({
                 url: doc._path,
-                changefreq: 'monthly'
+                changefreq: 'weekly',
             })
         }
     }
