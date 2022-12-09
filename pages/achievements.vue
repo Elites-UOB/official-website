@@ -20,7 +20,7 @@
                                     {{ project.description }}
                                 </p>
                             </div>
-                            <div class="px-4 mb-2 mt-2 md:mt-0">
+                            <div class="px-1 md:px-4 mb-2 mt-2 md:mt-0">
                                 <span v-for="tag in project.tags" :key="tag"
                                     class="inline-block bg-gray-200 rounded-full px-2 py-0.5 text-xs font-semibold text-gray-700 mr-1.5 md:mb-1">
                                     {{ tag }}
