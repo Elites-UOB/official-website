@@ -40,8 +40,8 @@ useHead({
 <style lang="scss">
 
 .SourceLink {
-  color: white;
-  font-size: 25px;
+  color: rgba(13,110,253);
+  font-size: 20px;
 }
 
 img {
