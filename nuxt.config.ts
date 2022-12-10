@@ -1,8 +1,11 @@
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
+import dynamicRoutes from "./helpers/dynamicRoutes";
+
 export default defineNuxtConfig({
   experimental: {
     inlineSSRStyles: false,
   },
+
   modules: [
     "@vueuse/nuxt",
     "@nuxt/content",
@@ -10,25 +13,8 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "nuxt-icon",
     "@unocss/nuxt",
-    "@nuxtjs/sitemap",
   ],
-  sitemap: {
-    hostname: 'https://csitelites.tech',
-    lastmod: '2017-06-30',
-    sitemaps: [
-      {
-        path: '/sitemap-foo.xml',
-        routes: ['foo/1', 'foo/2'],
-        gzip: true
-      },
-      {
-        path: '/folder/sitemap-bar.xml',
-        routes: ['bar/1', 'bar/2'],
-        exclude: ['/**']
-      }
-    ],
-  },
-  
+
   css: ["@/assets/scss/main.scss"],
   // https://color-mode.nuxtjs.org
   colorMode: {
