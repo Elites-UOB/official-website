@@ -6,7 +6,7 @@ const appConfig = useAppConfig()
 <template>
   <div class="flex justify-between max-w-2xl px-4 py-4 mx-auto flex-col md:flex-row sm:px-8">
     <!-- Navigation -->
-    <div class="flex text-mid flex">
+    <div class="flex text-mid flex mt-2 md:mt-0">
       <NuxtLink
         v-for="link of navigation"
         :key="link._path"
