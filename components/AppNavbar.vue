@@ -21,6 +21,7 @@ const appConfig = useAppConfig()
     <!-- Social icons & Color Mode -->
     <div class="flex transition text-primary-500">
       <a v-if="appConfig.socials?.telegram" :href="`https://${appConfig.socials?.telegram}.t.me`" title="Telegram" class="mx-2 text-mid hover:text-dark dark:hover:text-light"><Icon name="fa-brands:telegram" class="w-5 h-5" /></a>
+      <a v-if="appConfig.socials?.organisation" :href="`https://github.com/Elites-UOB`" title="organisation" class="mx-2 text-mid hover:text-dark dark:hover:text-light"><Icon name="fa-brands:github" class="w-5 h-5" /></a>
       <ColorModeSwitch class="mx-2 text-mid hover:text-dark dark:hover:text-light" />
     </div>
   </div>

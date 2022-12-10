@@ -1,5 +1,6 @@
 export default defineAppConfig({
   socials: {
-    telegram: 'CsitElites'
+    telegram: 'CsitElites',
+    organisation: 'CsitElites'
   }
 })
