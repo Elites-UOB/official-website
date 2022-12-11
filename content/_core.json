@@ -34,24 +34,24 @@
       "img": "AhmedAbdulkareem"
     },
     {
-      "name": "موسى نمير",
-      "label": "Front-End Developer",
-      "img": "mosanameer"
-    },
-    {
-      "name": "شهد جواد",
-      "label": "Jr. Flutter Developer",
-      "img": "ShahadJawad"
-    },
-    {
       "name": "حسن محمد",
       "label": "Front-End Developer",
       "img": "HasanMohammed"
     },
     {
+      "name": "موسى نمير",
+      "label": "Front-End Developer",
+      "img": "mosanameer"
+    },
+    {
       "name": "أم البنين ضياء",
       "label": "UI/UX",
       "img": "UmAlbanen"
+    },
+    {
+      "name": "شهد جواد",
+      "label": "Jr. Flutter Developer",
+      "img": "ShahadJawad"
     }
   ],
   "media": [
