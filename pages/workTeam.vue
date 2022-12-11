@@ -40,11 +40,12 @@
                                 <img class="w-28 h-28 md:w-24 md:h-24 lg:h-16 lg:w-16 border-2 border-dark dark:border-light"
                                     :src="dynamicImages[member.img]" alt="" />
                             </div>
-                            <div class="self-center mt-2 text-center md:text-right md:mr-5">
+                            <div class="self-center text-center md:text-right md:mr-5">
                                 <div class="text-base md:text-xl font-semibold">
                                     {{ member.name }}
                                 </div>
                                 <div class="text-sm md:text-base">{{ member.label }}</div>
+                                <div v-if="member.label2" class="text-sm md:text-base">{{ member.label2 }}</div>
                             </div>
                         </div>
                     </div>
@@ -65,11 +66,11 @@
                 <div class="flex flex-col items-end">
                     <div v-for="(member, i) in core[0]?.members" :key="member.id">
                         <div v-if="i % 2 != 0" class="flex flex-col md:flex-row mt-5 group">
-                            <div class="self-center mt-2 md:mr-0 md:ml-5 text-center md:text-left order-2 md:order-1">
+                            <div class="self-center md:mr-0 md:ml-5 text-center md:text-left order-2 md:order-1">
                                 <div class="text-base md:text-xl font-semibold">
                                     {{ member.name }}
                                 </div>
-                                <div class="text-sm md:text-base">{{ member.label }}</div>
+                                <div class="text- md:text-base">{{ member.label }}</div>
                             </div>
                             <div
                                 class="self-center order-1 lg:order-2 drop-shadow-[-2px_2px_0px_#4F009D] transition ease-in-out group-hover:-translate-y-1 group-hover:drop-shadow-[4px_4px_0px_#4F009D] group-hover:drop-shadow-[-4px_4px_0px_#4F009D] duration-200">
