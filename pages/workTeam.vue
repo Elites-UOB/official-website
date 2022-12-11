@@ -49,6 +49,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="m-auto mx-10 hidden lg:block">
                     <svg class="mt-2 lg:mt-1" width="105" height="127" viewBox="0 0 105 127" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -81,8 +82,6 @@
             </div>
 
             <!-- projects team -->
-
-
             <p class="text-3xl md:text-2xl font-semibold mb-1 mt-16 mr-2 md:mr-0">
                 فريق المشاريع
             </p>
@@ -117,7 +116,7 @@
                     </div>
                 </div>
                 <div class="m-auto mx-10 hidden lg:block">
-                    <svg class="mt-2 lg:mt-1" width="105" height="127" viewBox="0 0 105 127" fill="none"
+                    <svg class="mt-2 lg:mt-1 mr-6" width="105" height="127" viewBox="0 0 105 127" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <rect x="3.00267" y="74.5" width="70" height="70" transform="rotate(-45 3.00267 74.5)"
                             class="stroke-dark dark:stroke-light" stroke-width="3" />

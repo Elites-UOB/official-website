@@ -8,7 +8,7 @@
                         <div class="col-span-1 overflow-hidden self-center dark:bg-light">
                             <img v-if="project.img" class="w-full self-center flex justify-center md:h-full h-72" :src="dynamicImages[project.img]">
                             <div v-if="project.img2" class="self-center flex justify-center">
-                                <img class="w-[70%]" :src="dynamicImages[project.img2]">
+                                <img class="w-[80%] m-6" :src="dynamicImages[project.img2]">
                             </div>
                         </div>
                         <div class="col-span-2 flex flex-col justify-between">
