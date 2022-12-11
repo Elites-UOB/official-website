@@ -44,11 +44,6 @@
       "img": "mosanameer"
     },
     {
-      "name": "أم البنين ضياء",
-      "label": "UI/UX",
-      "img": "UmAlbanen"
-    },
-    {
       "name": "شهد جواد",
       "label": "Jr. Flutter Developer",
       "img": "ShahadJawad"
@@ -59,6 +54,11 @@
       "name": "حسن رعد",
       "label": "Motion graphic Designer",
       "img": "HasanRaad"
+    },
+    {
+      "name": "أم البنين ضياء",
+      "label": "UI/UX",
+      "img": "UmAlbanen"
     }
   ]
 }
