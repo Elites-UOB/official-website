@@ -4,7 +4,7 @@
 
 This is CSIT Elites website. It is built using NuxtJS, Unocss & markdown.
 
-## Setup
+<!-- ## Setup
 
 Make sure to install the dependencies:
 
@@ -48,4 +48,4 @@ Start the server in production:
 node .output/server/index.mjs
 ```
 
-Learn more on [Nuxt docs](https://v3.nuxtjs.org/guide/deploy/node-server) for more information.
+Learn more on [Nuxt docs](https://v3.nuxtjs.org/guide/deploy/node-server) for more information. -->
