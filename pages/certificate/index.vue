@@ -1,5 +1,5 @@
 <template>
-    <NuxtLayout name="standard">
+    <NuxtLayout name="default">
         <div class="text-center flex flex-col gap-8">
             <div flex="~ col">
                 <div class="flex justify-center mb-6">
@@ -27,10 +27,10 @@
                     </Transition>
                 </div>
 
-                <div class="flex flex-col mt-8 " v-if="myCourses">
+                <div class="flex flex-col mt-8" v-if="myCourses">
                     <h1 class="text-2xl font-bold text-right mb-2">الدورات</h1>
                     <div flex="~ col" class="cursor-pointer" v-for="course in myCourses" :key="course._path" @click="selectedCourse = course">
-                        <div class="bg-light dark:bg-dark p-3 rounded-md 
+                        <div class="bg-light dark:bg-dark p-3 rounded-md mb-6
                 drop-shadow-[2px_2px_0px_#4F009D]
                 flex
                 border-2 border-dark dark:border-light
