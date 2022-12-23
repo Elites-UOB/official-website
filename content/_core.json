@@ -1,28 +1,24 @@
 {
   "members": [
     {
-      "name": "زين العابدين أحمد",
-      "label": "FullStack Developer",
-      "label2": "UI/UX",
-      "img": "ZainAhmad"
-    },
-    {
       "name": "حسن الخالدي",
       "label": "FullStack Developer",
       "img": "HasanAlkhalidi"
     },
     {
+      "name": "زين العابدين احمد",
+      "label": "FullStack Developer",
+      "img": "ZainAhmad"
+    },
+    {
+      "name": "محمد جواد",
+      "label": "Back-End Developer",
+      "img": "MohammedJawad"
+    },
+    {
       "name": "فاطمة نوفل",
       "label": "Front-End Developer",
       "img": "FatmaNawfal"
-    }
-  ],
-
-  "projectsTeam": [
-    {
-      "name": "حسين نجاح",
-      "label": "Front-End Developer",
-      "img": "HusseinNajah"
     },
     {
       "name": "زينب أمجد",
@@ -30,31 +26,19 @@
       "img": "ZainabAmjed"
     },
     {
-      "name": "احمد عبد الكريم",
-      "label": "Front-End Developer",
-      "img": "AhmedAbdulkareem"
-    },
-    {
       "name": "حسن محمد",
       "label": "Front-End Developer",
       "img": "HasanMohammed"
     },
     {
-      "name": "موسى نمير",
+      "name": "حسين نجاح",
       "label": "Front-End Developer",
-      "img": "mosanameer"
+      "img": "HusseinNajah"
     },
     {
-      "name": "شهد جواد",
-      "label": "Jr. Flutter Developer",
-      "img": "ShahadJawad"
-    }
-  ],
-  "media": [
-    {
-      "name": "حسن رعد",
-      "label": "Motion graphic Designer",
-      "img": "HasanRaad"
+      "name": "احمد عبد الكريم",
+      "label": "Front-End Developer",
+      "img": "AhmedAbdulkareem"
     },
     {
       "name": "أم البنين ضياء",
@@ -62,9 +46,14 @@
       "img": "UmAlbanen"
     },
     {
-      "name": "محمد شاتي",
-      "label": "Content Writer",
-      "img": "MohammedShaty"
+      "name": "موسى نمير",
+      "label": "Jr. Front-End Developer",
+      "img": "mosanameer"
+    },
+    {
+      "name": "شهد جواد",
+      "label": "Jr. Flutter Developer",
+      "img": "ShahadJawad"
     }
   ]
 }

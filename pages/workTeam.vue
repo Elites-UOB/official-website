@@ -16,11 +16,9 @@
                 <span class="text-xl md:text-3xl font-bold">CSIT Elites Developers</span>
             </div>
 
-            <WorkTeamCore />
             
-            <WorkTeamProject />
+            <WorkTeamMembers />
 
-            <WorkTeamMidea />
         </div>
 
     </div>
