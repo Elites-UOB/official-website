@@ -6,6 +6,11 @@
       "img": "HasanAlkhalidi"
     },
     {
+      "name": "زين العابدين احمد",
+      "label": "FullStack Developer",
+      "img": "ZainAhmad"
+    },
+    {
       "name": "محمد جواد",
       "label": "Back-End Developer",
       "img": "MohammedJawad"
@@ -21,6 +26,11 @@
       "img": "ZainabAmjed"
     },
     {
+      "name": "حسن محمد",
+      "label": "Front-End Developer",
+      "img": "HasanMohammed"
+    },
+    {
       "name": "حسين نجاح",
       "label": "Front-End Developer",
       "img": "HusseinNajah"
@@ -31,29 +41,19 @@
       "img": "AhmedAbdulkareem"
     },
     {
-      "name": "موسى نمير",
-      "label": "Jr. Front-End Developer",
-      "img": "mosanameer"
-    },
-    {
       "name": "أم البنين ضياء",
       "label": "UI/UX",
       "img": "UmAlbanen"
     },
     {
-      "name": "حسن محمد",
-      "label": "Front-End Developer",
-      "img": "HasanMohammed"
+      "name": "موسى نمير",
+      "label": "Jr. Front-End Developer",
+      "img": "mosanameer"
     },
     {
       "name": "شهد جواد",
       "label": "Jr. Flutter Developer",
       "img": "ShahadJawad"
-    },
-    {
-      "name": "حسن رعد",
-      "label": "Motion graphic Designer",
-      "img": "HasanRaad"
     }
   ]
 }
