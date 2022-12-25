@@ -18,7 +18,7 @@ text: has successfully completed the course "{title}."
 students:
   [
     { email: "test@gmail.com", name: "AbudlHaleem Hafid" },
-    { email: "test2@gmail.com", name: "AbudlHaleem2 Hafid2" },
+    { email: "test2@gmail.com", name: "AbudlHaleem2 Hafid2"},
     { email: "zainabdiaakadhm@gmail.com", name: "زينب ضياء كاظم"},
     { email: "bit20181120130@gmail.com", name: "زينب رجوان عبد الامير"},
     { email: "mary3132004@gmail.com", name: "مريم محمد عباس"},
