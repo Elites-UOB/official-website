@@ -16,11 +16,6 @@
       "img": "MohammedJawad"
     },
     {
-      "name": "فاطمة نوفل",
-      "label": "Front-End Developer",
-      "img": "FatmaNawfal"
-    },
-    {
       "name": "زينب أمجد",
       "label": "Back-End Developer",
       "img": "ZainabAmjed"
@@ -31,34 +26,9 @@
       "img": "HasanMohammed"
     },
     {
-      "name": "حسين نجاح",
-      "label": "Front-End Developer",
-      "img": "HusseinNajah"
-    },
-    {
-      "name": "احمد عبد الكريم",
-      "label": "Front-End Developer",
-      "img": "AhmedAbdulkareem"
-    },
-    {
-      "name": "أم البنين ضياء",
-      "label": "UI/UX",
-      "img": "UmAlbanen"
-    },
-    {
-      "name": "موسى نمير",
-      "label": "Jr. Front-End Developer",
-      "img": "mosanameer"
-    },
-    {
       "name": "شهد جواد",
       "label": "Jr. Flutter Developer",
       "img": "ShahadJawad"
-    },
-    {
-      "name": "حوراء حيدر",
-      "label": "Activity Coordinator",
-      "img": "HawraaHaider"
     }
   ]
 }
